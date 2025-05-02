@@ -25,3 +25,10 @@ dealgenie_data/
 # ------------- macOS & VS Code -------------
 .DS_Store
 .vscode/
+# Archives, debug images, and HTML outputs
+*.zip
+*.png
+*.html
+
+# Local data folder
+data/
