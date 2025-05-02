@@ -1,0 +1,26 @@
+# ------------- DealGenie Data Outputs -------------
+# don’t commit multi-gigabyte shapefiles or GeoPackages
+dealgenie_data/
+*.gpkg
+*.shp
+*.dbf
+*.shx
+*.prj
+*.cpg
+
+# ------------- macOS & VS Code -------------
+.DS_Store
+.vscode/
+# ------------- DealGenie Data Outputs -------------
+# don’t commit multi-gigabyte shapefiles or GeoPackages
+dealgenie_data/
+*.gpkg
+*.shp
+*.dbf
+*.shx
+*.prj
+*.cpg
+
+# ------------- macOS & VS Code -------------
+.DS_Store
+.vscode/
