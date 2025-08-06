@@ -1,0 +1,18 @@
+DealGenie Field,Source Column,Data Type,Sample Value,Completeness %
+property_address,site_address,object,9406 W OAKMORE ROAD,91.3%
+apn,apn,object,4306026007,100.0%
+pin,pin_number,object,129B165 778,100.0%
+zoning_code,zoning_code,object,R1V2,98.2%
+general_plan,general_plan_land_use,object,Low Residential,98.2%
+specific_plan,divTab3_specific_plan_area,object,WEST LOS ANGELES TRANSPORTATION IMPROVEMENT AND MI,38.3%
+lot_size_sqft,lot_parcel_area,object,"7,172.3 (sq ft)",99.9%
+building_size_sqft,building_square_footage,object,"4,648.0 (sq ft)",92.4%
+council_district,council_district,object,CD 5 - Katy Young Yaroslavsky,98.2%
+year_built,building_year_built,object,1996,92.4%
+num_units,divTab4_number_of_units,object,1,92.5%
+use_code,divTab4_use_code,object,0100 - Residential - Single Family Residence,100.0%
+community_plan,divTab2_community_plan_area,object,West Los Angeles,98.2%
+assessed_value,divTab4_assessed_land_val,object,"$537,555",100.0%
+neighborhood_council,divTab2_neighborhood_council,object,South Robertson,96.4%
+transit_oriented,divTab3_transit_oriented_communities,object,Not Eligible,100.0%
+opportunity_zone,divTab3_opportunity_corridors_incentive_area,object,Not Eligible,100.0%

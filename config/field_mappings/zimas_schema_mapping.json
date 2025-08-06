@@ -1,0 +1,232 @@
+{
+  "zimas_field_mappings": {
+    "divTab1": {
+      "description": "Property Location & Identification",
+      "fields": {
+        "divTab1_site_address": "Property street address",
+        "divTab1_zip_code": "ZIP code",
+        "divTab1_pin_number": "Parcel Identification Number",
+        "divTab1_lotparcel_area": "Lot/parcel area with units",
+        "divTab1_thomas_brothers_grid": "Map grid reference",
+        "divTab1_assessor_parcel_no": "Assessor Parcel Number",
+        "divTab1_tract": "Tract designation",
+        "divTab1_map_reference": "Map book reference",
+        "divTab1_lot": "Lot number",
+        "divTab1_map_sheet": "Map sheet identifier"
+      }
+    },
+    "divTab2": {
+      "description": "Administrative & Planning Areas",
+      "fields": {
+        "divTab2_community_plan_area": "Community plan designation",
+        "divTab2_area_planning_commission": "Area Planning Commission",
+        "divTab2_neighborhood_council": "Neighborhood Council",
+        "divTab2_council_district": "City Council District",
+        "divTab2_census_tract": "Census tract number",
+        "divTab2_ladbs_district_office": "Building & Safety district office"
+      }
+    },
+    "divTab3": {
+      "description": "Zoning & Development Regulations",
+      "fields": {
+        "divTab3_zoning": "Base zoning classification",
+        "divTab3_zoning_information": "Additional zoning details",
+        "divTab3_general_plan_land_use": "General plan land use designation",
+        "divTab3_general_plan_note": "General plan notes",
+        "divTab3_specific_plan_area": "Specific plan overlay area",
+        "divTab3_minimum_density_requirement": "Minimum density requirements",
+        "divTab3_ab_2334_low_vehicle_travel_area": "AB 2334 low vehicle travel area",
+        "divTab3_residential_market_area": "Residential market strength",
+        "divTab3_nonresidential_market_area": "Commercial market strength",
+        "divTab3_transit_oriented_communities": "TOC eligibility",
+        "divTab3_transit_oriented_incentive_area": "TOC incentive zone",
+        "divTab3_opportunity_corridors_incentive_area": "Opportunity corridor designation",
+        "divTab3_corridor_transition_incentive_area": "Corridor transition zone",
+        "divTab3_tcac_opportunity_area": "TCAC opportunity area designation",
+        "divTab3_high_quality_transit_corridor": "High quality transit access",
+        "divTab3_ed_1_eligibility": "ED1 eligibility status",
+        "divTab3_historic_preservation_overlay_zone": "Historic preservation overlay",
+        "divTab3_cdo_community_design_overlay": "Community Design Overlay",
+        "divTab3_cpio_community_plan_imp_overlay": "Community Plan Implementation Overlay",
+        "divTab3_nso_neighborhood_stabilization_overlay": "Neighborhood Stabilization Overlay",
+        "divTab3_rio_river_implementation_overlay": "River Implementation Overlay",
+        "divTab3_adaptive_reuse_incentive_area": "Adaptive Reuse Incentive Area",
+        "divTab3_inclusionary_housing": "Inclusionary housing requirements"
+      }
+    },
+    "divTab4": {
+      "description": "Assessor & Property Data",
+      "fields": {
+        "divTab4_assessor_parcel_no": "Assessor parcel number",
+        "divTab4_apn_area": "APN area in acres",
+        "divTab4_use_code": "Property use classification code",
+        "divTab4_assessed_land_val": "Assessed land value",
+        "divTab4_assessed_improvement_val": "Assessed improvement value",
+        "divTab4_last_owner_change": "Date of last ownership change",
+        "divTab4_last_sale_amount": "Last recorded sale amount",
+        "divTab4_tax_rate_area": "Tax rate area number",
+        "divTab4_deed_ref_no": "Deed reference number",
+        "divTab4_year_built": "Year of construction",
+        "divTab4_building_class": "Building classification code",
+        "divTab4_number_of_units": "Number of dwelling units",
+        "divTab4_number_of_bedrooms": "Total bedrooms",
+        "divTab4_number_of_bathrooms": "Total bathrooms",
+        "divTab4_building_square_footage": "Building square footage",
+        "divTab4_rent_stabilization_ordinance": "Rent Stabilization Ordinance coverage"
+      }
+    },
+    "divTab5": {
+      "description": "Planning Cases & Permits",
+      "fields": {
+        "divTab5_city_planning_commission": "Planning Commission cases",
+        "divTab5_ordinance": "Related ordinances",
+        "divTab5_zoning_administration": "Zoning Administration cases",
+        "divTab5_environmental": "Environmental case numbers",
+        "divTab5_environmental_case": "Environmental review cases",
+        "divTab5_affidavit": "Affidavit numbers",
+        "divTab5_conditional_use": "Conditional Use Permit numbers",
+        "divTab5_area_planning_commission": "Area Planning Commission cases"
+      }
+    },
+    "divTab7": {
+      "description": "Environmental & Hazard Information",
+      "fields": {
+        "divTab7_farmland": "Farmland designation",
+        "divTab7_urban_agriculture_incentive_zone": "Urban agriculture incentive zone",
+        "divTab7_flood_zone": "FEMA flood zone designation",
+        "divTab7_methane_hazard_site": "Methane hazard zone",
+        "divTab7_special_grading_area": "Special grading requirements",
+        "divTab7_oil_well_adjacency": "Oil well proximity",
+        "divTab7_wells": "Well identification numbers",
+        "divTab7_plugged": "Plugged well status",
+        "divTab7_active": "Active well status",
+        "divTab7_any": "Any wells present",
+        "divTab7_very_high_fire_hazard_severity_zone": "Fire hazard severity zone",
+        "divTab7_airport_hazard": "Airport hazard zone"
+      }
+    },
+    "divTab8": {
+      "description": "Seismic & Geological Information",
+      "fields": {
+        "divTab8_nearest_fault": "Nearest fault zone",
+        "divTab8_region": "Geological region",
+        "divTab8_fault_type": "Fault classification type",
+        "divTab8_slip_rate": "Fault slip rate",
+        "divTab8_slip_geometry": "Fault slip geometry",
+        "divTab8_slip_type": "Fault slip type",
+        "divTab8_down_dip_width": "Fault down dip width",
+        "divTab8_rupture_top": "Rupture top depth",
+        "divTab8_rupture_bottom": "Rupture bottom depth",
+        "divTab8_dip_angle": "Fault dip angle",
+        "divTab8_maximum_magnitude": "Maximum expected magnitude",
+        "divTab8_alquistpriolo_fault_zone": "Alquist-Priolo fault zone"
+      }
+    },
+    "divTab10": {
+      "description": "Housing Regulations & Requirements",
+      "fields": {
+        "divTab10_direct_all_inquiries_to": "Contact department",
+        "divTab10_telephone": "Contact phone number",
+        "divTab10_website": "Contact website",
+        "divTab10_rent_stabilization_ordinance": "RSO applicability",
+        "divTab10_just_cause_for_eviction_ordinance": "Just Cause Ordinance coverage",
+        "divTab10_assessor_parcel_no": "APN reference",
+        "divTab10_address": "Property address",
+        "divTab10_year_built": "Construction year",
+        "divTab10_use_code": "Use classification",
+        "divTab10_notes": "Additional regulatory notes",
+        "divTab10_housing_crisis_act_replacement_review": "Housing Crisis Act requirements",
+        "divTab10_he_replacement_required": "Housing Element replacement required",
+        "divTab10_sb_166_units": "SB 166 affordable units",
+        "divTab10_housing_use_within_prior_5_years": "Prior housing use"
+      }
+    },
+    "divTab11": {
+      "description": "Emergency Services & Public Safety",
+      "fields": {
+        "divTab11_bureau": "Police bureau",
+        "divTab11_division_station": "Police division/station",
+        "divTab11_reporting_district": "Police reporting district",
+        "divTab11_battallion": "Fire battalion",
+        "divTab11_district_fire_station": "Fire station number"
+      }
+    }
+  },
+  "dealgenie_derived_fields": {
+    "description": "Fields created during DealGenie processing",
+    "fields": {
+      "clean_apn": "Standardized APN format (XXXX-XXX-XXX)",
+      "lot_size_sqft": "Lot size extracted as pure number",
+      "building_size_sqft": "Building size extracted as pure number",
+      "assessed_value_numeric": "Total assessed value as number",
+      "base_zoning": "Simplified zoning category (R1, R3, C2, etc.)",
+      "base_zoning_description": "Human-readable zoning description",
+      "overlay_count": "Number of overlay zones/special areas",
+      "toc_eligible": "Boolean TOC eligibility",
+      "clean_address": "Standardized address format",
+      "year_built_numeric": "Year built as integer",
+      "units_numeric": "Number of units as integer",
+      "development_score": "Overall development potential score (0-100)",
+      "score_breakdown": "JSON object with component scores",
+      "suggested_use": "Recommended development use case",
+      "investment_tier": "Investment grade (A/B/C/D)",
+      "data_completeness_score": "Percentage of fields populated"
+    }
+  },
+  "data_sources": {
+    "ZIMAS": {
+      "full_name": "Zone Information and Map Access System",
+      "agency": "Los Angeles Department of City Planning",
+      "url": "https://zimas.lacity.org",
+      "description": "Official zoning and land use information system"
+    },
+    "Assessor": {
+      "full_name": "Los Angeles County Assessor",
+      "agency": "LA County Assessor's Office",
+      "description": "Property valuations and characteristics"
+    },
+    "TOC": {
+      "full_name": "Transit-Oriented Communities",
+      "agency": "Metro Los Angeles / LA City Planning",
+      "description": "Transit-oriented development incentive zones"
+    },
+    "General_Plan": {
+      "full_name": "City of Los Angeles General Plan",
+      "agency": "Los Angeles Department of City Planning",
+      "description": "Long-range land use policy framework"
+    }
+  },
+  "field_completeness_expectations": {
+    "high_completeness": {
+      "description": "Expected >95% completeness",
+      "fields": [
+        "divTab1_assessor_parcel_no",
+        "divTab1_pin_number",
+        "divTab1_lotparcel_area",
+        "divTab4_assessed_land_val",
+        "divTab4_assessed_improvement_val",
+        "divTab4_use_code"
+      ]
+    },
+    "medium_completeness": {
+      "description": "Expected 80-95% completeness",
+      "fields": [
+        "divTab1_site_address",
+        "divTab3_zoning",
+        "divTab3_general_plan_land_use",
+        "divTab4_year_built",
+        "divTab4_building_square_footage",
+        "divTab4_number_of_units"
+      ]
+    },
+    "variable_completeness": {
+      "description": "Completeness varies by property type",
+      "fields": [
+        "divTab3_specific_plan_area",
+        "divTab5_city_planning_commission",
+        "divTab7_oil_well_adjacency",
+        "divTab8_alquistpriolo_fault_zone"
+      ]
+    }
+  }
+}

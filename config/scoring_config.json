@@ -1,0 +1,142 @@
+{
+  "weights": {
+    "zoning_score": 0.35,
+    "lot_size_score": 0.25,
+    "transit_bonus": 0.2,
+    "financial_score": 0.1,
+    "risk_penalty": 0.1
+  },
+  "zoning_scores": {
+    "R5": 100,
+    "RAS4": 95,
+    "RAS3": 92,
+    "R4": 90,
+    "RD3": 85,
+    "RD2.5": 82,
+    "RD2": 80,
+    "R3": 75,
+    "RD1.5": 72,
+    "RD1": 70,
+    "C4": 95,
+    "C2": 90,
+    "CM": 85,
+    "C1.5": 82,
+    "C1": 80,
+    "M2": 75,
+    "M1": 70,
+    "MR1": 72,
+    "MR2": 74,
+    "R2": 50,
+    "RD5": 48,
+    "RD4": 45,
+    "RD6": 43,
+    "R1": 40,
+    "RS": 38,
+    "RE": 35,
+    "RA": 32,
+    "PF": 25,
+    "OS": 20,
+    "A1": 15,
+    "A2": 15
+  },
+  "lot_size_thresholds": [
+    {
+      "min": 20000,
+      "max": Infinity,
+      "score_range": [
+        90,
+        100
+      ]
+    },
+    {
+      "min": 10000,
+      "max": 20000,
+      "score_range": [
+        80,
+        90
+      ]
+    },
+    {
+      "min": 7000,
+      "max": 10000,
+      "score_range": [
+        70,
+        80
+      ]
+    },
+    {
+      "min": 5000,
+      "max": 7000,
+      "score_range": [
+        60,
+        70
+      ]
+    },
+    {
+      "min": 3000,
+      "max": 5000,
+      "score_range": [
+        40,
+        60
+      ]
+    },
+    {
+      "min": 0,
+      "max": 3000,
+      "score_range": [
+        20,
+        40
+      ]
+    }
+  ],
+  "transit_bonuses": {
+    "toc_eligible": 20,
+    "high_quality_transit": 15,
+    "opportunity_corridor": 10,
+    "tier_1": 25,
+    "tier_2": 20,
+    "tier_3": 15,
+    "tier_4": 10
+  },
+  "financial_bonuses": {
+    "high_land_ratio": {
+      "threshold": 0.7,
+      "bonus": 10
+    },
+    "low_far": {
+      "threshold": 0.5,
+      "bonus": 5
+    },
+    "very_low_far": {
+      "threshold": 0.25,
+      "bonus": 8
+    }
+  },
+  "risk_penalties": {
+    "overlay_per_zone": 3,
+    "methane_zone": 5,
+    "methane_buffer": 3,
+    "historic_zone": 8,
+    "fault_zone": 4,
+    "flood_zone": 3,
+    "very_high_fire": 6
+  },
+  "investment_tiers": {
+    "A": {
+      "min": 80,
+      "description": "Prime Development Opportunity"
+    },
+    "B": {
+      "min": 65,
+      "description": "Strong Development Potential"
+    },
+    "C": {
+      "min": 50,
+      "description": "Moderate Development Potential"
+    },
+    "D": {
+      "min": 0,
+      "description": "Limited Development Potential"
+    }
+  }
+}
