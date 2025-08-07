@@ -19,4 +19,6 @@ print("\nAll unique CITYNAME_A values:")
 print(city_boundary["CITYNAME_A"].unique())
 
 print("\nAll unique CITY_COMM_ values:")
+
 print(city_boundary["CITY_COMM_"].unique())
+

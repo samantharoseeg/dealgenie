@@ -1,0 +1,5327 @@
+[
+  {
+    "opportunity_id": "ASSEMBLY_011",
+    "property_count": 5,
+    "primary_property_id": 496,
+    "primary_apn": "6004-033-032",
+    "primary_address": "676 W SLAUSON AVE",
+    "nearby_properties": [
+      {
+        "property_id": 658,
+        "apn": "6121-011-054",
+        "address": "651 W 172ND ST",
+        "distance_miles": 0.017,
+        "score": 46.34
+      },
+      {
+        "property_id": 838,
+        "apn": "6004-013-028",
+        "address": "812 W 62ND ST",
+        "distance_miles": 0.094,
+        "score": 64.25
+      },
+      {
+        "property_id": 860,
+        "apn": "7451-007-026",
+        "address": "555 W SANTA CRUZ ST",
+        "distance_miles": 0.083,
+        "score": 49.7
+      },
+      {
+        "property_id": 1070,
+        "apn": "7451-037-006",
+        "address": "560 W 7TH ST",
+        "distance_miles": 0.08,
+        "score": 65.2
+      }
+    ],
+    "total_lot_size_sqft": 28285.6,
+    "avg_assembly_score": 58.15,
+    "total_assessed_value": 2700547.0,
+    "zoning_consistency": false,
+    "same_street": false,
+    "community_plan_area": "South Los Angeles",
+    "neighborhood_council": "Voices",
+    "assembly_potential": "High"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_005",
+    "property_count": 8,
+    "primary_property_id": 121,
+    "primary_apn": "4307-004-009",
+    "primary_address": "9786 W PICO BLVD",
+    "nearby_properties": [
+      {
+        "property_id": 136,
+        "apn": "4307-006-005",
+        "address": "9730 W PICO BLVD",
+        "distance_miles": 0.039,
+        "score": 56.74
+      },
+      {
+        "property_id": 137,
+        "apn": "4307-006-006",
+        "address": "9728 W PICO BLVD",
+        "distance_miles": 0.04,
+        "score": 57.23
+      },
+      {
+        "property_id": 138,
+        "apn": "4307-006-007",
+        "address": "9724 W PICO BLVD",
+        "distance_miles": 0.043,
+        "score": 57.5
+      },
+      {
+        "property_id": 139,
+        "apn": "4307-006-008",
+        "address": "9718 W PICO BLVD",
+        "distance_miles": 0.047,
+        "score": 57.73
+      },
+      {
+        "property_id": 140,
+        "apn": "4307-006-009",
+        "address": "9706 W PICO BLVD",
+        "distance_miles": 0.055,
+        "score": 57.92
+      },
+      {
+        "property_id": 142,
+        "apn": "4307-006-011",
+        "address": "9700 W PICO BLVD",
+        "distance_miles": 0.059,
+        "score": 59.09
+      },
+      {
+        "property_id": 153,
+        "apn": "4307-006-022",
+        "address": "9734 W PICO BLVD",
+        "distance_miles": 0.036,
+        "score": 56.31
+      }
+    ],
+    "total_lot_size_sqft": 65491.7,
+    "avg_assembly_score": 57.83,
+    "total_assessed_value": 64293830.0,
+    "zoning_consistency": true,
+    "same_street": true,
+    "community_plan_area": "West Los Angeles",
+    "neighborhood_council": "South Robertson",
+    "assembly_potential": "High"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_003",
+    "property_count": 35,
+    "primary_property_id": 101,
+    "primary_apn": "4307-001-009",
+    "primary_address": "1415 1-20 S PEG PL",
+    "nearby_properties": [
+      {
+        "property_id": 515,
+        "apn": "5468-032-025",
+        "address": "153 1/2 S AVE 56",
+        "distance_miles": 0.0,
+        "score": 66.84
+      },
+      {
+        "property_id": 523,
+        "apn": "5174-024-021",
+        "address": "109 N BOYLE AVE",
+        "distance_miles": 0.075,
+        "score": 48.75
+      },
+      {
+        "property_id": 528,
+        "apn": "5174-024-042",
+        "address": "1542 3/4 E PLEASANT AVE",
+        "distance_miles": 0.0,
+        "score": 62.78
+      },
+      {
+        "property_id": 548,
+        "apn": "4366-018-011",
+        "address": "108 S GLENROY AVE",
+        "distance_miles": 0.075,
+        "score": 47.75
+      },
+      {
+        "property_id": 604,
+        "apn": "5001-035-037",
+        "address": "441 1/2 W 55TH ST",
+        "distance_miles": 0.0,
+        "score": 63.44
+      },
+      {
+        "property_id": 607,
+        "apn": "7347-013-006",
+        "address": "1330 1-6 W 227TH ST",
+        "distance_miles": 0.0,
+        "score": 59.42
+      },
+      {
+        "property_id": 618,
+        "apn": "2654-036-019",
+        "address": "8154 1-41 N LANGDON AVE",
+        "distance_miles": 0.0,
+        "score": 71.25
+      },
+      {
+        "property_id": 623,
+        "apn": "5468-005-064",
+        "address": "132 S BEECH LN",
+        "distance_miles": 0.091,
+        "score": 36.54
+      },
+      {
+        "property_id": 627,
+        "apn": "5040-024-017",
+        "address": "1424 1/2 W 30TH ST",
+        "distance_miles": 0.0,
+        "score": 53.34
+      },
+      {
+        "property_id": 654,
+        "apn": "2507-003-034",
+        "address": "12645 1/2 N NORRIS AVE",
+        "distance_miles": 0.0,
+        "score": 75.25
+      },
+      {
+        "property_id": 685,
+        "apn": "5183-016-015",
+        "address": "539 1/2 S BREED ST",
+        "distance_miles": 0.0,
+        "score": 61.57
+      },
+      {
+        "property_id": 720,
+        "apn": "5544-033-037",
+        "address": "1362 1-13 N SERRANO AVE",
+        "distance_miles": 0.0,
+        "score": 64.27
+      },
+      {
+        "property_id": 743,
+        "apn": "5543-024-013",
+        "address": "1407 1/2 N ALEXANDRIA AVE",
+        "distance_miles": 0.0,
+        "score": 66.04
+      },
+      {
+        "property_id": 767,
+        "apn": "4294-005-008",
+        "address": "20 E QUARTERDECK ST",
+        "distance_miles": 0.014,
+        "score": 48.36
+      },
+      {
+        "property_id": 788,
+        "apn": "4426-022-024",
+        "address": "33 N OAKMONT DR",
+        "distance_miles": 0.023,
+        "score": 51.05
+      },
+      {
+        "property_id": 815,
+        "apn": "5202-010-027",
+        "address": "2635 1-4 E CHELSEA ST",
+        "distance_miles": 0.0,
+        "score": 62.37
+      },
+      {
+        "property_id": 821,
+        "apn": "5128-019-020",
+        "address": "837 1/2 E 28TH ST",
+        "distance_miles": 0.0,
+        "score": 66.12
+      },
+      {
+        "property_id": 825,
+        "apn": "5057-015-020",
+        "address": "2841 1/2 S PALM GROVE AVE",
+        "distance_miles": 0.0,
+        "score": 52.95
+      },
+      {
+        "property_id": 831,
+        "apn": "4255-002-006",
+        "address": "10628 1-2 W AYRES AVE",
+        "distance_miles": 0.0,
+        "score": 53.05
+      },
+      {
+        "property_id": 833,
+        "apn": "6065-016-023",
+        "address": "1555 3/4 E 106TH ST",
+        "distance_miles": 0.0,
+        "score": 47.52
+      },
+      {
+        "property_id": 843,
+        "apn": "4218-017-032",
+        "address": "4911 1/2 S SLAUSON AVE",
+        "distance_miles": 0.0,
+        "score": 56.52
+      },
+      {
+        "property_id": 873,
+        "apn": "5419-023-009",
+        "address": "1445 1/2 N ECHO PARK AVE",
+        "distance_miles": 0.0,
+        "score": 51.66
+      },
+      {
+        "property_id": 880,
+        "apn": "5543-006-007",
+        "address": "1528 3/4 N ALEXANDRIA AVE",
+        "distance_miles": 0.0,
+        "score": 61.69
+      },
+      {
+        "property_id": 883,
+        "apn": "5594-013-011",
+        "address": "4425 1/2 N EDENHURST AVE",
+        "distance_miles": 0.0,
+        "score": 49.95
+      },
+      {
+        "property_id": 895,
+        "apn": "6022-006-006",
+        "address": "140 E 76TH PL",
+        "distance_miles": 0.097,
+        "score": 47.33
+      },
+      {
+        "property_id": 915,
+        "apn": "5104-023-037",
+        "address": "1275 1/2 E 57TH ST",
+        "distance_miles": 0.0,
+        "score": 52.59
+      },
+      {
+        "property_id": 926,
+        "apn": "5115-034-025",
+        "address": "1127 1/2 E VERNON AVE",
+        "distance_miles": 0.0,
+        "score": 68.14
+      },
+      {
+        "property_id": 982,
+        "apn": "5053-021-003",
+        "address": "2712 1/2 S LA SALLE AVE",
+        "distance_miles": 0.0,
+        "score": 50.72
+      },
+      {
+        "property_id": 1015,
+        "apn": "5204-019-017",
+        "address": "2221 1/2 N GRIFFIN AVE",
+        "distance_miles": 0.0,
+        "score": 68.29
+      },
+      {
+        "property_id": 1030,
+        "apn": "2634-040-007",
+        "address": "8543 1/2 N REMICK AVE",
+        "distance_miles": 0.0,
+        "score": 54.24
+      },
+      {
+        "property_id": 1037,
+        "apn": "5689-018-009",
+        "address": "1550 1/2 W COLORADO BLVD",
+        "distance_miles": 0.0,
+        "score": 44.39
+      },
+      {
+        "property_id": 1057,
+        "apn": "5424-003-002",
+        "address": "2308 1/2 W BERKELEY AVE",
+        "distance_miles": 0.0,
+        "score": 56.04
+      },
+      {
+        "property_id": 1067,
+        "apn": "5123-010-021",
+        "address": "3038 3/4 S SHRINE PL",
+        "distance_miles": 0.0,
+        "score": 64.74
+      },
+      {
+        "property_id": 1087,
+        "apn": "6063-001-024",
+        "address": "133 E 101ST ST",
+        "distance_miles": 0.092,
+        "score": 51.19
+      }
+    ],
+    "total_lot_size_sqft": 615312.6,
+    "avg_assembly_score": 57.34,
+    "total_assessed_value": 136027362.0,
+    "zoning_consistency": false,
+    "same_street": false,
+    "community_plan_area": "West Los Angeles",
+    "neighborhood_council": "South Robertson",
+    "assembly_potential": "High"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_023",
+    "property_count": 8,
+    "primary_property_id": 518,
+    "primary_apn": "6054-035-002",
+    "primary_address": "404 W 102ND ST",
+    "nearby_properties": [
+      {
+        "property_id": 576,
+        "apn": "6039-007-021",
+        "address": "402 W 95TH ST",
+        "distance_miles": 0.001,
+        "score": 50.54
+      },
+      {
+        "property_id": 671,
+        "apn": "6031-015-007",
+        "address": "339 W 77TH ST",
+        "distance_miles": 0.045,
+        "score": 55.09
+      },
+      {
+        "property_id": 673,
+        "apn": "7456-028-013",
+        "address": "424 W 18TH ST",
+        "distance_miles": 0.014,
+        "score": 48.4
+      },
+      {
+        "property_id": 834,
+        "apn": "6075-027-028",
+        "address": "441 W IMPERIAL HWY",
+        "distance_miles": 0.026,
+        "score": 65.27
+      },
+      {
+        "property_id": 1074,
+        "apn": "5465-005-029",
+        "address": "480 W AVE 45",
+        "distance_miles": 0.052,
+        "score": 43.32
+      },
+      {
+        "property_id": 1078,
+        "apn": "5110-021-008",
+        "address": "318 W 49TH ST",
+        "distance_miles": 0.059,
+        "score": 61.78
+      },
+      {
+        "property_id": 1091,
+        "apn": "7456-032-002",
+        "address": "467 W 19TH ST",
+        "distance_miles": 0.043,
+        "score": 47.61
+      }
+    ],
+    "total_lot_size_sqft": 43119.3,
+    "avg_assembly_score": 53.11,
+    "total_assessed_value": 3879689.0,
+    "zoning_consistency": false,
+    "same_street": false,
+    "community_plan_area": "South Los Angeles",
+    "neighborhood_council": "Empowerment Congress Southeast",
+    "assembly_potential": "High"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_020",
+    "property_count": 5,
+    "primary_property_id": 512,
+    "primary_apn": "6015-014-022",
+    "primary_address": "1636 W 66TH ST",
+    "nearby_properties": [
+      {
+        "property_id": 650,
+        "apn": "5420-035-026",
+        "address": "1576 W DONALDSON ST",
+        "distance_miles": 0.041,
+        "score": 61.19
+      },
+      {
+        "property_id": 663,
+        "apn": "6002-021-012",
+        "address": "1640 W 60TH PL",
+        "distance_miles": 0.003,
+        "score": 43.8
+      },
+      {
+        "property_id": 1061,
+        "apn": "6015-026-004",
+        "address": "1546 W 69TH ST",
+        "distance_miles": 0.062,
+        "score": 49.1
+      },
+      {
+        "property_id": 1096,
+        "apn": "7347-002-035",
+        "address": "1561 W 224TH ST",
+        "distance_miles": 0.052,
+        "score": 61.67
+      }
+    ],
+    "total_lot_size_sqft": 23730.9,
+    "avg_assembly_score": 52.66,
+    "total_assessed_value": 1478647.0,
+    "zoning_consistency": false,
+    "same_street": false,
+    "community_plan_area": "South Los Angeles",
+    "neighborhood_council": "Empowerment Congress Central",
+    "assembly_potential": "High"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_074",
+    "property_count": 5,
+    "primary_property_id": 739,
+    "primary_apn": "5686-011-009",
+    "primary_address": "1866 W OAK TREE DR",
+    "nearby_properties": [
+      {
+        "property_id": 781,
+        "apn": "5686-011-014",
+        "address": "1900 W OAK TREE DR",
+        "distance_miles": 0.023,
+        "score": 51.26
+      },
+      {
+        "property_id": 969,
+        "apn": "6035-010-014",
+        "address": "1951 W 82ND ST",
+        "distance_miles": 0.059,
+        "score": 51.08
+      },
+      {
+        "property_id": 991,
+        "apn": "5042-034-021",
+        "address": "1807 W 35TH ST",
+        "distance_miles": 0.041,
+        "score": 51.38
+      },
+      {
+        "property_id": 1093,
+        "apn": "5022-015-001",
+        "address": "1901 W 41ST DR",
+        "distance_miles": 0.024,
+        "score": 51.6
+      }
+    ],
+    "total_lot_size_sqft": 28551.1,
+    "avg_assembly_score": 51.28,
+    "total_assessed_value": 1824432.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Northeast Los Angeles",
+    "neighborhood_council": "Eagle Rock",
+    "assembly_potential": "High"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_014",
+    "property_count": 8,
+    "primary_property_id": 500,
+    "primary_apn": "5716-015-017",
+    "primary_address": "929 N ADELANTE AVE",
+    "nearby_properties": [
+      {
+        "property_id": 541,
+        "apn": "7425-007-003",
+        "address": "1060 N MCFARLAND AVE",
+        "distance_miles": 0.09,
+        "score": 49.42
+      },
+      {
+        "property_id": 543,
+        "apn": "4423-028-030",
+        "address": "878 N FISKE ST",
+        "distance_miles": 0.035,
+        "score": 43.56
+      },
+      {
+        "property_id": 646,
+        "apn": "5402-012-017",
+        "address": "817 N RAMPART BLVD",
+        "distance_miles": 0.077,
+        "score": 65.26
+      },
+      {
+        "property_id": 675,
+        "apn": "7425-033-005",
+        "address": "1030 N WATSON AVE",
+        "distance_miles": 0.07,
+        "score": 47.52
+      },
+      {
+        "property_id": 745,
+        "apn": "5527-005-007",
+        "address": "828 N GENESEE AVE",
+        "distance_miles": 0.07,
+        "score": 54.87
+      },
+      {
+        "property_id": 945,
+        "apn": "5539-005-006",
+        "address": "957 N VIRGIL AVE",
+        "distance_miles": 0.019,
+        "score": 53.48
+      },
+      {
+        "property_id": 959,
+        "apn": "5229-028-033",
+        "address": "1069 N SENTINEL AVE",
+        "distance_miles": 0.097,
+        "score": 46.05
+      }
+    ],
+    "total_lot_size_sqft": 44952.8,
+    "avg_assembly_score": 50.92,
+    "total_assessed_value": 3044694.0,
+    "zoning_consistency": false,
+    "same_street": false,
+    "community_plan_area": "Northeast Los Angeles",
+    "neighborhood_council": "Historic Highland Park",
+    "assembly_potential": "High"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_026",
+    "property_count": 4,
+    "primary_property_id": 524,
+    "primary_apn": "5535-036-019",
+    "primary_address": "736 N KINGSLEY DR",
+    "nearby_properties": [
+      {
+        "property_id": 820,
+        "apn": "4423-029-043",
+        "address": "716 N HARTZELL ST",
+        "distance_miles": 0.014,
+        "score": 36.33
+      },
+      {
+        "property_id": 862,
+        "apn": "4412-012-005",
+        "address": "620 N VIA DE LA PAZ",
+        "distance_miles": 0.08,
+        "score": 43.75
+      },
+      {
+        "property_id": 911,
+        "apn": "5483-010-025",
+        "address": "605 N CHEVIOTDALE PL",
+        "distance_miles": 0.09,
+        "score": 51.52
+      }
+    ],
+    "total_lot_size_sqft": 22524.4,
+    "avg_assembly_score": 48.22,
+    "total_assessed_value": 4011601.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Hollywood",
+    "neighborhood_council": "Hollywood Studio District",
+    "assembly_potential": "High"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_009",
+    "property_count": 6,
+    "primary_property_id": 488,
+    "primary_apn": "7422-020-008",
+    "primary_address": "1228 N CARY AVE",
+    "nearby_properties": [
+      {
+        "property_id": 511,
+        "apn": "4369-001-018",
+        "address": "1172 N LINDA FLORA DR",
+        "distance_miles": 0.039,
+        "score": 44.05
+      },
+      {
+        "property_id": 642,
+        "apn": "7420-010-008",
+        "address": "1229 N FRIES AVE",
+        "distance_miles": 0.001,
+        "score": 41.53
+      },
+      {
+        "property_id": 666,
+        "apn": "4420-007-003",
+        "address": "1122 N EL MEDIO AVE",
+        "distance_miles": 0.073,
+        "score": 42.94
+      },
+      {
+        "property_id": 802,
+        "apn": "5472-003-077",
+        "address": "1327 N EL PASO DR",
+        "distance_miles": 0.068,
+        "score": 35.68
+      },
+      {
+        "property_id": 888,
+        "apn": "7423-020-040",
+        "address": "1103 N LECOUVREUR AVE",
+        "distance_miles": 0.086,
+        "score": 42.78
+      }
+    ],
+    "total_lot_size_sqft": 90856.3,
+    "avg_assembly_score": 42.05,
+    "total_assessed_value": 7749607.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Wilmington - Harbor City",
+    "neighborhood_council": "Wilmington",
+    "assembly_potential": "High"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_004",
+    "property_count": 50,
+    "primary_property_id": 102,
+    "primary_apn": "4307-003-006",
+    "primary_address": "1495 S ROXBURY DR",
+    "nearby_properties": [
+      {
+        "property_id": 103,
+        "apn": "4307-003-007",
+        "address": "1461 S ROXBURY DR",
+        "distance_miles": 0.023,
+        "score": 40.5
+      },
+      {
+        "property_id": 104,
+        "apn": "4307-003-008",
+        "address": "1455 S ROXBURY DR",
+        "distance_miles": 0.028,
+        "score": 40.82
+      },
+      {
+        "property_id": 105,
+        "apn": "4307-003-009",
+        "address": "1451 S ROXBURY DR",
+        "distance_miles": 0.03,
+        "score": 39.83
+      },
+      {
+        "property_id": 106,
+        "apn": "4307-003-010",
+        "address": "1445 S ROXBURY DR",
+        "distance_miles": 0.035,
+        "score": 39.33
+      },
+      {
+        "property_id": 107,
+        "apn": "4307-003-011",
+        "address": "1441 S ROXBURY DR",
+        "distance_miles": 0.037,
+        "score": 40.84
+      },
+      {
+        "property_id": 108,
+        "apn": "4307-003-012",
+        "address": "1435 S ROXBURY DR",
+        "distance_miles": 0.041,
+        "score": 40.84
+      },
+      {
+        "property_id": 109,
+        "apn": "4307-003-013",
+        "address": "1431 S ROXBURY DR",
+        "distance_miles": 0.044,
+        "score": 40.15
+      },
+      {
+        "property_id": 110,
+        "apn": "4307-003-014",
+        "address": "1425 S ROXBURY DR",
+        "distance_miles": 0.048,
+        "score": 40.86
+      },
+      {
+        "property_id": 111,
+        "apn": "4307-003-015",
+        "address": "1421 S ROXBURY DR",
+        "distance_miles": 0.051,
+        "score": 40.86
+      },
+      {
+        "property_id": 112,
+        "apn": "4307-003-016",
+        "address": "1415 S ROXBURY DR",
+        "distance_miles": 0.055,
+        "score": 40.37
+      },
+      {
+        "property_id": 115,
+        "apn": "4307-004-002",
+        "address": "1414 S ROXBURY DR",
+        "distance_miles": 0.056,
+        "score": 40.49
+      },
+      {
+        "property_id": 116,
+        "apn": "4307-004-003",
+        "address": "1420 S ROXBURY DR",
+        "distance_miles": 0.052,
+        "score": 40.49
+      },
+      {
+        "property_id": 117,
+        "apn": "4307-004-004",
+        "address": "1424 S ROXBURY DR",
+        "distance_miles": 0.049,
+        "score": 40.49
+      },
+      {
+        "property_id": 118,
+        "apn": "4307-004-005",
+        "address": "1428 S ROXBURY DR",
+        "distance_miles": 0.046,
+        "score": 40.49
+      },
+      {
+        "property_id": 119,
+        "apn": "4307-004-006",
+        "address": "1434 S ROXBURY DR",
+        "distance_miles": 0.042,
+        "score": 40.99
+      },
+      {
+        "property_id": 120,
+        "apn": "4307-004-007",
+        "address": "1440 S ROXBURY DR",
+        "distance_miles": 0.038,
+        "score": 39.99
+      },
+      {
+        "property_id": 122,
+        "apn": "4307-005-001",
+        "address": "1444 S ROXBURY DR",
+        "distance_miles": 0.035,
+        "score": 39.99
+      },
+      {
+        "property_id": 123,
+        "apn": "4307-005-002",
+        "address": "1450 S ROXBURY DR",
+        "distance_miles": 0.031,
+        "score": 39.99
+      },
+      {
+        "property_id": 124,
+        "apn": "4307-005-003",
+        "address": "1454 S ROXBURY DR",
+        "distance_miles": 0.028,
+        "score": 40.29
+      },
+      {
+        "property_id": 125,
+        "apn": "4307-005-004",
+        "address": "1460 S ROXBURY DR",
+        "distance_miles": 0.024,
+        "score": 39.99
+      },
+      {
+        "property_id": 126,
+        "apn": "4307-005-005",
+        "address": "1464 S ROXBURY DR",
+        "distance_miles": 0.021,
+        "score": 40.29
+      },
+      {
+        "property_id": 127,
+        "apn": "4307-005-006",
+        "address": "1478 S ROXBURY DR",
+        "distance_miles": 0.012,
+        "score": 40.44
+      },
+      {
+        "property_id": 128,
+        "apn": "4307-005-009",
+        "address": "1439 S CASTELLO AVE",
+        "distance_miles": 0.039,
+        "score": 42.65
+      },
+      {
+        "property_id": 129,
+        "apn": "4307-005-010",
+        "address": "1445 S CASTELLO AVE",
+        "distance_miles": 0.035,
+        "score": 43.65
+      },
+      {
+        "property_id": 130,
+        "apn": "4307-005-011",
+        "address": "1449 S CASTELLO AVE",
+        "distance_miles": 0.032,
+        "score": 42.65
+      },
+      {
+        "property_id": 131,
+        "apn": "4307-005-012",
+        "address": "1455 S CASTELLO AVE",
+        "distance_miles": 0.028,
+        "score": 42.65
+      },
+      {
+        "property_id": 132,
+        "apn": "4307-005-013",
+        "address": "1461 S CASTELLO AVE",
+        "distance_miles": 0.023,
+        "score": 42.65
+      },
+      {
+        "property_id": 143,
+        "apn": "4307-006-012",
+        "address": "1425 S BEVERWIL DR",
+        "distance_miles": 0.048,
+        "score": 40.75
+      },
+      {
+        "property_id": 164,
+        "apn": "4307-006-033",
+        "address": "1441 S BEVERWIL DR",
+        "distance_miles": 0.037,
+        "score": 40.59
+      },
+      {
+        "property_id": 165,
+        "apn": "4307-006-034",
+        "address": "1451 S BEVERWIL DR",
+        "distance_miles": 0.03,
+        "score": 39.97
+      },
+      {
+        "property_id": 185,
+        "apn": "4307-006-054",
+        "address": "1477 S BEVERWIL DR",
+        "distance_miles": 0.012,
+        "score": 39.83
+      },
+      {
+        "property_id": 269,
+        "apn": "4306-020-016",
+        "address": "1600 S REXFORD DR",
+        "distance_miles": 0.072,
+        "score": 42.05
+      },
+      {
+        "property_id": 430,
+        "apn": "4307-012-011",
+        "address": "1585 S ROXBURY DR",
+        "distance_miles": 0.062,
+        "score": 39.77
+      },
+      {
+        "property_id": 431,
+        "apn": "4307-012-012",
+        "address": "1581 S ROXBURY DR",
+        "distance_miles": 0.059,
+        "score": 39.79
+      },
+      {
+        "property_id": 432,
+        "apn": "4307-012-013",
+        "address": "1577 S ROXBURY DR",
+        "distance_miles": 0.057,
+        "score": 40.59
+      },
+      {
+        "property_id": 433,
+        "apn": "4307-012-014",
+        "address": "1573 S ROXBURY DR",
+        "distance_miles": 0.054,
+        "score": 40.29
+      },
+      {
+        "property_id": 434,
+        "apn": "4307-012-015",
+        "address": "1569 S ROXBURY DR",
+        "distance_miles": 0.051,
+        "score": 39.49
+      },
+      {
+        "property_id": 435,
+        "apn": "4307-012-016",
+        "address": "1565 S ROXBURY DR",
+        "distance_miles": 0.048,
+        "score": 39.19
+      },
+      {
+        "property_id": 436,
+        "apn": "4307-012-017",
+        "address": "1561 S ROXBURY DR",
+        "distance_miles": 0.046,
+        "score": 39.5
+      },
+      {
+        "property_id": 437,
+        "apn": "4307-012-018",
+        "address": "1555 S ROXBURY DR",
+        "distance_miles": 0.041,
+        "score": 40.5
+      },
+      {
+        "property_id": 438,
+        "apn": "4307-012-019",
+        "address": "1553 S ROXBURY DR",
+        "distance_miles": 0.04,
+        "score": 40.9
+      },
+      {
+        "property_id": 441,
+        "apn": "4307-012-025",
+        "address": "1578 S ROXBURY DR",
+        "distance_miles": 0.057,
+        "score": 40.45
+      },
+      {
+        "property_id": 442,
+        "apn": "4307-012-026",
+        "address": "1574 S ROXBURY DR",
+        "distance_miles": 0.055,
+        "score": 40.17
+      },
+      {
+        "property_id": 443,
+        "apn": "4307-012-027",
+        "address": "1566 S ROXBURY DR",
+        "distance_miles": 0.049,
+        "score": 42.76
+      },
+      {
+        "property_id": 446,
+        "apn": "4307-012-031",
+        "address": "1551 S ROXBURY DR",
+        "distance_miles": 0.039,
+        "score": 44.29
+      },
+      {
+        "property_id": 447,
+        "apn": "4307-012-032",
+        "address": "1515 S CASTELLO AVE",
+        "distance_miles": 0.014,
+        "score": 40.49
+      },
+      {
+        "property_id": 562,
+        "apn": "7459-008-012",
+        "address": "1457 S SUNNYSIDE TER",
+        "distance_miles": 0.026,
+        "score": 38.35
+      },
+      {
+        "property_id": 677,
+        "apn": "4306-013-003",
+        "address": "1515 S REEVES ST",
+        "distance_miles": 0.014,
+        "score": 41.19
+      },
+      {
+        "property_id": 690,
+        "apn": "5074-007-004",
+        "address": "1518 S HARVARD BLVD",
+        "distance_miles": 0.016,
+        "score": 49.26
+      }
+    ],
+    "total_lot_size_sqft": 350114.4,
+    "avg_assembly_score": 40.9,
+    "total_assessed_value": 64101089.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "West Los Angeles",
+    "neighborhood_council": "South Robertson",
+    "assembly_potential": "High"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_071",
+    "property_count": 2,
+    "primary_property_id": 714,
+    "primary_apn": "5071-022-019",
+    "primary_address": "4606 W ST ELMO DR",
+    "nearby_properties": [
+      {
+        "property_id": 848,
+        "apn": "5071-020-019",
+        "address": "4607 W SATURN ST",
+        "distance_miles": 0.001,
+        "score": 61.5
+      }
+    ],
+    "total_lot_size_sqft": 11479.5,
+    "avg_assembly_score": 58.3,
+    "total_assessed_value": 982593.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "West Adams - Baldwin Hills - Leimert",
+    "neighborhood_council": "Mid City",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_035",
+    "property_count": 2,
+    "primary_property_id": 561,
+    "primary_apn": "5473-004-003",
+    "primary_address": "3000 W VALLE VISTA DR",
+    "nearby_properties": [
+      {
+        "property_id": 670,
+        "apn": "5077-018-014",
+        "address": "3044 W LEEWARD AVE",
+        "distance_miles": 0.03,
+        "score": 67.44
+      }
+    ],
+    "total_lot_size_sqft": 9693.9,
+    "avg_assembly_score": 57.92,
+    "total_assessed_value": 1030910.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Northeast Los Angeles",
+    "neighborhood_council": "Glassell Park",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_041",
+    "property_count": 2,
+    "primary_property_id": 579,
+    "primary_apn": "5001-014-024",
+    "primary_address": "829 W 58TH ST",
+    "nearby_properties": [
+      {
+        "property_id": 900,
+        "apn": "7469-010-004",
+        "address": "906 W 30TH ST",
+        "distance_miles": 0.053,
+        "score": 60.78
+      }
+    ],
+    "total_lot_size_sqft": 11031.3,
+    "avg_assembly_score": 56.36,
+    "total_assessed_value": 925887.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "South Los Angeles",
+    "neighborhood_council": "Voices",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_092",
+    "property_count": 2,
+    "primary_property_id": 937,
+    "primary_apn": "6050-025-019",
+    "primary_address": "612 E 99TH ST",
+    "nearby_properties": [
+      {
+        "property_id": 1062,
+        "apn": "5128-017-014",
+        "address": "723 E 27TH ST",
+        "distance_miles": 0.077,
+        "score": 50.61
+      }
+    ],
+    "total_lot_size_sqft": 12090.8,
+    "avg_assembly_score": 55.86,
+    "total_assessed_value": 1026857.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Southeast Los Angeles",
+    "neighborhood_council": "Empowerment Congress Southeast",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_089",
+    "property_count": 2,
+    "primary_property_id": 905,
+    "primary_apn": "4264-014-001",
+    "primary_address": "932 S WELLESLEY AVE",
+    "nearby_properties": [
+      {
+        "property_id": 912,
+        "apn": "5136-006-017",
+        "address": "946 S LAKE ST",
+        "distance_miles": 0.01,
+        "score": 64.38
+      }
+    ],
+    "total_lot_size_sqft": 13129.7,
+    "avg_assembly_score": 54.36,
+    "total_assessed_value": 1717796.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Brentwood - Pacific Palisades",
+    "neighborhood_council": NaN,
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_022",
+    "property_count": 3,
+    "primary_property_id": 516,
+    "primary_apn": "4362-019-004",
+    "primary_address": "454 N CUESTA WAY",
+    "nearby_properties": [
+      {
+        "property_id": 577,
+        "apn": "5486-012-026",
+        "address": "521 N NEVA PL",
+        "distance_miles": 0.046,
+        "score": 48.49
+      },
+      {
+        "property_id": 1095,
+        "apn": "5175-012-018",
+        "address": "340 N CHICAGO ST",
+        "distance_miles": 0.079,
+        "score": 54.88
+      }
+    ],
+    "total_lot_size_sqft": 89554.0,
+    "avg_assembly_score": 53.47,
+    "total_assessed_value": 94887333.0,
+    "zoning_consistency": false,
+    "same_street": false,
+    "community_plan_area": "Bel Air - Beverly Crest",
+    "neighborhood_council": "Bel Air-Beverly Crest",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_061",
+    "property_count": 3,
+    "primary_property_id": 664,
+    "primary_apn": "5484-006-018",
+    "primary_address": "215 N BRANCH ST",
+    "nearby_properties": [
+      {
+        "property_id": 927,
+        "apn": "5205-014-016",
+        "address": "200 N AVE 25",
+        "distance_miles": 0.01,
+        "score": 49.08
+      },
+      {
+        "property_id": 971,
+        "apn": "5493-002-014",
+        "address": "219 N NEWLAND ST",
+        "distance_miles": 0.003,
+        "score": 55.39
+      }
+    ],
+    "total_lot_size_sqft": 11972.8,
+    "avg_assembly_score": 53.12,
+    "total_assessed_value": 927567.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Northeast Los Angeles",
+    "neighborhood_council": "Historic Highland Park",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_015",
+    "property_count": 2,
+    "primary_property_id": 502,
+    "primary_apn": "5110-030-028",
+    "primary_address": "151 W 52ND PL",
+    "nearby_properties": [
+      {
+        "property_id": 976,
+        "apn": "6005-019-019",
+        "address": "158 W 61ST ST",
+        "distance_miles": 0.005,
+        "score": 52.55
+      }
+    ],
+    "total_lot_size_sqft": 9711.1,
+    "avg_assembly_score": 52.11,
+    "total_assessed_value": 74974.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Southeast Los Angeles",
+    "neighborhood_council": "Zapata King",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_034",
+    "property_count": 2,
+    "primary_property_id": 559,
+    "primary_apn": "5458-015-007",
+    "primary_address": "3209 W AVE 32",
+    "nearby_properties": [
+      {
+        "property_id": 928,
+        "apn": "4005-009-022",
+        "address": "3137 W 59TH PL",
+        "distance_miles": 0.05,
+        "score": 48.72
+      }
+    ],
+    "total_lot_size_sqft": 7418.2,
+    "avg_assembly_score": 52.08,
+    "total_assessed_value": 592390.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Northeast Los Angeles",
+    "neighborhood_council": "Glassell Park",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_088",
+    "property_count": 2,
+    "primary_property_id": 903,
+    "primary_apn": "7459-002-049",
+    "primary_address": "1404 W 9TH ST",
+    "nearby_properties": [
+      {
+        "property_id": 1069,
+        "apn": "5405-003-007",
+        "address": "1400 W ALLISON AVE",
+        "distance_miles": 0.003,
+        "score": 46.87
+      }
+    ],
+    "total_lot_size_sqft": 7617.200000000001,
+    "avg_assembly_score": 52.01,
+    "total_assessed_value": 676515.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "San Pedro",
+    "neighborhood_council": "Northwest San Pedro",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_087",
+    "property_count": 2,
+    "primary_property_id": 870,
+    "primary_apn": "4314-025-030",
+    "primary_address": "10509 W ROSE AVE",
+    "nearby_properties": [
+      {
+        "property_id": 1090,
+        "apn": "2424-003-008",
+        "address": "10454 W RIVERSIDE DR",
+        "distance_miles": 0.038,
+        "score": 48.27
+      }
+    ],
+    "total_lot_size_sqft": 10780.1,
+    "avg_assembly_score": 51.86,
+    "total_assessed_value": 709726.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Palms - Mar Vista - Del Rey",
+    "neighborhood_council": "Palms",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_050",
+    "property_count": 2,
+    "primary_property_id": 616,
+    "primary_apn": "5525-028-030",
+    "primary_address": "441 N LA BREA AVE",
+    "nearby_properties": [
+      {
+        "property_id": 1003,
+        "apn": "5524-038-010",
+        "address": "318 N CITRUS AVE",
+        "distance_miles": 0.085,
+        "score": 44.12
+      }
+    ],
+    "total_lot_size_sqft": 10656.1,
+    "avg_assembly_score": 50.91,
+    "total_assessed_value": 1515887.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Wilshire",
+    "neighborhood_council": "Mid City West",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_083",
+    "property_count": 2,
+    "primary_property_id": 807,
+    "primary_apn": "5684-009-012",
+    "primary_address": "2850 W PALMER DR",
+    "nearby_properties": [
+      {
+        "property_id": 933,
+        "apn": "5156-021-034",
+        "address": "2737 W GLASSELL ST",
+        "distance_miles": 0.078,
+        "score": 58.0
+      }
+    ],
+    "total_lot_size_sqft": 9842.4,
+    "avg_assembly_score": 50.27,
+    "total_assessed_value": 1065072.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Northeast Los Angeles",
+    "neighborhood_council": "Eagle Rock",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_044",
+    "property_count": 3,
+    "primary_property_id": 590,
+    "primary_apn": "5083-019-009",
+    "primary_address": "1241 S TREMAINE AVE",
+    "nearby_properties": [
+      {
+        "property_id": 634,
+        "apn": "5082-010-006",
+        "address": "1271 S LUCERNE BLVD",
+        "distance_miles": 0.021,
+        "score": 49.13
+      },
+      {
+        "property_id": 865,
+        "apn": "5082-022-033",
+        "address": "1200 S WINDSOR BLVD",
+        "distance_miles": 0.028,
+        "score": 48.59
+      }
+    ],
+    "total_lot_size_sqft": 19498.6,
+    "avg_assembly_score": 50.25,
+    "total_assessed_value": 1787250.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Wilshire",
+    "neighborhood_council": "Olympic Park",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_025",
+    "property_count": 9,
+    "primary_property_id": 522,
+    "primary_apn": "7460-019-013",
+    "primary_address": "1217 W 22ND ST",
+    "nearby_properties": [
+      {
+        "property_id": 563,
+        "apn": "7460-029-027",
+        "address": "1158 W 22ND ST",
+        "distance_miles": 0.041,
+        "score": 49.0
+      },
+      {
+        "property_id": 678,
+        "apn": "7415-015-018",
+        "address": "1131 W ROBIDOUX ST",
+        "distance_miles": 0.059,
+        "score": 50.07
+      },
+      {
+        "property_id": 742,
+        "apn": "7417-001-916",
+        "address": "1323 W HARRY BRIDGES BLVD",
+        "distance_miles": 0.073,
+        "score": 35.33
+      },
+      {
+        "property_id": 787,
+        "apn": "7463-001-001",
+        "address": "1095 W 22ND ST",
+        "distance_miles": 0.084,
+        "score": 59.0
+      },
+      {
+        "property_id": 824,
+        "apn": "7445-017-040",
+        "address": "1131 W VIA SEBASTIAN",
+        "distance_miles": 0.059,
+        "score": 50.52
+      },
+      {
+        "property_id": 884,
+        "apn": "7459-014-018",
+        "address": "1326 W 14TH ST",
+        "distance_miles": 0.075,
+        "score": 47.7
+      },
+      {
+        "property_id": 923,
+        "apn": "7445-017-041",
+        "address": "1137 W VIA SEBASTIAN",
+        "distance_miles": 0.055,
+        "score": 50.87
+      },
+      {
+        "property_id": 986,
+        "apn": "5002-029-018",
+        "address": "1147 W 52ND ST",
+        "distance_miles": 0.048,
+        "score": 52.87
+      }
+    ],
+    "total_lot_size_sqft": 58428.0,
+    "avg_assembly_score": 49.43,
+    "total_assessed_value": 6158400.0,
+    "zoning_consistency": false,
+    "same_street": false,
+    "community_plan_area": "San Pedro",
+    "neighborhood_council": "Coastal San Pedro",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_019",
+    "property_count": 5,
+    "primary_property_id": 510,
+    "primary_apn": "6011-004-040",
+    "primary_address": "219 E 69TH ST",
+    "nearby_properties": [
+      {
+        "property_id": 514,
+        "apn": "6073-003-009",
+        "address": "320 E 108TH ST",
+        "distance_miles": 0.07,
+        "score": 49.93
+      },
+      {
+        "property_id": 553,
+        "apn": "4238-010-009",
+        "address": "233 E SAN JUAN AVE",
+        "distance_miles": 0.01,
+        "score": 57.91
+      },
+      {
+        "property_id": 837,
+        "apn": "5484-030-006",
+        "address": "300 E LA FOLLETTE DR",
+        "distance_miles": 0.056,
+        "score": 40.63
+      },
+      {
+        "property_id": 1017,
+        "apn": "6011-008-012",
+        "address": "338 E 71ST ST",
+        "distance_miles": 0.082,
+        "score": 48.14
+      }
+    ],
+    "total_lot_size_sqft": 21014.2,
+    "avg_assembly_score": 49.31,
+    "total_assessed_value": 2927109.0,
+    "zoning_consistency": false,
+    "same_street": false,
+    "community_plan_area": "Southeast Los Angeles",
+    "neighborhood_council": "Community and Neighbors for Ninth District Unity",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_053",
+    "property_count": 2,
+    "primary_property_id": 629,
+    "primary_apn": "5436-012-003",
+    "primary_address": "3390 W LACLEDE AVE",
+    "nearby_properties": [
+      {
+        "property_id": 835,
+        "apn": "5436-023-008",
+        "address": "3410 W ATWATER AVE",
+        "distance_miles": 0.014,
+        "score": 49.29
+      }
+    ],
+    "total_lot_size_sqft": 12152.3,
+    "avg_assembly_score": 49.0,
+    "total_assessed_value": 714172.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Northeast Los Angeles",
+    "neighborhood_council": "Atwater Village",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_064",
+    "property_count": 3,
+    "primary_property_id": 681,
+    "primary_apn": "5050-027-063",
+    "primary_address": "3054 S BUCKINGHAM RD",
+    "nearby_properties": [
+      {
+        "property_id": 698,
+        "apn": "4312-009-023",
+        "address": "3168 S CURTS AVE",
+        "distance_miles": 0.079,
+        "score": 49.6
+      },
+      {
+        "property_id": 1013,
+        "apn": "4250-022-015",
+        "address": "3161 S CORINTH AVE",
+        "distance_miles": 0.074,
+        "score": 37.12
+      }
+    ],
+    "total_lot_size_sqft": 20403.5,
+    "avg_assembly_score": 48.81,
+    "total_assessed_value": 2987539.0,
+    "zoning_consistency": false,
+    "same_street": false,
+    "community_plan_area": "West Adams - Baldwin Hills - Leimert",
+    "neighborhood_council": "West Adams",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_024",
+    "property_count": 3,
+    "primary_property_id": 521,
+    "primary_apn": "5104-023-031",
+    "primary_address": "1243 E 57TH ST",
+    "nearby_properties": [
+      {
+        "property_id": 753,
+        "apn": "7426-011-007",
+        "address": "1110 E CRUCES ST",
+        "distance_miles": 0.092,
+        "score": 47.72
+      },
+      {
+        "property_id": 794,
+        "apn": "7425-016-016",
+        "address": "1214 E ROBIDOUX ST",
+        "distance_miles": 0.02,
+        "score": 46.9
+      }
+    ],
+    "total_lot_size_sqft": 16169.6,
+    "avg_assembly_score": 48.4,
+    "total_assessed_value": 862128.0,
+    "zoning_consistency": false,
+    "same_street": false,
+    "community_plan_area": "Southeast Los Angeles",
+    "neighborhood_council": "Central Alameda",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_052",
+    "property_count": 4,
+    "primary_property_id": 624,
+    "primary_apn": "6050-004-027",
+    "primary_address": "939 E 93RD ST",
+    "nearby_properties": [
+      {
+        "property_id": 727,
+        "apn": "6051-006-015",
+        "address": "949 E 103RD PL",
+        "distance_miles": 0.007,
+        "score": 46.23
+      },
+      {
+        "property_id": 916,
+        "apn": "5115-005-029",
+        "address": "818 E 42ND ST",
+        "distance_miles": 0.083,
+        "score": 49.76
+      },
+      {
+        "property_id": 1004,
+        "apn": "5173-021-905",
+        "address": "810 E DUCOMMUN ST",
+        "distance_miles": 0.089,
+        "score": 50.45
+      }
+    ],
+    "total_lot_size_sqft": 66675.90000000001,
+    "avg_assembly_score": 47.96,
+    "total_assessed_value": 2729029.0,
+    "zoning_consistency": false,
+    "same_street": false,
+    "community_plan_area": "Southeast Los Angeles",
+    "neighborhood_council": "Empowerment Congress Southeast",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_010",
+    "property_count": 2,
+    "primary_property_id": 494,
+    "primary_apn": "5045-009-012",
+    "primary_address": "3845 W MARTIN LUTHER KING, JR BLVD",
+    "nearby_properties": [
+      {
+        "property_id": 816,
+        "apn": "5435-031-031",
+        "address": "3749 W GRIFFITH VIEW DR",
+        "distance_miles": 0.066,
+        "score": 48.19
+      }
+    ],
+    "total_lot_size_sqft": 11623.6,
+    "avg_assembly_score": 46.22,
+    "total_assessed_value": 1628516.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "West Adams - Baldwin Hills - Leimert",
+    "neighborhood_council": "Empowerment Congress West",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_030",
+    "property_count": 2,
+    "primary_property_id": 539,
+    "primary_apn": "6004-020-045",
+    "primary_address": "6317 S FIGUEROA ST",
+    "nearby_properties": [
+      {
+        "property_id": 674,
+        "apn": "5492-027-009",
+        "address": "6220 S ARROYO GLEN ST",
+        "distance_miles": 0.067,
+        "score": 36.3
+      }
+    ],
+    "total_lot_size_sqft": 10804.7,
+    "avg_assembly_score": 45.58,
+    "total_assessed_value": 1744071.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "South Los Angeles",
+    "neighborhood_council": NaN,
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_062",
+    "property_count": 2,
+    "primary_property_id": 672,
+    "primary_apn": "5087-017-008",
+    "primary_address": "1141 S STEARNS DR",
+    "nearby_properties": [
+      {
+        "property_id": 989,
+        "apn": "5191-009-009",
+        "address": "1143 S MIRASOL ST",
+        "distance_miles": 0.001,
+        "score": 47.29
+      }
+    ],
+    "total_lot_size_sqft": 11004.400000000001,
+    "avg_assembly_score": 45.22,
+    "total_assessed_value": 1509705.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Wilshire",
+    "neighborhood_council": "P.I.C.O.",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_045",
+    "property_count": 2,
+    "primary_property_id": 593,
+    "primary_apn": "2378-018-001",
+    "primary_address": "11285 W LAURIE DR",
+    "nearby_properties": [
+      {
+        "property_id": 871,
+        "apn": "2337-014-019",
+        "address": "11325 W EMELITA ST",
+        "distance_miles": 0.028,
+        "score": 53.3
+      }
+    ],
+    "total_lot_size_sqft": 19982.1,
+    "avg_assembly_score": 45.1,
+    "total_assessed_value": 1825352.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Sherman Oaks - Studio City - Toluca Lake - Cahuenga Pass",
+    "neighborhood_council": "Studio City",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_060",
+    "property_count": 5,
+    "primary_property_id": 662,
+    "primary_apn": "4309-023-018",
+    "primary_address": "2810 S CASTLE HEIGHTS AVE",
+    "nearby_properties": [
+      {
+        "property_id": 694,
+        "apn": "5057-025-014",
+        "address": "2954 S PALM GROVE AVE",
+        "distance_miles": 0.099,
+        "score": 43.66
+      },
+      {
+        "property_id": 850,
+        "apn": "5057-008-018",
+        "address": "2839 S POTOMAC AVE",
+        "distance_miles": 0.02,
+        "score": 44.46
+      },
+      {
+        "property_id": 881,
+        "apn": "5057-009-020",
+        "address": "2831 S VINEYARD AVE",
+        "distance_miles": 0.014,
+        "score": 45.28
+      },
+      {
+        "property_id": 1031,
+        "apn": "4251-003-017",
+        "address": "2840 S SEPULVEDA BLVD",
+        "distance_miles": 0.021,
+        "score": 52.27
+      }
+    ],
+    "total_lot_size_sqft": 38651.5,
+    "avg_assembly_score": 44.75,
+    "total_assessed_value": 8694604.0,
+    "zoning_consistency": false,
+    "same_street": false,
+    "community_plan_area": "West Los Angeles",
+    "neighborhood_council": "South Robertson",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_017",
+    "property_count": 3,
+    "primary_property_id": 506,
+    "primary_apn": "7454-024-024",
+    "primary_address": "1326 S CABRILLO AVE",
+    "nearby_properties": [
+      {
+        "property_id": 738,
+        "apn": "5087-004-023",
+        "address": "1200 S ALFRED ST",
+        "distance_miles": 0.087,
+        "score": 54.88
+      },
+      {
+        "property_id": 893,
+        "apn": "5191-027-026",
+        "address": "1226 S LOS PALOS ST",
+        "distance_miles": 0.069,
+        "score": 42.8
+      }
+    ],
+    "total_lot_size_sqft": 13066.5,
+    "avg_assembly_score": 44.6,
+    "total_assessed_value": 358711.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "San Pedro",
+    "neighborhood_council": "Central San Pedro",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_029",
+    "property_count": 2,
+    "primary_property_id": 531,
+    "primary_apn": "2249-015-024",
+    "primary_address": "14713 W CUMPSTON ST",
+    "nearby_properties": [
+      {
+        "property_id": 693,
+        "apn": "2210-022-047",
+        "address": "14651 W ARMINTA ST",
+        "distance_miles": 0.043,
+        "score": 53.62
+      }
+    ],
+    "total_lot_size_sqft": 15974.699999999999,
+    "avg_assembly_score": 44.5,
+    "total_assessed_value": 2033916.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Van Nuys - North Sherman Oaks",
+    "neighborhood_council": "Sherman Oaks",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_063",
+    "property_count": 2,
+    "primary_property_id": 676,
+    "primary_apn": "2627-031-008",
+    "primary_address": "8818 N VARNA AVE",
+    "nearby_properties": [
+      {
+        "property_id": 1011,
+        "apn": "2769-023-014",
+        "address": "8823 N ETIWANDA AVE",
+        "distance_miles": 0.003,
+        "score": 52.49
+      }
+    ],
+    "total_lot_size_sqft": 14848.8,
+    "avg_assembly_score": 44.37,
+    "total_assessed_value": 1331583.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Mission Hills - Panorama City - North Hills",
+    "neighborhood_council": "Arleta",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_048",
+    "property_count": 3,
+    "primary_property_id": 609,
+    "primary_apn": "5052-021-024",
+    "primary_address": "2245 W 30TH ST",
+    "nearby_properties": [
+      {
+        "property_id": 746,
+        "apn": "7562-023-009",
+        "address": "2142 W BALERIA DR",
+        "distance_miles": 0.071,
+        "score": 45.04
+      },
+      {
+        "property_id": 830,
+        "apn": "5423-029-024",
+        "address": "2201 W FOX LN",
+        "distance_miles": 0.03,
+        "score": 40.15
+      }
+    ],
+    "total_lot_size_sqft": 13857.3,
+    "avg_assembly_score": 44.36,
+    "total_assessed_value": 1672951.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "South Los Angeles",
+    "neighborhood_council": "United Neighborhoods of the Historic Arlington Heights, West Adams, and Jef",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_078",
+    "property_count": 2,
+    "primary_property_id": 773,
+    "primary_apn": "2782-037-034",
+    "primary_address": "19901 W NORDHOFF ST",
+    "nearby_properties": [
+      {
+        "property_id": 917,
+        "apn": "2106-025-011",
+        "address": "19833 W HEMMINGWAY ST",
+        "distance_miles": 0.047,
+        "score": 39.81
+      }
+    ],
+    "total_lot_size_sqft": 726606.8,
+    "avg_assembly_score": 43.93,
+    "total_assessed_value": 6839547.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Chatsworth - Porter Ranch",
+    "neighborhood_council": "Chatsworth",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_082",
+    "property_count": 3,
+    "primary_property_id": 805,
+    "primary_apn": "4266-003-059",
+    "primary_address": "720 S BRISTOL AVE",
+    "nearby_properties": [
+      {
+        "property_id": 891,
+        "apn": "5171-018-008",
+        "address": "670 S ANDERSON ST",
+        "distance_miles": 0.034,
+        "score": 53.41
+      },
+      {
+        "property_id": 907,
+        "apn": "5312-025-024",
+        "address": "727 S AVE 60",
+        "distance_miles": 0.005,
+        "score": 36.51
+      }
+    ],
+    "total_lot_size_sqft": 20797.7,
+    "avg_assembly_score": 43.68,
+    "total_assessed_value": 1247958.0,
+    "zoning_consistency": false,
+    "same_street": false,
+    "community_plan_area": "Brentwood - Pacific Palisades",
+    "neighborhood_council": NaN,
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_081",
+    "property_count": 5,
+    "primary_property_id": 799,
+    "primary_apn": "2153-028-035",
+    "primary_address": "6034 N MELVIN AVE",
+    "nearby_properties": [
+      {
+        "property_id": 817,
+        "apn": "2414-004-032",
+        "address": "6045 N CLEON AVE",
+        "distance_miles": 0.008,
+        "score": 51.41
+      },
+      {
+        "property_id": 844,
+        "apn": "5492-014-017",
+        "address": "6039 N FIGUEROA ST",
+        "distance_miles": 0.003,
+        "score": 36.95
+      },
+      {
+        "property_id": 997,
+        "apn": "2153-024-028",
+        "address": "5958 N CORBIN AVE",
+        "distance_miles": 0.052,
+        "score": 46.7
+      },
+      {
+        "property_id": 1023,
+        "apn": "2159-022-036",
+        "address": "6012 N ZELZAH AVE",
+        "distance_miles": 0.015,
+        "score": 35.12
+      }
+    ],
+    "total_lot_size_sqft": 66380.3,
+    "avg_assembly_score": 43.24,
+    "total_assessed_value": 6294315.0,
+    "zoning_consistency": false,
+    "same_street": false,
+    "community_plan_area": "Encino - Tarzana",
+    "neighborhood_council": "Tarzana",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_037",
+    "property_count": 3,
+    "primary_property_id": 567,
+    "primary_apn": "2039-025-017",
+    "primary_address": "6209 N KENTLAND AVE",
+    "nearby_properties": [
+      {
+        "property_id": 841,
+        "apn": "2239-003-017",
+        "address": "6328 N COSTELLO AVE",
+        "distance_miles": 0.082,
+        "score": 40.66
+      },
+      {
+        "property_id": 906,
+        "apn": "2334-002-035",
+        "address": "6201 N LAUREL CANYON BLVD",
+        "distance_miles": 0.006,
+        "score": 47.25
+      }
+    ],
+    "total_lot_size_sqft": 39677.5,
+    "avg_assembly_score": 43.07,
+    "total_assessed_value": 1939182.0,
+    "zoning_consistency": false,
+    "same_street": false,
+    "community_plan_area": "Canoga Park - Winnetka - Woodland Hills - West Hills",
+    "neighborhood_council": "Woodland Hills-Warner Center",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_090",
+    "property_count": 2,
+    "primary_property_id": 908,
+    "primary_apn": "2755-004-014",
+    "primary_address": "17739 W PLUMMER ST",
+    "nearby_properties": [
+      {
+        "property_id": 1035,
+        "apn": "2254-001-008",
+        "address": "17611 W BULLOCK ST",
+        "distance_miles": 0.088,
+        "score": 41.04
+      }
+    ],
+    "total_lot_size_sqft": 26403.6,
+    "avg_assembly_score": 42.95,
+    "total_assessed_value": 2264363.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Northridge",
+    "neighborhood_council": "Northridge East",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_051",
+    "property_count": 3,
+    "primary_property_id": 622,
+    "primary_apn": "2181-018-022",
+    "primary_address": "18234 W SUGARMAN ST",
+    "nearby_properties": [
+      {
+        "property_id": 656,
+        "apn": "2161-022-046",
+        "address": "18336 W HANAN CT",
+        "distance_miles": 0.07,
+        "score": 45.53
+      },
+      {
+        "property_id": 697,
+        "apn": "2731-015-041",
+        "address": "18335 W BLACKHAWK ST",
+        "distance_miles": 0.07,
+        "score": 42.37
+      }
+    ],
+    "total_lot_size_sqft": 24567.8,
+    "avg_assembly_score": 42.74,
+    "total_assessed_value": 2297183.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Encino - Tarzana",
+    "neighborhood_council": "Tarzana",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_036",
+    "property_count": 3,
+    "primary_property_id": 565,
+    "primary_apn": "2027-020-002",
+    "primary_address": "7246 N POMELO DR",
+    "nearby_properties": [
+      {
+        "property_id": 987,
+        "apn": "2217-001-161",
+        "address": "7343 N TYRONE AVE",
+        "distance_miles": 0.067,
+        "score": 38.37
+      },
+      {
+        "property_id": 1009,
+        "apn": "2216-035-009",
+        "address": "7301 N WOODMAN AVE",
+        "distance_miles": 0.038,
+        "score": 53.91
+      }
+    ],
+    "total_lot_size_sqft": 26864.2,
+    "avg_assembly_score": 42.47,
+    "total_assessed_value": 1364657.0,
+    "zoning_consistency": false,
+    "same_street": false,
+    "community_plan_area": "Canoga Park - Winnetka - Woodland Hills - West Hills",
+    "neighborhood_council": "West Hills",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_046",
+    "property_count": 4,
+    "primary_property_id": 599,
+    "primary_apn": "5059-018-033",
+    "primary_address": "2424 S 7TH AVE",
+    "nearby_properties": [
+      {
+        "property_id": 610,
+        "apn": "4256-011-011",
+        "address": "2525 S SEPULVEDA BLVD",
+        "distance_miles": 0.07,
+        "score": 52.56
+      },
+      {
+        "property_id": 620,
+        "apn": "4322-021-076",
+        "address": "2356 S SEPULVEDA BLVD",
+        "distance_miles": 0.047,
+        "score": 37.67
+      },
+      {
+        "property_id": 737,
+        "apn": "5050-008-055",
+        "address": "2514 S VIRGINIA RD",
+        "distance_miles": 0.062,
+        "score": 41.72
+      }
+    ],
+    "total_lot_size_sqft": 23730.4,
+    "avg_assembly_score": 42.37,
+    "total_assessed_value": 3464992.0,
+    "zoning_consistency": false,
+    "same_street": false,
+    "community_plan_area": "West Adams - Baldwin Hills - Leimert",
+    "neighborhood_council": "United Neighborhoods of the Historic Arlington Heights, West Adams, and Jef",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_079",
+    "property_count": 4,
+    "primary_property_id": 795,
+    "primary_apn": "2568-005-023",
+    "primary_address": "10049 N SILVERTON AVE",
+    "nearby_properties": [
+      {
+        "property_id": 874,
+        "apn": "2647-021-001",
+        "address": "10119 N BEACHY AVE",
+        "distance_miles": 0.048,
+        "score": 41.53
+      },
+      {
+        "property_id": 919,
+        "apn": "2646-016-002",
+        "address": "10071 N LAUREL CANYON BLVD",
+        "distance_miles": 0.015,
+        "score": 40.4
+      },
+      {
+        "property_id": 990,
+        "apn": "2624-006-002",
+        "address": "9955 N TAMARACK AVE",
+        "distance_miles": 0.065,
+        "score": 37.99
+      }
+    ],
+    "total_lot_size_sqft": 38751.4,
+    "avg_assembly_score": 42.15,
+    "total_assessed_value": 923768.0,
+    "zoning_consistency": false,
+    "same_street": false,
+    "community_plan_area": "Sunland - Tujunga - Lake View Terrace - Shadow Hills - East La Tuna Canyon",
+    "neighborhood_council": "Sunland-Tujunga",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_043",
+    "property_count": 3,
+    "primary_property_id": 587,
+    "primary_apn": "5026-017-009",
+    "primary_address": "4320 W DON FELIPE DR",
+    "nearby_properties": [
+      {
+        "property_id": 904,
+        "apn": "5464-002-006",
+        "address": "4241 W SEA VIEW AVE",
+        "distance_miles": 0.055,
+        "score": 38.68
+      },
+      {
+        "property_id": 1088,
+        "apn": "4003-009-007",
+        "address": "4316 W 60TH ST",
+        "distance_miles": 0.003,
+        "score": 43.51
+      }
+    ],
+    "total_lot_size_sqft": 28805.5,
+    "avg_assembly_score": 41.98,
+    "total_assessed_value": 320948.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "West Adams - Baldwin Hills - Leimert",
+    "neighborhood_council": "Empowerment Congress West",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_038",
+    "property_count": 4,
+    "primary_property_id": 570,
+    "primary_apn": "2695-007-017",
+    "primary_address": "17122 W KINGSBURY ST",
+    "nearby_properties": [
+      {
+        "property_id": 692,
+        "apn": "2255-002-023",
+        "address": "17115 W BULLOCK ST",
+        "distance_miles": 0.005,
+        "score": 46.72
+      },
+      {
+        "property_id": 740,
+        "apn": "2601-012-057",
+        "address": "17041 W TIMBER RIDGE DR",
+        "distance_miles": 0.056,
+        "score": 39.12
+      },
+      {
+        "property_id": 772,
+        "apn": "2607-015-040",
+        "address": "17164 W GUNTHER ST",
+        "distance_miles": 0.029,
+        "score": 40.53
+      }
+    ],
+    "total_lot_size_sqft": 28610.9,
+    "avg_assembly_score": 41.96,
+    "total_assessed_value": 1735981.0,
+    "zoning_consistency": false,
+    "same_street": false,
+    "community_plan_area": "Granada Hills - Knollwood",
+    "neighborhood_council": "Granada Hills South",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_066",
+    "property_count": 3,
+    "primary_property_id": 686,
+    "primary_apn": "2686-016-032",
+    "primary_address": "16815 W SUPERIOR ST",
+    "nearby_properties": [
+      {
+        "property_id": 814,
+        "apn": "2685-008-009",
+        "address": "16825 W SEPTO ST",
+        "distance_miles": 0.007,
+        "score": 40.76
+      },
+      {
+        "property_id": 1094,
+        "apn": "2259-001-012",
+        "address": "16827 W OTSEGO ST",
+        "distance_miles": 0.008,
+        "score": 44.65
+      }
+    ],
+    "total_lot_size_sqft": 22921.7,
+    "avg_assembly_score": 41.8,
+    "total_assessed_value": 1470585.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Northridge",
+    "neighborhood_council": "Northridge East",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_095",
+    "property_count": 2,
+    "primary_property_id": 1002,
+    "primary_apn": "5582-025-001",
+    "primary_address": "6102 W DORCAS PL",
+    "nearby_properties": [
+      {
+        "property_id": 1075,
+        "apn": "5088-002-039",
+        "address": "6141 W WARNER DR",
+        "distance_miles": 0.027,
+        "score": 44.83
+      }
+    ],
+    "total_lot_size_sqft": 15652.8,
+    "avg_assembly_score": 41.47,
+    "total_assessed_value": 3310473.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Hollywood",
+    "neighborhood_council": "Hollywood United",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_032",
+    "property_count": 2,
+    "primary_property_id": 550,
+    "primary_apn": "2367-010-018",
+    "primary_address": "4050 N WILKINSON AVE",
+    "nearby_properties": [
+      {
+        "property_id": 852,
+        "apn": "2384-003-063",
+        "address": "4118 N VANETTA PL",
+        "distance_miles": 0.047,
+        "score": 41.98
+      }
+    ],
+    "total_lot_size_sqft": 13334.099999999999,
+    "avg_assembly_score": 41.44,
+    "total_assessed_value": 1614891.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Sherman Oaks - Studio City - Toluca Lake - Cahuenga Pass",
+    "neighborhood_council": "Studio City",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_055",
+    "property_count": 2,
+    "primary_property_id": 640,
+    "primary_apn": "2676-001-005",
+    "primary_address": "16510 W PLUMMER ST",
+    "nearby_properties": [
+      {
+        "property_id": 1028,
+        "apn": "2678-025-026",
+        "address": "16530 W MAYALL ST",
+        "distance_miles": 0.014,
+        "score": 39.98
+      }
+    ],
+    "total_lot_size_sqft": 16090.5,
+    "avg_assembly_score": 41.1,
+    "total_assessed_value": 1009019.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Mission Hills - Panorama City - North Hills",
+    "neighborhood_council": "North Hills West",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_059",
+    "property_count": 2,
+    "primary_property_id": 649,
+    "primary_apn": "2343-004-001",
+    "primary_address": "13624 W EMELITA ST",
+    "nearby_properties": [
+      {
+        "property_id": 716,
+        "apn": "2619-011-017",
+        "address": "13659 W FILMORE ST",
+        "distance_miles": 0.024,
+        "score": 39.94
+      }
+    ],
+    "total_lot_size_sqft": 19132.5,
+    "avg_assembly_score": 40.7,
+    "total_assessed_value": 771600.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Van Nuys - North Sherman Oaks",
+    "neighborhood_council": "Greater Valley Glen",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_070",
+    "property_count": 2,
+    "primary_property_id": 706,
+    "primary_apn": "2128-021-025",
+    "primary_address": "19143 W CALVERT ST",
+    "nearby_properties": [
+      {
+        "property_id": 1048,
+        "apn": "2129-025-022",
+        "address": "19055 W VANOWEN ST",
+        "distance_miles": 0.061,
+        "score": 38.09
+      }
+    ],
+    "total_lot_size_sqft": 12753.0,
+    "avg_assembly_score": 40.56,
+    "total_assessed_value": 890818.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Reseda - West Van Nuys",
+    "neighborhood_council": "Tarzana",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_021",
+    "property_count": 8,
+    "primary_property_id": 513,
+    "primary_apn": "2375-008-026",
+    "primary_address": "4305 N GOODLAND AVE",
+    "nearby_properties": [
+      {
+        "property_id": 628,
+        "apn": "2375-008-005",
+        "address": "4310 N COLDWATER CANYON AVE",
+        "distance_miles": 0.003,
+        "score": 46.79
+      },
+      {
+        "property_id": 637,
+        "apn": "5679-019-016",
+        "address": "4430 N VISTA SUPERBA DR",
+        "distance_miles": 0.086,
+        "score": 36.23
+      },
+      {
+        "property_id": 669,
+        "apn": "5684-014-040",
+        "address": "4206 N VERDUGO RD",
+        "distance_miles": 0.068,
+        "score": 44.91
+      },
+      {
+        "property_id": 929,
+        "apn": "2284-015-043",
+        "address": "4418 N BERGAMO DR",
+        "distance_miles": 0.078,
+        "score": 44.05
+      },
+      {
+        "property_id": 939,
+        "apn": "2177-008-039",
+        "address": "4255 N NOGALES DR",
+        "distance_miles": 0.035,
+        "score": 36.81
+      },
+      {
+        "property_id": 980,
+        "apn": "5309-026-009",
+        "address": "4432 N BERKSHIRE AVE",
+        "distance_miles": 0.088,
+        "score": 38.57
+      },
+      {
+        "property_id": 1020,
+        "apn": "2365-024-024",
+        "address": "4248 N TROOST AVE",
+        "distance_miles": 0.039,
+        "score": 38.98
+      }
+    ],
+    "total_lot_size_sqft": 81201.5,
+    "avg_assembly_score": 40.33,
+    "total_assessed_value": 5996374.0,
+    "zoning_consistency": false,
+    "same_street": false,
+    "community_plan_area": "Sherman Oaks - Studio City - Toluca Lake - Cahuenga Pass",
+    "neighborhood_council": "Studio City",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_047",
+    "property_count": 4,
+    "primary_property_id": 602,
+    "primary_apn": "2326-018-011",
+    "primary_address": "6646 N FULTON AVE",
+    "nearby_properties": [
+      {
+        "property_id": 735,
+        "apn": "2322-001-902",
+        "address": "6715 N LAURELGROVE AVE",
+        "distance_miles": 0.048,
+        "score": 41.0
+      },
+      {
+        "property_id": 806,
+        "apn": "2238-004-014",
+        "address": "6642 N COSTELLO AVE",
+        "distance_miles": 0.003,
+        "score": 40.67
+      },
+      {
+        "property_id": 981,
+        "apn": "2128-003-017",
+        "address": "6545 N WILBUR AVE",
+        "distance_miles": 0.07,
+        "score": 42.45
+      }
+    ],
+    "total_lot_size_sqft": 549443.7,
+    "avg_assembly_score": 40.32,
+    "total_assessed_value": 16062439.0,
+    "zoning_consistency": false,
+    "same_street": false,
+    "community_plan_area": "Van Nuys - North Sherman Oaks",
+    "neighborhood_council": "Greater Valley Glen",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_040",
+    "property_count": 3,
+    "primary_property_id": 574,
+    "primary_apn": "2420-037-010",
+    "primary_address": "4549 N TALOFA AVE",
+    "nearby_properties": [
+      {
+        "property_id": 710,
+        "apn": "2364-003-063",
+        "address": "4457 N BELLINGHAM AVE",
+        "distance_miles": 0.063,
+        "score": 40.95
+      },
+      {
+        "property_id": 993,
+        "apn": "2265-016-034",
+        "address": "4520 N LENNOX AVE",
+        "distance_miles": 0.02,
+        "score": 39.76
+      }
+    ],
+    "total_lot_size_sqft": 18031.5,
+    "avg_assembly_score": 40.31,
+    "total_assessed_value": 2434622.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "North Hollywood - Valley Village",
+    "neighborhood_council": "Greater Toluca Lake",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_016",
+    "property_count": 3,
+    "primary_property_id": 503,
+    "primary_apn": "2202-008-005",
+    "primary_address": "17430 W LULL ST",
+    "nearby_properties": [
+      {
+        "property_id": 1019,
+        "apn": "2254-016-005",
+        "address": "17361 W BURBANK BLVD",
+        "distance_miles": 0.048,
+        "score": 39.77
+      },
+      {
+        "property_id": 1026,
+        "apn": "2607-011-031",
+        "address": "17531 W RINALDI ST",
+        "distance_miles": 0.07,
+        "score": 39.12
+      }
+    ],
+    "total_lot_size_sqft": 176900.6,
+    "avg_assembly_score": 40.3,
+    "total_assessed_value": 8624723.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Reseda - West Van Nuys",
+    "neighborhood_council": "Northridge South",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_072",
+    "property_count": 2,
+    "primary_property_id": 722,
+    "primary_apn": "2747-018-052",
+    "primary_address": "21958 W DUPONT ST",
+    "nearby_properties": [
+      {
+        "property_id": 931,
+        "apn": "2024-003-025",
+        "address": "22040 W HART ST",
+        "distance_miles": 0.057,
+        "score": 40.63
+      }
+    ],
+    "total_lot_size_sqft": 12056.6,
+    "avg_assembly_score": 40.28,
+    "total_assessed_value": 1199564.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Chatsworth - Porter Ranch",
+    "neighborhood_council": "Chatsworth",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_085",
+    "property_count": 2,
+    "primary_property_id": 864,
+    "primary_apn": "2715-021-106",
+    "primary_address": "17908 W LUDLOW ST",
+    "nearby_properties": [
+      {
+        "property_id": 1045,
+        "apn": "2159-026-021",
+        "address": "17857 W BULLOCK ST",
+        "distance_miles": 0.035,
+        "score": 40.49
+      }
+    ],
+    "total_lot_size_sqft": 12001.1,
+    "avg_assembly_score": 40.06,
+    "total_assessed_value": 829808.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Granada Hills - Knollwood",
+    "neighborhood_council": "Granada Hills South",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_007",
+    "property_count": 30,
+    "primary_property_id": 232,
+    "primary_apn": "4307-013-029",
+    "primary_address": "1806 S ROXBURY DR",
+    "nearby_properties": [
+      {
+        "property_id": 233,
+        "apn": "4307-013-031",
+        "address": "1718 S ROXBURY DR",
+        "distance_miles": 0.061,
+        "score": 38.79
+      },
+      {
+        "property_id": 234,
+        "apn": "4307-013-033",
+        "address": "1706 S ROXBURY DR",
+        "distance_miles": 0.069,
+        "score": 39.77
+      },
+      {
+        "property_id": 236,
+        "apn": "4307-014-001",
+        "address": "1900 S ROXBURY DR",
+        "distance_miles": 0.065,
+        "score": 39.48
+      },
+      {
+        "property_id": 237,
+        "apn": "4307-014-002",
+        "address": "1906 S ROXBURY DR",
+        "distance_miles": 0.069,
+        "score": 40.5
+      },
+      {
+        "property_id": 244,
+        "apn": "4306-019-009",
+        "address": "1701 S BAGLEY AVE",
+        "distance_miles": 0.072,
+        "score": 39.03
+      },
+      {
+        "property_id": 245,
+        "apn": "4306-019-010",
+        "address": "1713 S BAGLEY AVE",
+        "distance_miles": 0.064,
+        "score": 36.72
+      },
+      {
+        "property_id": 246,
+        "apn": "4306-019-011",
+        "address": "1717 S BAGLEY AVE",
+        "distance_miles": 0.061,
+        "score": 36.69
+      },
+      {
+        "property_id": 247,
+        "apn": "4306-019-012",
+        "address": "1721 S BAGLEY AVE",
+        "distance_miles": 0.059,
+        "score": 36.0
+      },
+      {
+        "property_id": 248,
+        "apn": "4306-019-013",
+        "address": "1731 S BAGLEY AVE",
+        "distance_miles": 0.052,
+        "score": 36.31
+      },
+      {
+        "property_id": 427,
+        "apn": "4307-012-003",
+        "address": "1705 S ROXBURY DR",
+        "distance_miles": 0.07,
+        "score": 36.68
+      },
+      {
+        "property_id": 451,
+        "apn": "4307-013-009",
+        "address": "1819 S ROXBURY DR",
+        "distance_miles": 0.009,
+        "score": 38.81
+      },
+      {
+        "property_id": 452,
+        "apn": "4307-013-010",
+        "address": "1813 S ROXBURY DR",
+        "distance_miles": 0.005,
+        "score": 37.89
+      },
+      {
+        "property_id": 453,
+        "apn": "4307-013-011",
+        "address": "1807 S ROXBURY DR",
+        "distance_miles": 0.001,
+        "score": 37.98
+      },
+      {
+        "property_id": 454,
+        "apn": "4307-013-012",
+        "address": "1801 S ROXBURY DR",
+        "distance_miles": 0.003,
+        "score": 37.06
+      },
+      {
+        "property_id": 455,
+        "apn": "4307-013-013",
+        "address": "1719 S ROXBURY DR",
+        "distance_miles": 0.06,
+        "score": 37.18
+      },
+      {
+        "property_id": 456,
+        "apn": "4307-013-014",
+        "address": "1713 S ROXBURY DR",
+        "distance_miles": 0.064,
+        "score": 37.91
+      },
+      {
+        "property_id": 457,
+        "apn": "4307-013-015",
+        "address": "1707 S ROXBURY DR",
+        "distance_miles": 0.068,
+        "score": 36.59
+      },
+      {
+        "property_id": 458,
+        "apn": "4307-013-019",
+        "address": "1800 S ROXBURY DR",
+        "distance_miles": 0.004,
+        "score": 39.08
+      },
+      {
+        "property_id": 459,
+        "apn": "4307-013-021",
+        "address": "1818 S ROXBURY DR",
+        "distance_miles": 0.008,
+        "score": 38.66
+      },
+      {
+        "property_id": 461,
+        "apn": "4307-013-025",
+        "address": "1712 S ROXBURY DR",
+        "distance_miles": 0.065,
+        "score": 38.3
+      },
+      {
+        "property_id": 462,
+        "apn": "4307-013-027",
+        "address": "1812 S ROXBURY DR",
+        "distance_miles": 0.004,
+        "score": 38.64
+      },
+      {
+        "property_id": 468,
+        "apn": "4307-014-014",
+        "address": "1919 S ROXBURY DR",
+        "distance_miles": 0.078,
+        "score": 39.51
+      },
+      {
+        "property_id": 469,
+        "apn": "4307-014-015",
+        "address": "1913 S ROXBURY DR",
+        "distance_miles": 0.074,
+        "score": 39.39
+      },
+      {
+        "property_id": 471,
+        "apn": "4307-014-016",
+        "address": "1907 S ROXBURY DR",
+        "distance_miles": 0.07,
+        "score": 38.76
+      },
+      {
+        "property_id": 472,
+        "apn": "4307-014-017",
+        "address": "1901 S ROXBURY DR",
+        "distance_miles": 0.066,
+        "score": 38.64
+      },
+      {
+        "property_id": 475,
+        "apn": "4307-014-026",
+        "address": "1918 S ROXBURY DR",
+        "distance_miles": 0.077,
+        "score": 39.24
+      },
+      {
+        "property_id": 659,
+        "apn": "5131-003-019",
+        "address": "1815 S PALOMA ST",
+        "distance_miles": 0.006,
+        "score": 55.58
+      },
+      {
+        "property_id": 730,
+        "apn": "5126-031-012",
+        "address": "1919 S BROADWAY",
+        "distance_miles": 0.078,
+        "score": 45.55
+      },
+      {
+        "property_id": 1021,
+        "apn": "5074-026-019",
+        "address": "1819 S ROOSEVELT AVE",
+        "distance_miles": 0.009,
+        "score": 58.5
+      }
+    ],
+    "total_lot_size_sqft": 353694.0,
+    "avg_assembly_score": 39.76,
+    "total_assessed_value": 98455782.0,
+    "zoning_consistency": false,
+    "same_street": false,
+    "community_plan_area": "West Los Angeles",
+    "neighborhood_council": "South Robertson",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_013",
+    "property_count": 4,
+    "primary_property_id": 499,
+    "primary_apn": "2242-020-017",
+    "primary_address": "15035 W SYLVAN ST",
+    "nearby_properties": [
+      {
+        "property_id": 778,
+        "apn": "2278-017-019",
+        "address": "14900 W RHINESTONE DR",
+        "distance_miles": 0.093,
+        "score": 36.14
+      },
+      {
+        "property_id": 779,
+        "apn": "2649-023-035",
+        "address": "15113 W MINNEHAHA ST",
+        "distance_miles": 0.054,
+        "score": 37.92
+      },
+      {
+        "property_id": 894,
+        "apn": "2221-015-018",
+        "address": "15000 W LEADWELL ST",
+        "distance_miles": 0.024,
+        "score": 43.03
+      }
+    ],
+    "total_lot_size_sqft": 40175.0,
+    "avg_assembly_score": 39.28,
+    "total_assessed_value": 1782717.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Van Nuys - North Sherman Oaks",
+    "neighborhood_council": "Van Nuys",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_057",
+    "property_count": 3,
+    "primary_property_id": 643,
+    "primary_apn": "2175-030-002",
+    "primary_address": "5017 N BILMOOR AVE",
+    "nearby_properties": [
+      {
+        "property_id": 810,
+        "apn": "2421-003-023",
+        "address": "4923 N CARTWRIGHT AVE",
+        "distance_miles": 0.065,
+        "score": 41.99
+      },
+      {
+        "property_id": 975,
+        "apn": "2419-019-010",
+        "address": "5012 N AUCKLAND AVE",
+        "distance_miles": 0.003,
+        "score": 37.64
+      }
+    ],
+    "total_lot_size_sqft": 30264.4,
+    "avg_assembly_score": 39.08,
+    "total_assessed_value": 2107913.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Encino - Tarzana",
+    "neighborhood_council": "Tarzana",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_058",
+    "property_count": 2,
+    "primary_property_id": 644,
+    "primary_apn": "2376-019-011",
+    "primary_address": "3526 N MOUND VIEW AVE",
+    "nearby_properties": [
+      {
+        "property_id": 785,
+        "apn": "2280-023-018",
+        "address": "3431 N CASTLEWOODS PL",
+        "distance_miles": 0.066,
+        "score": 37.36
+      }
+    ],
+    "total_lot_size_sqft": 60341.600000000006,
+    "avg_assembly_score": 39.05,
+    "total_assessed_value": 1649837.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Sherman Oaks - Studio City - Toluca Lake - Cahuenga Pass",
+    "neighborhood_council": "Studio City",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_008",
+    "property_count": 10,
+    "primary_property_id": 463,
+    "primary_apn": "4307-014-009",
+    "primary_address": "2024 S ROXBURY DR",
+    "nearby_properties": [
+      {
+        "property_id": 464,
+        "apn": "4307-014-010",
+        "address": "2021 S ROXBURY DR",
+        "distance_miles": 0.002,
+        "score": 35.34
+      },
+      {
+        "property_id": 465,
+        "apn": "4307-014-011",
+        "address": "2017 S ROXBURY DR",
+        "distance_miles": 0.005,
+        "score": 39.88
+      },
+      {
+        "property_id": 466,
+        "apn": "4307-014-012",
+        "address": "2007 S ROXBURY DR",
+        "distance_miles": 0.012,
+        "score": 39.76
+      },
+      {
+        "property_id": 467,
+        "apn": "4307-014-013",
+        "address": "2001 S ROXBURY DR",
+        "distance_miles": 0.016,
+        "score": 39.14
+      },
+      {
+        "property_id": 473,
+        "apn": "4307-014-020",
+        "address": "2006 S ROXBURY DR",
+        "distance_miles": 0.012,
+        "score": 39.29
+      },
+      {
+        "property_id": 474,
+        "apn": "4307-014-024",
+        "address": "2012 S ROXBURY DR",
+        "distance_miles": 0.008,
+        "score": 39.3
+      },
+      {
+        "property_id": 476,
+        "apn": "4307-014-028",
+        "address": "2000 S ROXBURY DR",
+        "distance_miles": 0.017,
+        "score": 38.77
+      },
+      {
+        "property_id": 477,
+        "apn": "4307-014-030",
+        "address": "2018 S ROXBURY DR",
+        "distance_miles": 0.004,
+        "score": 38.63
+      },
+      {
+        "property_id": 935,
+        "apn": "4262-031-004",
+        "address": "2012 S STONER AVE",
+        "distance_miles": 0.008,
+        "score": 38.15
+      }
+    ],
+    "total_lot_size_sqft": 108874.9,
+    "avg_assembly_score": 38.95,
+    "total_assessed_value": 23775400.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "West Los Angeles",
+    "neighborhood_council": "South Robertson",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_039",
+    "property_count": 4,
+    "primary_property_id": 571,
+    "primary_apn": "2508-001-010",
+    "primary_address": "14260 W ASTORIA ST",
+    "nearby_properties": [
+      {
+        "property_id": 955,
+        "apn": "2212-015-006",
+        "address": "14131 W LANARK ST",
+        "distance_miles": 0.089,
+        "score": 39.0
+      },
+      {
+        "property_id": 965,
+        "apn": "2639-036-001",
+        "address": "14144 W OSBORNE ST",
+        "distance_miles": 0.08,
+        "score": 39.78
+      },
+      {
+        "property_id": 1010,
+        "apn": "2237-018-007",
+        "address": "14128 W HAMLIN ST",
+        "distance_miles": 0.091,
+        "score": 40.71
+      }
+    ],
+    "total_lot_size_sqft": 26450.3,
+    "avg_assembly_score": 38.94,
+    "total_assessed_value": 1448799.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Sylmar",
+    "neighborhood_council": "Sylmar",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_073",
+    "property_count": 3,
+    "primary_property_id": 732,
+    "primary_apn": "2234-013-009",
+    "primary_address": "6453 N ORION AVE",
+    "nearby_properties": [
+      {
+        "property_id": 734,
+        "apn": "2231-023-042",
+        "address": "6441 N FORBES AVE",
+        "distance_miles": 0.008,
+        "score": 38.87
+      },
+      {
+        "property_id": 946,
+        "apn": "2123-011-010",
+        "address": "6415 N ENFIELD AVE",
+        "distance_miles": 0.026,
+        "score": 35.52
+      }
+    ],
+    "total_lot_size_sqft": 26958.3,
+    "avg_assembly_score": 38.78,
+    "total_assessed_value": 635120.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Van Nuys - North Sherman Oaks",
+    "neighborhood_council": "Van Nuys",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_067",
+    "property_count": 3,
+    "primary_property_id": 687,
+    "primary_apn": "2044-019-014",
+    "primary_address": "5218 N VALLEY CIR BLVD",
+    "nearby_properties": [
+      {
+        "property_id": 823,
+        "apn": "2249-008-021",
+        "address": "5245 N VESPER AVE",
+        "distance_miles": 0.019,
+        "score": 36.55
+      },
+      {
+        "property_id": 913,
+        "apn": "5669-013-024",
+        "address": "5202 N TOWNSEND AVE",
+        "distance_miles": 0.011,
+        "score": 42.38
+      }
+    ],
+    "total_lot_size_sqft": 23551.9,
+    "avg_assembly_score": 38.65,
+    "total_assessed_value": 1400730.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Canoga Park - Winnetka - Woodland Hills - West Hills",
+    "neighborhood_council": "Woodland Hills-Warner Center",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_084",
+    "property_count": 2,
+    "primary_property_id": 856,
+    "primary_apn": "2004-015-036",
+    "primary_address": "22710 W MALDEN ST",
+    "nearby_properties": [
+      {
+        "property_id": 963,
+        "apn": "2024-023-901",
+        "address": "22641 W VANOWEN ST",
+        "distance_miles": 0.048,
+        "score": 40.0
+      }
+    ],
+    "total_lot_size_sqft": 157751.2,
+    "avg_assembly_score": 38.5,
+    "total_assessed_value": 669533.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Chatsworth - Porter Ranch",
+    "neighborhood_council": "West Hills",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_028",
+    "property_count": 3,
+    "primary_property_id": 529,
+    "primary_apn": "2701-061-014",
+    "primary_address": "20278 W VIA SANSOVINO",
+    "nearby_properties": [
+      {
+        "property_id": 826,
+        "apn": "2707-004-013",
+        "address": "20311 W FULLBRIGHT PL",
+        "distance_miles": 0.023,
+        "score": 36.71
+      },
+      {
+        "property_id": 853,
+        "apn": "2136-004-010",
+        "address": "20419 W HART ST",
+        "distance_miles": 0.097,
+        "score": 41.71
+      }
+    ],
+    "total_lot_size_sqft": 36159.6,
+    "avg_assembly_score": 38.21,
+    "total_assessed_value": 2871034.0,
+    "zoning_consistency": false,
+    "same_street": false,
+    "community_plan_area": "Chatsworth - Porter Ranch",
+    "neighborhood_council": "Porter Ranch",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_033",
+    "property_count": 8,
+    "primary_property_id": 552,
+    "primary_apn": "2216-030-019",
+    "primary_address": "7012 N CANTALOUPE AVE",
+    "nearby_properties": [
+      {
+        "property_id": 554,
+        "apn": "2130-002-025",
+        "address": "7012 N CORBIN AVE",
+        "distance_miles": 0.0,
+        "score": 35.21
+      },
+      {
+        "property_id": 568,
+        "apn": "2327-007-060",
+        "address": "6915 N LONGRIDGE AVE",
+        "distance_miles": 0.067,
+        "score": 40.1
+      },
+      {
+        "property_id": 617,
+        "apn": "2028-026-004",
+        "address": "7001 N DARNOCH WAY",
+        "distance_miles": 0.008,
+        "score": 37.66
+      },
+      {
+        "property_id": 877,
+        "apn": "2125-027-021",
+        "address": "6921 N LINDLEY AVE",
+        "distance_miles": 0.063,
+        "score": 39.39
+      },
+      {
+        "property_id": 957,
+        "apn": "2324-022-003",
+        "address": "7047 N BABCOCK AVE",
+        "distance_miles": 0.024,
+        "score": 35.95
+      },
+      {
+        "property_id": 992,
+        "apn": "2028-025-002",
+        "address": "7155 N DARNOCH WAY",
+        "distance_miles": 0.099,
+        "score": 36.06
+      },
+      {
+        "property_id": 1041,
+        "apn": "2135-014-008",
+        "address": "7038 N QUARTZ AVE",
+        "distance_miles": 0.018,
+        "score": 41.44
+      }
+    ],
+    "total_lot_size_sqft": 73731.7,
+    "avg_assembly_score": 38.19,
+    "total_assessed_value": 4218386.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Van Nuys - North Sherman Oaks",
+    "neighborhood_council": "Van Nuys",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_068",
+    "property_count": 3,
+    "primary_property_id": 688,
+    "primary_apn": "2421-017-010",
+    "primary_address": "4739 N CARTWRIGHT AVE",
+    "nearby_properties": [
+      {
+        "property_id": 858,
+        "apn": "5690-009-004",
+        "address": "4861 N WIOTA ST",
+        "distance_miles": 0.084,
+        "score": 37.67
+      },
+      {
+        "property_id": 1051,
+        "apn": "2176-025-011",
+        "address": "4774 N EL CABALLERO DR",
+        "distance_miles": 0.024,
+        "score": 37.31
+      }
+    ],
+    "total_lot_size_sqft": 33751.9,
+    "avg_assembly_score": 38.04,
+    "total_assessed_value": 2491548.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "North Hollywood - Valley Village",
+    "neighborhood_council": "Greater Toluca Lake",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_018",
+    "property_count": 6,
+    "primary_property_id": 509,
+    "primary_apn": "2246-022-010",
+    "primary_address": "5705 N MATILIJA AVE",
+    "nearby_properties": [
+      {
+        "property_id": 702,
+        "apn": "2153-001-022",
+        "address": "5655 N PENFIELD AVE",
+        "distance_miles": 0.034,
+        "score": 35.46
+      },
+      {
+        "property_id": 747,
+        "apn": "2343-015-004",
+        "address": "5649 N GREENBUSH AVE",
+        "distance_miles": 0.039,
+        "score": 39.75
+      },
+      {
+        "property_id": 771,
+        "apn": "2340-014-013",
+        "address": "5760 N WILKINSON AVE",
+        "distance_miles": 0.038,
+        "score": 40.13
+      },
+      {
+        "property_id": 898,
+        "apn": "2254-021-022",
+        "address": "5764 N BIANCA AVE",
+        "distance_miles": 0.041,
+        "score": 35.5
+      },
+      {
+        "property_id": 1050,
+        "apn": "2046-007-028",
+        "address": "5600 N OSTIN AVE",
+        "distance_miles": 0.072,
+        "score": 35.14
+      }
+    ],
+    "total_lot_size_sqft": 51042.4,
+    "avg_assembly_score": 38.03,
+    "total_assessed_value": 3617728.0,
+    "zoning_consistency": false,
+    "same_street": false,
+    "community_plan_area": "Van Nuys - North Sherman Oaks",
+    "neighborhood_council": "Greater Valley Glen",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_027",
+    "property_count": 4,
+    "primary_property_id": 526,
+    "primary_apn": "7442-009-019",
+    "primary_address": "2234 N AMELIA AVE",
+    "nearby_properties": [
+      {
+        "property_id": 726,
+        "apn": "5211-015-026",
+        "address": "2344 N HOLGATE SQ",
+        "distance_miles": 0.076,
+        "score": 42.43
+      },
+      {
+        "property_id": 910,
+        "apn": "5443-020-005",
+        "address": "2225 N AVON ST",
+        "distance_miles": 0.006,
+        "score": 35.73
+      },
+      {
+        "property_id": 951,
+        "apn": "5221-016-015",
+        "address": "2271 N VANDALIA AVE",
+        "distance_miles": 0.026,
+        "score": 35.3
+      }
+    ],
+    "total_lot_size_sqft": 26809.5,
+    "avg_assembly_score": 37.64,
+    "total_assessed_value": 1405022.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "San Pedro",
+    "neighborhood_council": "Northwest San Pedro",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_056",
+    "property_count": 3,
+    "primary_property_id": 641,
+    "primary_apn": "2761-028-017",
+    "primary_address": "9535 N OAKDALE AVE",
+    "nearby_properties": [
+      {
+        "property_id": 869,
+        "apn": "2650-002-007",
+        "address": "9529 N LEMONA AVE",
+        "distance_miles": 0.004,
+        "score": 41.0
+      },
+      {
+        "property_id": 890,
+        "apn": "2763-017-026",
+        "address": "9425 N RHEA AVE",
+        "distance_miles": 0.076,
+        "score": 36.0
+      }
+    ],
+    "total_lot_size_sqft": 39127.4,
+    "avg_assembly_score": 37.6,
+    "total_assessed_value": 1575414.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Chatsworth - Porter Ranch",
+    "neighborhood_council": "Chatsworth",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_031",
+    "property_count": 4,
+    "primary_property_id": 546,
+    "primary_apn": "2405-009-020",
+    "primary_address": "7644 N GREG AVE",
+    "nearby_properties": [
+      {
+        "property_id": 885,
+        "apn": "2203-023-012",
+        "address": "7501 N LEESCOTT AVE",
+        "distance_miles": 0.099,
+        "score": 35.45
+      },
+      {
+        "property_id": 1018,
+        "apn": "2301-013-075",
+        "address": "7722 N VENTURA CANYON AVE",
+        "distance_miles": 0.054,
+        "score": 35.44
+      },
+      {
+        "property_id": 1092,
+        "apn": "2021-010-022",
+        "address": "7527 N LENA AVE",
+        "distance_miles": 0.081,
+        "score": 40.07
+      }
+    ],
+    "total_lot_size_sqft": 33900.0,
+    "avg_assembly_score": 37.59,
+    "total_assessed_value": 1279944.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Sun Valley - La Tuna Canyon",
+    "neighborhood_council": "Sun Valley",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_080",
+    "property_count": 4,
+    "primary_property_id": 796,
+    "primary_apn": "4247-029-007",
+    "primary_address": "12566 W PRESTON WAY",
+    "nearby_properties": [
+      {
+        "property_id": 866,
+        "apn": "2357-032-005",
+        "address": "12600 W RIVERSIDE DR",
+        "distance_miles": 0.023,
+        "score": 41.75
+      },
+      {
+        "property_id": 887,
+        "apn": "2325-019-037",
+        "address": "12535 W GILMORE ST",
+        "distance_miles": 0.021,
+        "score": 35.98
+      },
+      {
+        "property_id": 1080,
+        "apn": "2346-009-002",
+        "address": "12620 W ALBERS ST",
+        "distance_miles": 0.037,
+        "score": 36.48
+      }
+    ],
+    "total_lot_size_sqft": 56924.9,
+    "avg_assembly_score": 37.41,
+    "total_assessed_value": 13511821.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Palms - Mar Vista - Del Rey",
+    "neighborhood_council": "Mar Vista",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_006",
+    "property_count": 75,
+    "primary_property_id": 133,
+    "primary_apn": "4307-005-014",
+    "primary_address": "9751 W CASHIO ST",
+    "nearby_properties": [
+      {
+        "property_id": 134,
+        "apn": "4307-005-015",
+        "address": "9757 W CASHIO ST",
+        "distance_miles": 0.004,
+        "score": 36.03
+      },
+      {
+        "property_id": 135,
+        "apn": "4307-005-016",
+        "address": "9765 W CASHIO ST",
+        "distance_miles": 0.01,
+        "score": 37.01
+      },
+      {
+        "property_id": 144,
+        "apn": "4307-006-013",
+        "address": "9707 W ALCOTT ST",
+        "distance_miles": 0.03,
+        "score": 36.66
+      },
+      {
+        "property_id": 145,
+        "apn": "4307-006-014",
+        "address": "9715 W ALCOTT ST",
+        "distance_miles": 0.025,
+        "score": 36.22
+      },
+      {
+        "property_id": 155,
+        "apn": "4307-006-024",
+        "address": "9748 W ALCOTT ST",
+        "distance_miles": 0.002,
+        "score": 35.02
+      },
+      {
+        "property_id": 156,
+        "apn": "4307-006-025",
+        "address": "9742 W ALCOTT ST",
+        "distance_miles": 0.006,
+        "score": 35.02
+      },
+      {
+        "property_id": 159,
+        "apn": "4307-006-028",
+        "address": "9726 W ALCOTT ST",
+        "distance_miles": 0.017,
+        "score": 35.02
+      },
+      {
+        "property_id": 160,
+        "apn": "4307-006-029",
+        "address": "9722 W ALCOTT ST",
+        "distance_miles": 0.02,
+        "score": 35.02
+      },
+      {
+        "property_id": 163,
+        "apn": "4307-006-032",
+        "address": "9706 W ALCOTT ST",
+        "distance_miles": 0.031,
+        "score": 35.02
+      },
+      {
+        "property_id": 169,
+        "apn": "4307-006-038",
+        "address": "9725 W SATURN ST",
+        "distance_miles": 0.018,
+        "score": 35.43
+      },
+      {
+        "property_id": 170,
+        "apn": "4307-006-039",
+        "address": "9729 W SATURN ST",
+        "distance_miles": 0.015,
+        "score": 35.43
+      },
+      {
+        "property_id": 171,
+        "apn": "4307-006-040",
+        "address": "9735 W SATURN ST",
+        "distance_miles": 0.011,
+        "score": 35.43
+      },
+      {
+        "property_id": 174,
+        "apn": "4307-006-043",
+        "address": "9751 W SATURN ST",
+        "distance_miles": 0.0,
+        "score": 35.3
+      },
+      {
+        "property_id": 176,
+        "apn": "4307-006-045",
+        "address": "9742 W SATURN ST",
+        "distance_miles": 0.006,
+        "score": 35.02
+      },
+      {
+        "property_id": 177,
+        "apn": "4307-006-046",
+        "address": "9736 W SATURN ST",
+        "distance_miles": 0.01,
+        "score": 35.02
+      },
+      {
+        "property_id": 190,
+        "apn": "4307-006-059",
+        "address": "9727 W CASHIO ST",
+        "distance_miles": 0.017,
+        "score": 35.01
+      },
+      {
+        "property_id": 191,
+        "apn": "4307-006-060",
+        "address": "9733 W CASHIO ST",
+        "distance_miles": 0.012,
+        "score": 35.1
+      },
+      {
+        "property_id": 192,
+        "apn": "4307-006-061",
+        "address": "9739 W CASHIO ST",
+        "distance_miles": 0.008,
+        "score": 35.33
+      },
+      {
+        "property_id": 196,
+        "apn": "4307-006-065",
+        "address": "9732 W CASHIO ST",
+        "distance_miles": 0.013,
+        "score": 35.87
+      },
+      {
+        "property_id": 197,
+        "apn": "4307-006-066",
+        "address": "9726 W CASHIO ST",
+        "distance_miles": 0.017,
+        "score": 36.41
+      },
+      {
+        "property_id": 198,
+        "apn": "4307-006-067",
+        "address": "9718 W CASHIO ST",
+        "distance_miles": 0.023,
+        "score": 35.34
+      },
+      {
+        "property_id": 199,
+        "apn": "4307-006-068",
+        "address": "9716 W CASHIO ST",
+        "distance_miles": 0.024,
+        "score": 37.09
+      },
+      {
+        "property_id": 200,
+        "apn": "4307-006-069",
+        "address": "9712 W CASHIO ST",
+        "distance_miles": 0.027,
+        "score": 36.29
+      },
+      {
+        "property_id": 201,
+        "apn": "4307-006-070",
+        "address": "9706 W CASHIO ST",
+        "distance_miles": 0.031,
+        "score": 37.49
+      },
+      {
+        "property_id": 202,
+        "apn": "4307-006-071",
+        "address": "9704 W CASHIO ST",
+        "distance_miles": 0.032,
+        "score": 35.91
+      },
+      {
+        "property_id": 203,
+        "apn": "4307-006-072",
+        "address": "9701 W HORNER ST",
+        "distance_miles": 0.035,
+        "score": 37.66
+      },
+      {
+        "property_id": 204,
+        "apn": "4307-006-073",
+        "address": "9707 W HORNER ST",
+        "distance_miles": 0.03,
+        "score": 37.37
+      },
+      {
+        "property_id": 205,
+        "apn": "4307-006-074",
+        "address": "9711 W HORNER ST",
+        "distance_miles": 0.028,
+        "score": 35.97
+      },
+      {
+        "property_id": 206,
+        "apn": "4307-006-075",
+        "address": "9717 W HORNER ST",
+        "distance_miles": 0.023,
+        "score": 36.39
+      },
+      {
+        "property_id": 207,
+        "apn": "4307-006-076",
+        "address": "9721 W HORNER ST",
+        "distance_miles": 0.021,
+        "score": 35.78
+      },
+      {
+        "property_id": 208,
+        "apn": "4307-006-077",
+        "address": "9727 W HORNER ST",
+        "distance_miles": 0.017,
+        "score": 35.17
+      },
+      {
+        "property_id": 211,
+        "apn": "4307-010-001",
+        "address": "9700 W HOLCOMB ST",
+        "distance_miles": 0.035,
+        "score": 36.58
+      },
+      {
+        "property_id": 212,
+        "apn": "4307-010-002",
+        "address": "9708 W HOLCOMB ST",
+        "distance_miles": 0.03,
+        "score": 36.13
+      },
+      {
+        "property_id": 214,
+        "apn": "4307-010-004",
+        "address": "9720 W HOLCOMB ST",
+        "distance_miles": 0.021,
+        "score": 35.92
+      },
+      {
+        "property_id": 215,
+        "apn": "4307-010-005",
+        "address": "9726 W HOLCOMB ST",
+        "distance_miles": 0.017,
+        "score": 39.3
+      },
+      {
+        "property_id": 216,
+        "apn": "4307-010-006",
+        "address": "9734 W HOLCOMB ST",
+        "distance_miles": 0.012,
+        "score": 39.11
+      },
+      {
+        "property_id": 217,
+        "apn": "4307-010-007",
+        "address": "9733 W HOLCOMB ST",
+        "distance_miles": 0.012,
+        "score": 38.78
+      },
+      {
+        "property_id": 218,
+        "apn": "4307-010-008",
+        "address": "9719 W HOLCOMB ST",
+        "distance_miles": 0.022,
+        "score": 37.19
+      },
+      {
+        "property_id": 219,
+        "apn": "4307-010-009",
+        "address": "9701 W HOLCOMB ST",
+        "distance_miles": 0.035,
+        "score": 38.47
+      },
+      {
+        "property_id": 220,
+        "apn": "4307-010-010",
+        "address": "9702 W HORNER ST",
+        "distance_miles": 0.034,
+        "score": 36.67
+      },
+      {
+        "property_id": 221,
+        "apn": "4307-010-011",
+        "address": "9716 W HORNER ST",
+        "distance_miles": 0.024,
+        "score": 36.57
+      },
+      {
+        "property_id": 222,
+        "apn": "4307-010-012",
+        "address": "9728 W HORNER ST",
+        "distance_miles": 0.016,
+        "score": 37.53
+      },
+      {
+        "property_id": 226,
+        "apn": "4307-010-016",
+        "address": "9750 W CASTELLO PL",
+        "distance_miles": 0.001,
+        "score": 39.9
+      },
+      {
+        "property_id": 227,
+        "apn": "4307-010-017",
+        "address": "9752 W CASTELLO PL",
+        "distance_miles": 0.001,
+        "score": 38.02
+      },
+      {
+        "property_id": 228,
+        "apn": "4307-010-018",
+        "address": "9754 W CASTELLO PL",
+        "distance_miles": 0.002,
+        "score": 38.05
+      },
+      {
+        "property_id": 229,
+        "apn": "4307-011-001",
+        "address": "9739 W MONTE MAR DR",
+        "distance_miles": 0.008,
+        "score": 35.6
+      },
+      {
+        "property_id": 230,
+        "apn": "4307-011-002",
+        "address": "9733 W MONTE MAR DR",
+        "distance_miles": 0.012,
+        "score": 36.76
+      },
+      {
+        "property_id": 231,
+        "apn": "4307-011-003",
+        "address": "9727 W MONTE MAR DR",
+        "distance_miles": 0.017,
+        "score": 36.76
+      },
+      {
+        "property_id": 402,
+        "apn": "4307-011-004",
+        "address": "9721 W MONTE MAR DR",
+        "distance_miles": 0.021,
+        "score": 36.46
+      },
+      {
+        "property_id": 403,
+        "apn": "4307-011-005",
+        "address": "9715 W MONTE MAR DR",
+        "distance_miles": 0.025,
+        "score": 35.46
+      },
+      {
+        "property_id": 406,
+        "apn": "4307-011-008",
+        "address": "9700 W LOCKFORD ST",
+        "distance_miles": 0.035,
+        "score": 36.31
+      },
+      {
+        "property_id": 409,
+        "apn": "4307-011-011",
+        "address": "9718 W LOCKFORD ST",
+        "distance_miles": 0.023,
+        "score": 35.98
+      },
+      {
+        "property_id": 410,
+        "apn": "4307-011-012",
+        "address": "9724 W LOCKFORD ST",
+        "distance_miles": 0.019,
+        "score": 35.73
+      },
+      {
+        "property_id": 411,
+        "apn": "4307-011-013",
+        "address": "9730 W LOCKFORD ST",
+        "distance_miles": 0.014,
+        "score": 37.82
+      },
+      {
+        "property_id": 412,
+        "apn": "4307-011-014",
+        "address": "9734 W LOCKFORD ST",
+        "distance_miles": 0.012,
+        "score": 38.14
+      },
+      {
+        "property_id": 413,
+        "apn": "4307-011-015",
+        "address": "9731 W LOCKFORD ST",
+        "distance_miles": 0.014,
+        "score": 39.23
+      },
+      {
+        "property_id": 417,
+        "apn": "4307-011-019",
+        "address": "9709 W LOCKFORD ST",
+        "distance_miles": 0.029,
+        "score": 35.78
+      },
+      {
+        "property_id": 423,
+        "apn": "4307-011-024",
+        "address": "9756 W CASTELLO PL",
+        "distance_miles": 0.003,
+        "score": 37.93
+      },
+      {
+        "property_id": 424,
+        "apn": "4307-011-025",
+        "address": "9758 W CASTELLO PL",
+        "distance_miles": 0.005,
+        "score": 36.93
+      },
+      {
+        "property_id": 425,
+        "apn": "4307-011-026",
+        "address": "9761 W MONTE MAR DR",
+        "distance_miles": 0.007,
+        "score": 37.33
+      },
+      {
+        "property_id": 428,
+        "apn": "4307-012-005",
+        "address": "9758 W CASHIO ST",
+        "distance_miles": 0.005,
+        "score": 36.39
+      },
+      {
+        "property_id": 429,
+        "apn": "4307-012-006",
+        "address": "9750 W CASHIO ST",
+        "distance_miles": 0.001,
+        "score": 35.29
+      },
+      {
+        "property_id": 439,
+        "apn": "4307-012-023",
+        "address": "9767 W MONTE MAR DR",
+        "distance_miles": 0.011,
+        "score": 35.31
+      },
+      {
+        "property_id": 440,
+        "apn": "4307-012-024",
+        "address": "9771 W MONTE MAR DR",
+        "distance_miles": 0.014,
+        "score": 36.84
+      },
+      {
+        "property_id": 444,
+        "apn": "4307-012-029",
+        "address": "9751 W CASTELLO PL",
+        "distance_miles": 0.0,
+        "score": 36.1
+      },
+      {
+        "property_id": 445,
+        "apn": "4307-012-030",
+        "address": "9761 W CASTELLO PL",
+        "distance_miles": 0.007,
+        "score": 39.38
+      },
+      {
+        "property_id": 460,
+        "apn": "4307-013-024",
+        "address": "9760 W MONTE MAR DR",
+        "distance_miles": 0.006,
+        "score": 38.19
+      },
+      {
+        "property_id": 479,
+        "apn": "4307-015-001",
+        "address": "9700 W MONTE MAR DR",
+        "distance_miles": 0.035,
+        "score": 35.72
+      },
+      {
+        "property_id": 480,
+        "apn": "4307-015-002",
+        "address": "9706 W MONTE MAR DR",
+        "distance_miles": 0.031,
+        "score": 36.72
+      },
+      {
+        "property_id": 481,
+        "apn": "4307-015-003",
+        "address": "9712 W MONTE MAR DR",
+        "distance_miles": 0.027,
+        "score": 35.14
+      },
+      {
+        "property_id": 482,
+        "apn": "4307-015-004",
+        "address": "9718 W MONTE MAR DR",
+        "distance_miles": 0.023,
+        "score": 35.53
+      },
+      {
+        "property_id": 484,
+        "apn": "4307-015-006",
+        "address": "9728 W MONTE MAR DR",
+        "distance_miles": 0.016,
+        "score": 36.29
+      },
+      {
+        "property_id": 485,
+        "apn": "4307-015-007",
+        "address": "9734 W MONTE MAR DR",
+        "distance_miles": 0.012,
+        "score": 35.16
+      },
+      {
+        "property_id": 487,
+        "apn": "4307-015-008",
+        "address": "9719 W KIRKSIDE RD",
+        "distance_miles": 0.022,
+        "score": 35.41
+      }
+    ],
+    "total_lot_size_sqft": 550058.5,
+    "avg_assembly_score": 36.47,
+    "total_assessed_value": 100519311.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "West Los Angeles",
+    "neighborhood_council": "South Robertson",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_001",
+    "property_count": 78,
+    "primary_property_id": 11,
+    "primary_apn": "4306-026-017",
+    "primary_address": "9302 W OAKMORE RD",
+    "nearby_properties": [
+      {
+        "property_id": 81,
+        "apn": "4306-028-016",
+        "address": "9300 W CRESTA DR",
+        "distance_miles": 0.001,
+        "score": 36.53
+      },
+      {
+        "property_id": 82,
+        "apn": "4306-028-017",
+        "address": "9301 W SAWYER ST",
+        "distance_miles": 0.001,
+        "score": 35.19
+      },
+      {
+        "property_id": 97,
+        "apn": "4306-028-032",
+        "address": "9445 W SAWYER ST",
+        "distance_miles": 0.099,
+        "score": 37.01
+      },
+      {
+        "property_id": 238,
+        "apn": "4306-019-003",
+        "address": "9254 W AIRDROME ST",
+        "distance_miles": 0.033,
+        "score": 35.52
+      },
+      {
+        "property_id": 239,
+        "apn": "4306-019-004",
+        "address": "9250 W AIRDROME ST",
+        "distance_miles": 0.036,
+        "score": 35.62
+      },
+      {
+        "property_id": 240,
+        "apn": "4306-019-005",
+        "address": "9242 W AIRDROME ST",
+        "distance_miles": 0.041,
+        "score": 36.72
+      },
+      {
+        "property_id": 241,
+        "apn": "4306-019-006",
+        "address": "9238 W AIRDROME ST",
+        "distance_miles": 0.044,
+        "score": 35.32
+      },
+      {
+        "property_id": 242,
+        "apn": "4306-019-007",
+        "address": "9232 W AIRDROME ST",
+        "distance_miles": 0.048,
+        "score": 37.39
+      },
+      {
+        "property_id": 243,
+        "apn": "4306-019-008",
+        "address": "9222 W AIRDROME ST",
+        "distance_miles": 0.055,
+        "score": 36.82
+      },
+      {
+        "property_id": 249,
+        "apn": "4306-019-014",
+        "address": "9255 W MONTE MAR DR",
+        "distance_miles": 0.032,
+        "score": 36.67
+      },
+      {
+        "property_id": 250,
+        "apn": "4306-019-015",
+        "address": "9259 W MONTE MAR DR",
+        "distance_miles": 0.03,
+        "score": 39.63
+      },
+      {
+        "property_id": 251,
+        "apn": "4306-019-016",
+        "address": "9265 W MONTE MAR DR",
+        "distance_miles": 0.026,
+        "score": 38.35
+      },
+      {
+        "property_id": 253,
+        "apn": "4306-019-020",
+        "address": "9279 W MONTE MAR DR",
+        "distance_miles": 0.016,
+        "score": 36.04
+      },
+      {
+        "property_id": 256,
+        "apn": "4306-020-003",
+        "address": "9270 W AIRDROME ST",
+        "distance_miles": 0.022,
+        "score": 35.49
+      },
+      {
+        "property_id": 257,
+        "apn": "4306-020-004",
+        "address": "9301 W MONTE MAR DR",
+        "distance_miles": 0.001,
+        "score": 35.39
+      },
+      {
+        "property_id": 258,
+        "apn": "4306-020-005",
+        "address": "9307 W MONTE MAR DR",
+        "distance_miles": 0.003,
+        "score": 35.97
+      },
+      {
+        "property_id": 259,
+        "apn": "4306-020-006",
+        "address": "9313 W MONTE MAR DR",
+        "distance_miles": 0.008,
+        "score": 36.06
+      },
+      {
+        "property_id": 260,
+        "apn": "4306-020-007",
+        "address": "9321 W MONTE MAR DR",
+        "distance_miles": 0.013,
+        "score": 36.72
+      },
+      {
+        "property_id": 261,
+        "apn": "4306-020-008",
+        "address": "9327 W MONTE MAR DR",
+        "distance_miles": 0.017,
+        "score": 35.79
+      },
+      {
+        "property_id": 262,
+        "apn": "4306-020-009",
+        "address": "9333 W MONTE MAR DR",
+        "distance_miles": 0.021,
+        "score": 36.95
+      },
+      {
+        "property_id": 263,
+        "apn": "4306-020-010",
+        "address": "9339 W MONTE MAR DR",
+        "distance_miles": 0.026,
+        "score": 37.08
+      },
+      {
+        "property_id": 264,
+        "apn": "4306-020-011",
+        "address": "9345 W MONTE MAR DR",
+        "distance_miles": 0.03,
+        "score": 37.23
+      },
+      {
+        "property_id": 265,
+        "apn": "4306-020-012",
+        "address": "9351 W MONTE MAR DR",
+        "distance_miles": 0.034,
+        "score": 37.5
+      },
+      {
+        "property_id": 266,
+        "apn": "4306-020-013",
+        "address": "9357 W MONTE MAR DR",
+        "distance_miles": 0.038,
+        "score": 36.61
+      },
+      {
+        "property_id": 267,
+        "apn": "4306-020-014",
+        "address": "9363 W MONTE MAR DR",
+        "distance_miles": 0.042,
+        "score": 36.21
+      },
+      {
+        "property_id": 268,
+        "apn": "4306-020-015",
+        "address": "9369 W MONTE MAR DR",
+        "distance_miles": 0.046,
+        "score": 38.89
+      },
+      {
+        "property_id": 270,
+        "apn": "4306-020-017",
+        "address": "9366 W AIRDROME ST",
+        "distance_miles": 0.044,
+        "score": 37.51
+      },
+      {
+        "property_id": 271,
+        "apn": "4306-020-018",
+        "address": "9358 W AIRDROME ST",
+        "distance_miles": 0.039,
+        "score": 35.88
+      },
+      {
+        "property_id": 272,
+        "apn": "4306-020-019",
+        "address": "9350 W AIRDROME ST",
+        "distance_miles": 0.033,
+        "score": 36.22
+      },
+      {
+        "property_id": 273,
+        "apn": "4306-020-020",
+        "address": "9342 W AIRDROME ST",
+        "distance_miles": 0.028,
+        "score": 36.84
+      },
+      {
+        "property_id": 274,
+        "apn": "4306-020-021",
+        "address": "9332 W AIRDROME ST",
+        "distance_miles": 0.021,
+        "score": 35.25
+      },
+      {
+        "property_id": 275,
+        "apn": "4306-020-022",
+        "address": "9324 W AIRDROME ST",
+        "distance_miles": 0.015,
+        "score": 36.56
+      },
+      {
+        "property_id": 276,
+        "apn": "4306-020-023",
+        "address": "9316 W AIRDROME ST",
+        "distance_miles": 0.01,
+        "score": 36.43
+      },
+      {
+        "property_id": 277,
+        "apn": "4306-020-024",
+        "address": "9312 W AIRDROME ST",
+        "distance_miles": 0.007,
+        "score": 35.79
+      },
+      {
+        "property_id": 278,
+        "apn": "4306-020-025",
+        "address": "9300 W AIRDROME ST",
+        "distance_miles": 0.001,
+        "score": 35.83
+      },
+      {
+        "property_id": 279,
+        "apn": "4306-021-001",
+        "address": "9312 W MONTE MAR DR",
+        "distance_miles": 0.007,
+        "score": 35.71
+      },
+      {
+        "property_id": 280,
+        "apn": "4306-021-002",
+        "address": "9306 W MONTE MAR DR",
+        "distance_miles": 0.003,
+        "score": 35.86
+      },
+      {
+        "property_id": 281,
+        "apn": "4306-021-003",
+        "address": "9300 W MONTE MAR DR",
+        "distance_miles": 0.001,
+        "score": 36.93
+      },
+      {
+        "property_id": 282,
+        "apn": "4306-021-004",
+        "address": "9280 W MONTE MAR DR",
+        "distance_miles": 0.015,
+        "score": 35.4
+      },
+      {
+        "property_id": 283,
+        "apn": "4306-021-005",
+        "address": "9276 W MONTE MAR DR",
+        "distance_miles": 0.018,
+        "score": 36.75
+      },
+      {
+        "property_id": 284,
+        "apn": "4306-021-006",
+        "address": "9268 W MONTE MAR DR",
+        "distance_miles": 0.023,
+        "score": 36.2
+      },
+      {
+        "property_id": 285,
+        "apn": "4306-021-007",
+        "address": "9260 W MONTE MAR DR",
+        "distance_miles": 0.029,
+        "score": 35.58
+      },
+      {
+        "property_id": 286,
+        "apn": "4306-021-008",
+        "address": "9250 W MONTE MAR DR",
+        "distance_miles": 0.036,
+        "score": 38.03
+      },
+      {
+        "property_id": 287,
+        "apn": "4306-021-009",
+        "address": "9301 W KIRKSIDE RD",
+        "distance_miles": 0.001,
+        "score": 36.55
+      },
+      {
+        "property_id": 288,
+        "apn": "4306-021-010",
+        "address": "9307 W KIRKSIDE RD",
+        "distance_miles": 0.003,
+        "score": 36.63
+      },
+      {
+        "property_id": 289,
+        "apn": "4306-021-011",
+        "address": "9311 W KIRKSIDE RD",
+        "distance_miles": 0.006,
+        "score": 36.25
+      },
+      {
+        "property_id": 292,
+        "apn": "4306-021-014",
+        "address": "9327 W KIRKSIDE RD",
+        "distance_miles": 0.017,
+        "score": 35.55
+      },
+      {
+        "property_id": 293,
+        "apn": "4306-021-015",
+        "address": "9333 W KIRKSIDE RD",
+        "distance_miles": 0.021,
+        "score": 35.54
+      },
+      {
+        "property_id": 294,
+        "apn": "4306-022-001",
+        "address": "9420 W MONTE MAR DR",
+        "distance_miles": 0.081,
+        "score": 38.66
+      },
+      {
+        "property_id": 295,
+        "apn": "4306-022-002",
+        "address": "9414 W MONTE MAR DR",
+        "distance_miles": 0.077,
+        "score": 37.0
+      },
+      {
+        "property_id": 296,
+        "apn": "4306-022-003",
+        "address": "9408 W MONTE MAR DR",
+        "distance_miles": 0.073,
+        "score": 36.77
+      },
+      {
+        "property_id": 297,
+        "apn": "4306-022-004",
+        "address": "9404 W MONTE MAR DR",
+        "distance_miles": 0.07,
+        "score": 35.48
+      },
+      {
+        "property_id": 298,
+        "apn": "4306-022-005",
+        "address": "9374 W MONTE MAR DR",
+        "distance_miles": 0.05,
+        "score": 36.48
+      },
+      {
+        "property_id": 299,
+        "apn": "4306-022-006",
+        "address": "9368 W MONTE MAR DR",
+        "distance_miles": 0.046,
+        "score": 35.51
+      },
+      {
+        "property_id": 300,
+        "apn": "4306-022-007",
+        "address": "9362 W MONTE MAR DR",
+        "distance_miles": 0.041,
+        "score": 36.5
+      },
+      {
+        "property_id": 301,
+        "apn": "4306-022-008",
+        "address": "9356 W MONTE MAR DR",
+        "distance_miles": 0.037,
+        "score": 35.55
+      },
+      {
+        "property_id": 302,
+        "apn": "4306-022-009",
+        "address": "9350 W MONTE MAR DR",
+        "distance_miles": 0.033,
+        "score": 36.56
+      },
+      {
+        "property_id": 303,
+        "apn": "4306-022-010",
+        "address": "9344 W MONTE MAR DR",
+        "distance_miles": 0.029,
+        "score": 35.1
+      },
+      {
+        "property_id": 304,
+        "apn": "4306-022-011",
+        "address": "9338 W MONTE MAR DR",
+        "distance_miles": 0.025,
+        "score": 36.62
+      },
+      {
+        "property_id": 305,
+        "apn": "4306-022-012",
+        "address": "9332 W MONTE MAR DR",
+        "distance_miles": 0.021,
+        "score": 35.12
+      },
+      {
+        "property_id": 306,
+        "apn": "4306-022-013",
+        "address": "9326 W MONTE MAR DR",
+        "distance_miles": 0.017,
+        "score": 36.61
+      },
+      {
+        "property_id": 307,
+        "apn": "4306-022-014",
+        "address": "9320 W MONTE MAR DR",
+        "distance_miles": 0.012,
+        "score": 35.51
+      },
+      {
+        "property_id": 309,
+        "apn": "4306-022-016",
+        "address": "9339 W KIRKSIDE RD",
+        "distance_miles": 0.026,
+        "score": 35.78
+      },
+      {
+        "property_id": 310,
+        "apn": "4306-022-017",
+        "address": "9345 W KIRKSIDE RD",
+        "distance_miles": 0.03,
+        "score": 36.64
+      },
+      {
+        "property_id": 311,
+        "apn": "4306-022-018",
+        "address": "9349 W KIRKSIDE RD",
+        "distance_miles": 0.032,
+        "score": 36.09
+      },
+      {
+        "property_id": 312,
+        "apn": "4306-022-019",
+        "address": "9355 W KIRKSIDE RD",
+        "distance_miles": 0.037,
+        "score": 35.06
+      },
+      {
+        "property_id": 313,
+        "apn": "4306-022-020",
+        "address": "9401 W KIRKSIDE RD",
+        "distance_miles": 0.068,
+        "score": 35.06
+      },
+      {
+        "property_id": 314,
+        "apn": "4306-022-021",
+        "address": "9407 W KIRKSIDE RD",
+        "distance_miles": 0.072,
+        "score": 36.06
+      },
+      {
+        "property_id": 315,
+        "apn": "4306-022-022",
+        "address": "9411 W KIRKSIDE RD",
+        "distance_miles": 0.075,
+        "score": 35.56
+      },
+      {
+        "property_id": 316,
+        "apn": "4306-022-023",
+        "address": "9417 W KIRKSIDE RD",
+        "distance_miles": 0.079,
+        "score": 35.53
+      },
+      {
+        "property_id": 317,
+        "apn": "4306-022-024",
+        "address": "9423 W KIRKSIDE RD",
+        "distance_miles": 0.083,
+        "score": 35.81
+      },
+      {
+        "property_id": 318,
+        "apn": "4306-022-025",
+        "address": "9429 W KIRKSIDE RD",
+        "distance_miles": 0.088,
+        "score": 35.81
+      },
+      {
+        "property_id": 319,
+        "apn": "4306-022-026",
+        "address": "9435 W KIRKSIDE RD",
+        "distance_miles": 0.092,
+        "score": 35.54
+      },
+      {
+        "property_id": 320,
+        "apn": "4306-022-027",
+        "address": "9441 W KIRKSIDE RD",
+        "distance_miles": 0.096,
+        "score": 36.66
+      },
+      {
+        "property_id": 399,
+        "apn": "4306-025-002",
+        "address": "9436 W KIRKSIDE RD",
+        "distance_miles": 0.092,
+        "score": 36.67
+      },
+      {
+        "property_id": 400,
+        "apn": "4306-025-003",
+        "address": "9430 W KIRKSIDE RD",
+        "distance_miles": 0.088,
+        "score": 36.55
+      },
+      {
+        "property_id": 401,
+        "apn": "4306-025-004",
+        "address": "9424 W KIRKSIDE RD",
+        "distance_miles": 0.084,
+        "score": 36.4
+      }
+    ],
+    "total_lot_size_sqft": 531494.7,
+    "avg_assembly_score": 36.32,
+    "total_assessed_value": 111182956.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "West Los Angeles",
+    "neighborhood_council": "South Robertson",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_002",
+    "property_count": 65,
+    "primary_property_id": 30,
+    "primary_apn": "4306-027-001",
+    "primary_address": "9500 W OAKMORE RD",
+    "nearby_properties": [
+      {
+        "property_id": 56,
+        "apn": "4306-027-027",
+        "address": "9632 W OAKMORE RD",
+        "distance_miles": 0.091,
+        "score": 35.75
+      },
+      {
+        "property_id": 57,
+        "apn": "4306-027-028",
+        "address": "9636 W OAKMORE RD",
+        "distance_miles": 0.094,
+        "score": 35.87
+      },
+      {
+        "property_id": 321,
+        "apn": "4306-022-028",
+        "address": "9447 W KIRKSIDE RD",
+        "distance_miles": 0.037,
+        "score": 38.66
+      },
+      {
+        "property_id": 323,
+        "apn": "4306-023-001",
+        "address": "9500 W MONTE MAR DR",
+        "distance_miles": 0.0,
+        "score": 37.87
+      },
+      {
+        "property_id": 324,
+        "apn": "4306-023-002",
+        "address": "9508 W MONTE MAR DR",
+        "distance_miles": 0.006,
+        "score": 36.37
+      },
+      {
+        "property_id": 325,
+        "apn": "4306-023-003",
+        "address": "9514 W MONTE MAR DR",
+        "distance_miles": 0.01,
+        "score": 35.22
+      },
+      {
+        "property_id": 326,
+        "apn": "4306-023-004",
+        "address": "9520 W MONTE MAR DR",
+        "distance_miles": 0.014,
+        "score": 35.27
+      },
+      {
+        "property_id": 328,
+        "apn": "4306-023-006",
+        "address": "9530 W MONTE MAR DR",
+        "distance_miles": 0.021,
+        "score": 35.42
+      },
+      {
+        "property_id": 330,
+        "apn": "4306-023-007",
+        "address": "9536 W MONTE MAR DR",
+        "distance_miles": 0.025,
+        "score": 35.44
+      },
+      {
+        "property_id": 331,
+        "apn": "4306-023-008",
+        "address": "9542 W MONTE MAR DR",
+        "distance_miles": 0.029,
+        "score": 35.78
+      },
+      {
+        "property_id": 332,
+        "apn": "4306-023-009",
+        "address": "9546 W MONTE MAR DR",
+        "distance_miles": 0.032,
+        "score": 35.59
+      },
+      {
+        "property_id": 333,
+        "apn": "4306-023-010",
+        "address": "9555 W KIRKSIDE RD",
+        "distance_miles": 0.038,
+        "score": 35.91
+      },
+      {
+        "property_id": 334,
+        "apn": "4306-023-011",
+        "address": "9543 W KIRKSIDE RD",
+        "distance_miles": 0.03,
+        "score": 36.82
+      },
+      {
+        "property_id": 335,
+        "apn": "4306-023-012",
+        "address": "9537 W KIRKSIDE RD",
+        "distance_miles": 0.026,
+        "score": 36.75
+      },
+      {
+        "property_id": 336,
+        "apn": "4306-023-013",
+        "address": "9531 W KIRKSIDE RD",
+        "distance_miles": 0.021,
+        "score": 36.7
+      },
+      {
+        "property_id": 337,
+        "apn": "4306-023-014",
+        "address": "9527 W KIRKSIDE RD",
+        "distance_miles": 0.019,
+        "score": 35.7
+      },
+      {
+        "property_id": 338,
+        "apn": "4306-023-015",
+        "address": "9521 W KIRKSIDE RD",
+        "distance_miles": 0.014,
+        "score": 36.7
+      },
+      {
+        "property_id": 339,
+        "apn": "4306-023-017",
+        "address": "9505 W KIRKSIDE RD",
+        "distance_miles": 0.003,
+        "score": 36.37
+      },
+      {
+        "property_id": 340,
+        "apn": "4306-023-016",
+        "address": "9515 W KIRKSIDE RD",
+        "distance_miles": 0.01,
+        "score": 35.2
+      },
+      {
+        "property_id": 342,
+        "apn": "4306-023-019",
+        "address": "9501 W KIRKSIDE RD",
+        "distance_miles": 0.001,
+        "score": 38.37
+      },
+      {
+        "property_id": 344,
+        "apn": "4306-023-021",
+        "address": "9600 W MONTE MAR DR",
+        "distance_miles": 0.069,
+        "score": 35.76
+      },
+      {
+        "property_id": 345,
+        "apn": "4306-023-022",
+        "address": "9604 W MONTE MAR DR",
+        "distance_miles": 0.072,
+        "score": 36.98
+      },
+      {
+        "property_id": 346,
+        "apn": "4306-023-023",
+        "address": "9610 W MONTE MAR DR",
+        "distance_miles": 0.076,
+        "score": 36.25
+      },
+      {
+        "property_id": 347,
+        "apn": "4306-023-024",
+        "address": "9616 W MONTE MAR DR",
+        "distance_miles": 0.08,
+        "score": 37.63
+      },
+      {
+        "property_id": 348,
+        "apn": "4306-023-025",
+        "address": "9620 W MONTE MAR DR",
+        "distance_miles": 0.083,
+        "score": 36.51
+      },
+      {
+        "property_id": 349,
+        "apn": "4306-023-026",
+        "address": "9626 W MONTE MAR DR",
+        "distance_miles": 0.087,
+        "score": 36.52
+      },
+      {
+        "property_id": 350,
+        "apn": "4306-023-027",
+        "address": "9632 W MONTE MAR DR",
+        "distance_miles": 0.091,
+        "score": 38.03
+      },
+      {
+        "property_id": 351,
+        "apn": "4306-023-028",
+        "address": "9635 W KIRKSIDE RD",
+        "distance_miles": 0.093,
+        "score": 36.79
+      },
+      {
+        "property_id": 352,
+        "apn": "4306-023-029",
+        "address": "9629 W KIRKSIDE RD",
+        "distance_miles": 0.089,
+        "score": 35.54
+      },
+      {
+        "property_id": 353,
+        "apn": "4306-023-030",
+        "address": "9623 W KIRKSIDE RD",
+        "distance_miles": 0.085,
+        "score": 36.16
+      },
+      {
+        "property_id": 354,
+        "apn": "4306-023-031",
+        "address": "9617 W KIRKSIDE RD",
+        "distance_miles": 0.081,
+        "score": 36.86
+      },
+      {
+        "property_id": 355,
+        "apn": "4306-023-032",
+        "address": "9613 W KIRKSIDE RD",
+        "distance_miles": 0.078,
+        "score": 36.81
+      },
+      {
+        "property_id": 356,
+        "apn": "4306-023-033",
+        "address": "9607 W KIRKSIDE RD",
+        "distance_miles": 0.074,
+        "score": 35.33
+      },
+      {
+        "property_id": 357,
+        "apn": "4306-023-034",
+        "address": "9601 W KIRKSIDE RD",
+        "distance_miles": 0.07,
+        "score": 35.95
+      },
+      {
+        "property_id": 361,
+        "apn": "4306-024-001",
+        "address": "9500 W KIRKSIDE RD",
+        "distance_miles": 0.0,
+        "score": 37.37
+      },
+      {
+        "property_id": 362,
+        "apn": "4306-024-002",
+        "address": "9501 W OAKMORE RD",
+        "distance_miles": 0.001,
+        "score": 38.37
+      },
+      {
+        "property_id": 366,
+        "apn": "4306-024-005",
+        "address": "9508 W KIRKSIDE RD",
+        "distance_miles": 0.006,
+        "score": 36.37
+      },
+      {
+        "property_id": 367,
+        "apn": "4306-024-006",
+        "address": "9514 W KIRKSIDE RD",
+        "distance_miles": 0.01,
+        "score": 37.27
+      },
+      {
+        "property_id": 368,
+        "apn": "4306-024-007",
+        "address": "9520 W KIRKSIDE RD",
+        "distance_miles": 0.014,
+        "score": 35.35
+      },
+      {
+        "property_id": 369,
+        "apn": "4306-024-008",
+        "address": "9526 W KIRKSIDE RD",
+        "distance_miles": 0.018,
+        "score": 35.7
+      },
+      {
+        "property_id": 370,
+        "apn": "4306-024-009",
+        "address": "9532 W KIRKSIDE RD",
+        "distance_miles": 0.022,
+        "score": 35.7
+      },
+      {
+        "property_id": 371,
+        "apn": "4306-024-010",
+        "address": "9538 W KIRKSIDE RD",
+        "distance_miles": 0.026,
+        "score": 36.7
+      },
+      {
+        "property_id": 372,
+        "apn": "4306-024-011",
+        "address": "9542 W KIRKSIDE RD",
+        "distance_miles": 0.029,
+        "score": 35.2
+      },
+      {
+        "property_id": 373,
+        "apn": "4306-024-012",
+        "address": "9548 W KIRKSIDE RD",
+        "distance_miles": 0.033,
+        "score": 35.7
+      },
+      {
+        "property_id": 374,
+        "apn": "4306-024-013",
+        "address": "9551 W OAKMORE RD",
+        "distance_miles": 0.035,
+        "score": 35.7
+      },
+      {
+        "property_id": 375,
+        "apn": "4306-024-014",
+        "address": "9545 W OAKMORE RD",
+        "distance_miles": 0.031,
+        "score": 35.2
+      },
+      {
+        "property_id": 376,
+        "apn": "4306-024-015",
+        "address": "9539 W OAKMORE RD",
+        "distance_miles": 0.027,
+        "score": 35.2
+      },
+      {
+        "property_id": 377,
+        "apn": "4306-024-016",
+        "address": "9533 W OAKMORE RD",
+        "distance_miles": 0.023,
+        "score": 36.7
+      },
+      {
+        "property_id": 378,
+        "apn": "4306-024-017",
+        "address": "9527 W OAKMORE RD",
+        "distance_miles": 0.019,
+        "score": 36.27
+      },
+      {
+        "property_id": 379,
+        "apn": "4306-024-018",
+        "address": "9521 W OAKMORE RD",
+        "distance_miles": 0.014,
+        "score": 36.27
+      },
+      {
+        "property_id": 380,
+        "apn": "4306-024-019",
+        "address": "9515 W OAKMORE RD",
+        "distance_miles": 0.01,
+        "score": 35.77
+      },
+      {
+        "property_id": 381,
+        "apn": "4306-024-020",
+        "address": "9509 W OAKMORE RD",
+        "distance_miles": 0.006,
+        "score": 35.87
+      },
+      {
+        "property_id": 382,
+        "apn": "4306-024-021",
+        "address": "9600 W KIRKSIDE RD",
+        "distance_miles": 0.069,
+        "score": 35.18
+      },
+      {
+        "property_id": 385,
+        "apn": "4306-024-024",
+        "address": "9616 W KIRKSIDE RD",
+        "distance_miles": 0.08,
+        "score": 37.0
+      },
+      {
+        "property_id": 386,
+        "apn": "4306-024-025",
+        "address": "9622 W KIRKSIDE RD",
+        "distance_miles": 0.084,
+        "score": 36.75
+      },
+      {
+        "property_id": 387,
+        "apn": "4306-024-026",
+        "address": "9626 W KIRKSIDE RD",
+        "distance_miles": 0.087,
+        "score": 36.2
+      },
+      {
+        "property_id": 388,
+        "apn": "4306-024-027",
+        "address": "9632 W KIRKSIDE RD",
+        "distance_miles": 0.091,
+        "score": 37.7
+      },
+      {
+        "property_id": 389,
+        "apn": "4306-024-028",
+        "address": "9635 W OAKMORE RD",
+        "distance_miles": 0.093,
+        "score": 36.39
+      },
+      {
+        "property_id": 390,
+        "apn": "4306-024-029",
+        "address": "9631 W OAKMORE RD",
+        "distance_miles": 0.09,
+        "score": 37.0
+      },
+      {
+        "property_id": 392,
+        "apn": "4306-024-030",
+        "address": "9625 W OAKMORE RD",
+        "distance_miles": 0.086,
+        "score": 35.61
+      },
+      {
+        "property_id": 393,
+        "apn": "4306-024-031",
+        "address": "9619 W OAKMORE RD",
+        "distance_miles": 0.082,
+        "score": 35.68
+      },
+      {
+        "property_id": 394,
+        "apn": "4306-024-032",
+        "address": "9613 W OAKMORE RD",
+        "distance_miles": 0.078,
+        "score": 35.63
+      },
+      {
+        "property_id": 395,
+        "apn": "4306-024-033",
+        "address": "9607 W OAKMORE RD",
+        "distance_miles": 0.074,
+        "score": 35.39
+      },
+      {
+        "property_id": 396,
+        "apn": "4306-024-034",
+        "address": "9601 W OAKMORE RD",
+        "distance_miles": 0.07,
+        "score": 36.29
+      }
+    ],
+    "total_lot_size_sqft": 454728.4,
+    "avg_assembly_score": 36.27,
+    "total_assessed_value": 104729438.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "West Los Angeles",
+    "neighborhood_council": "South Robertson",
+    "assembly_potential": "Medium"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_075",
+    "property_count": 2,
+    "primary_property_id": 749,
+    "primary_apn": "5114-001-017",
+    "primary_address": "3441 S PALOMA ST",
+    "nearby_properties": [
+      {
+        "property_id": 769,
+        "apn": "4251-026-011",
+        "address": "3424 S TILDEN AVE",
+        "distance_miles": 0.012,
+        "score": 38.41
+      }
+    ],
+    "total_lot_size_sqft": 7771.0,
+    "avg_assembly_score": 42.62,
+    "total_assessed_value": 1487496.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Southeast Los Angeles",
+    "neighborhood_council": "South Central",
+    "assembly_potential": "Low"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_093",
+    "property_count": 2,
+    "primary_property_id": 983,
+    "primary_apn": "5016-015-906",
+    "primary_address": "4610 S ST ANDREWS PL",
+    "nearby_properties": [
+      {
+        "property_id": 1082,
+        "apn": "5014-005-010",
+        "address": "4511 S 8TH AVE",
+        "distance_miles": 0.068,
+        "score": 41.37
+      }
+    ],
+    "total_lot_size_sqft": 13471.599999999999,
+    "avg_assembly_score": 39.19,
+    "total_assessed_value": 483859.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "South Los Angeles",
+    "neighborhood_council": "Empowerment Congress Central",
+    "assembly_potential": "Low"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_069",
+    "property_count": 2,
+    "primary_property_id": 696,
+    "primary_apn": "5484-026-024",
+    "primary_address": "6125 E OUTLOOK AVE",
+    "nearby_properties": [
+      {
+        "property_id": 1042,
+        "apn": "5480-010-004",
+        "address": "6026 E TIPTON WAY",
+        "distance_miles": 0.068,
+        "score": 38.73
+      }
+    ],
+    "total_lot_size_sqft": 12520.5,
+    "avg_assembly_score": 39.11,
+    "total_assessed_value": 853791.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Northeast Los Angeles",
+    "neighborhood_council": "Historic Highland Park",
+    "assembly_potential": "Low"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_086",
+    "property_count": 2,
+    "primary_property_id": 867,
+    "primary_apn": "2125-026-002",
+    "primary_address": "6806 N CHIMINEAS AVE",
+    "nearby_properties": [
+      {
+        "property_id": 1033,
+        "apn": "2229-003-029",
+        "address": "6850 N SHOSHONE AVE",
+        "distance_miles": 0.03,
+        "score": 37.18
+      }
+    ],
+    "total_lot_size_sqft": 14723.8,
+    "avg_assembly_score": 38.73,
+    "total_assessed_value": 1183868.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Reseda - West Van Nuys",
+    "neighborhood_council": "Reseda",
+    "assembly_potential": "Low"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_076",
+    "property_count": 2,
+    "primary_property_id": 762,
+    "primary_apn": "4258-006-011",
+    "primary_address": "2623 S FEDERAL AVE",
+    "nearby_properties": [
+      {
+        "property_id": 842,
+        "apn": "4256-030-024",
+        "address": "2660 S KELTON AVE",
+        "distance_miles": 0.026,
+        "score": 40.16
+      }
+    ],
+    "total_lot_size_sqft": 11174.0,
+    "avg_assembly_score": 37.93,
+    "total_assessed_value": 2109374.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Palms - Mar Vista - Del Rey",
+    "neighborhood_council": "Mar Vista",
+    "assembly_potential": "Low"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_042",
+    "property_count": 2,
+    "primary_property_id": 583,
+    "primary_apn": "2408-017-014",
+    "primary_address": "8430 N BRADLEY AVE",
+    "nearby_properties": [
+      {
+        "property_id": 863,
+        "apn": "2654-023-046",
+        "address": "8509 N WISNER AVE",
+        "distance_miles": 0.055,
+        "score": 38.7
+      }
+    ],
+    "total_lot_size_sqft": 12240.8,
+    "avg_assembly_score": 37.55,
+    "total_assessed_value": 556304.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Sun Valley - La Tuna Canyon",
+    "neighborhood_council": "Sun Valley",
+    "assembly_potential": "Low"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_012",
+    "property_count": 2,
+    "primary_property_id": 498,
+    "primary_apn": "5033-020-017",
+    "primary_address": "3940 S OLMSTED AVE",
+    "nearby_properties": [
+      {
+        "property_id": 886,
+        "apn": "5113-029-907",
+        "address": "4027 S WOODLAWN AVE",
+        "distance_miles": 0.06,
+        "score": 36.85
+      }
+    ],
+    "total_lot_size_sqft": 12760.5,
+    "avg_assembly_score": 37.5,
+    "total_assessed_value": 525458.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "West Adams - Baldwin Hills - Leimert",
+    "neighborhood_council": "Empowerment Congress West",
+    "assembly_potential": "Low"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_094",
+    "property_count": 2,
+    "primary_property_id": 999,
+    "primary_apn": "4422-020-008",
+    "primary_address": "15417 W BESTOR BLVD",
+    "nearby_properties": [
+      {
+        "property_id": 1022,
+        "apn": "2660-009-009",
+        "address": "15437 W SEPTO ST",
+        "distance_miles": 0.014,
+        "score": 38.57
+      }
+    ],
+    "total_lot_size_sqft": 16910.2,
+    "avg_assembly_score": 37.01,
+    "total_assessed_value": 2473771.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Brentwood - Pacific Palisades",
+    "neighborhood_council": NaN,
+    "assembly_potential": "Low"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_054",
+    "property_count": 2,
+    "primary_property_id": 632,
+    "primary_apn": "2523-015-031",
+    "primary_address": "13403 W CORNELIUS ST",
+    "nearby_properties": [
+      {
+        "property_id": 679,
+        "apn": "2625-031-011",
+        "address": "13534 W BROMWICH ST",
+        "distance_miles": 0.09,
+        "score": 35.14
+      }
+    ],
+    "total_lot_size_sqft": 11704.1,
+    "avg_assembly_score": 36.87,
+    "total_assessed_value": 465698.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Arleta - Pacoima",
+    "neighborhood_council": "Pacoima",
+    "assembly_potential": "Low"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_049",
+    "property_count": 2,
+    "primary_property_id": 614,
+    "primary_apn": "2314-004-019",
+    "primary_address": "11127 W CANTARA ST",
+    "nearby_properties": [
+      {
+        "property_id": 998,
+        "apn": "4215-006-018",
+        "address": "11129 W LUCERNE AVE",
+        "distance_miles": 0.001,
+        "score": 37.19
+      }
+    ],
+    "total_lot_size_sqft": 18462.7,
+    "avg_assembly_score": 36.44,
+    "total_assessed_value": 355903.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Sun Valley - La Tuna Canyon",
+    "neighborhood_council": "Sun Valley",
+    "assembly_potential": "Low"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_065",
+    "property_count": 2,
+    "primary_property_id": 683,
+    "primary_apn": "2116-016-007",
+    "primary_address": "7409 N TAMPA AVE",
+    "nearby_properties": [
+      {
+        "property_id": 940,
+        "apn": "2316-019-007",
+        "address": "7408 N KRAFT AVE",
+        "distance_miles": 0.001,
+        "score": 35.99
+      }
+    ],
+    "total_lot_size_sqft": 19848.0,
+    "avg_assembly_score": 36.38,
+    "total_assessed_value": 658951.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Reseda - West Van Nuys",
+    "neighborhood_council": "Reseda",
+    "assembly_potential": "Low"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_077",
+    "property_count": 2,
+    "primary_property_id": 765,
+    "primary_apn": "2531-018-022",
+    "primary_address": "11474 N PRAGER AVE",
+    "nearby_properties": [
+      {
+        "property_id": 1084,
+        "apn": "2530-033-008",
+        "address": "11428 N FENTON AVE",
+        "distance_miles": 0.032,
+        "score": 36.43
+      }
+    ],
+    "total_lot_size_sqft": 15860.900000000001,
+    "avg_assembly_score": 36.23,
+    "total_assessed_value": 645698.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Sunland - Tujunga - Lake View Terrace - Shadow Hills - East La Tuna Canyon",
+    "neighborhood_council": "Foothill Trails District",
+    "assembly_potential": "Low"
+  },
+  {
+    "opportunity_id": "ASSEMBLY_091",
+    "property_count": 2,
+    "primary_property_id": 924,
+    "primary_apn": "2669-005-012",
+    "primary_address": "15931 W LEMARSH ST",
+    "nearby_properties": [
+      {
+        "property_id": 1014,
+        "apn": "2667-012-020",
+        "address": "15830 W HORACE ST",
+        "distance_miles": 0.07,
+        "score": 35.62
+      }
+    ],
+    "total_lot_size_sqft": 16184.2,
+    "avg_assembly_score": 35.61,
+    "total_assessed_value": 268916.0,
+    "zoning_consistency": true,
+    "same_street": false,
+    "community_plan_area": "Granada Hills - Knollwood",
+    "neighborhood_council": "Granada Hills South",
+    "assembly_potential": "Low"
+  }
+]

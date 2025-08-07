@@ -1,0 +1,123 @@
+DEALGENIE GEOGRAPHIC INTELLIGENCE SUMMARY REPORT
+============================================================
+Generated: 2025-08-06 16:55:17
+
+DATASET OVERVIEW
+------------------------------
+Total Properties Analyzed: 1000
+Properties with Coordinates: 913
+Average Geographic Bonus: 3.59 points
+Max Geographic Bonus: 13.00 points
+
+ENHANCED INVESTMENT TIER DISTRIBUTION
+----------------------------------------
+Tier A: 3 properties (0.3%)
+Tier B: 31 properties (3.1%)
+Tier C: 204 properties (20.4%)
+Tier C+: 80 properties (8.0%)
+Tier D: 682 properties (68.2%)
+
+TOP NEIGHBORHOODS BY ENHANCED SCORE
+----------------------------------------
+ 1. Harbor Gateway
+    Enhanced Score: 55.3
+    Geographic Boost: +9.8 pts
+    Market Tier: Stable
+    Property Count: 4
+
+ 2. Venice
+    Enhanced Score: 52.3
+    Geographic Boost: +8.7 pts
+    Market Tier: Prime Growth
+    Property Count: 3
+
+ 3. San Pedro
+    Enhanced Score: 49.5
+    Geographic Boost: +11.6 pts
+    Market Tier: Stable
+    Property Count: 16
+
+ 4. Boyle Heights
+    Enhanced Score: 49.2
+    Geographic Boost: +8.1 pts
+    Market Tier: Strong Potential
+    Property Count: 12
+
+ 5. South Los Angeles
+    Enhanced Score: 49.1
+    Geographic Boost: +7.9 pts
+    Market Tier: Strong Potential
+    Property Count: 33
+
+ 6. Southeast Los Angeles
+    Enhanced Score: 48.9
+    Geographic Boost: +8.2 pts
+    Market Tier: Strong Potential
+    Property Count: 28
+
+ 7. Wilshire
+    Enhanced Score: 48.9
+    Geographic Boost: +6.8 pts
+    Market Tier: Strong Potential
+    Property Count: 20
+
+ 8. Westwood
+    Enhanced Score: 48.7
+    Geographic Boost: +5.8 pts
+    Market Tier: Strong Potential
+    Property Count: 4
+
+ 9. Silver Lake - Echo Park - Elysian Valley
+    Enhanced Score: 46.7
+    Geographic Boost: +8.9 pts
+    Market Tier: Strong Potential
+    Property Count: 10
+
+10. Hollywood
+    Enhanced Score: 45.8
+    Geographic Boost: +6.2 pts
+    Market Tier: Strong Potential
+    Property Count: 18
+
+ASSEMBLY OPPORTUNITIES SUMMARY
+-----------------------------------
+Total Opportunities Identified: 95
+High Potential: 10
+Medium Potential: 72
+
+TOP 5 HIGH-POTENTIAL ASSEMBLY OPPORTUNITIES:
+1. ASSEMBLY_011
+   Address: 676 W SLAUSON AVE
+   Property Count: 5
+   Avg Score: 58.15
+   Total Lot Size: 28,285.6 sqft
+   Same Street: No
+
+2. ASSEMBLY_005
+   Address: 9786 W PICO BLVD
+   Property Count: 8
+   Avg Score: 57.83
+   Total Lot Size: 65,491.7 sqft
+   Same Street: Yes
+
+3. ASSEMBLY_003
+   Address: 1415 1-20 S PEG PL
+   Property Count: 35
+   Avg Score: 57.34
+   Total Lot Size: 615,312.6 sqft
+   Same Street: No
+
+4. ASSEMBLY_023
+   Address: 404 W 102ND ST
+   Property Count: 8
+   Avg Score: 53.11
+   Total Lot Size: 43,119.3 sqft
+   Same Street: No
+
+5. ASSEMBLY_020
+   Address: 1636 W 66TH ST
+   Property Count: 5
+   Avg Score: 52.66
+   Total Lot Size: 23,730.9 sqft
+   Same Street: No
+
