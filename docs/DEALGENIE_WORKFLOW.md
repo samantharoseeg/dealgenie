@@ -181,15 +181,19 @@ Customize lot size scoring ranges:
 
 ```python
 from scripts.clean_zimas_data import process_full_dataset
+import logging
 
 # Process complete database in batches
-result_df = process_full_dataset(
-    input_db_path='scraper/zimas_ajax_last_half.db',
-    output_csv_path='all_scored_properties.csv',
-    batch_size=10000
-)
-
-print(f"Processed {len(result_df)} total properties")
+try:
+    result_df = process_full_dataset(
+        input_db_path='scraper/zimas_ajax_last_half.db',
+        output_csv_path='all_scored_properties.csv',
+        batch_size=10000
+    )
+    print(f"Processed {len(result_df)} total properties")
+except Exception as e:
+    logging.error(f"Failed to process dataset: {e}")
+    raise
 ```
 
 ### Batch Processing Benefits

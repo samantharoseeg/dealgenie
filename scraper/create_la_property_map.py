@@ -16,10 +16,9 @@ Version: 1.0
 
 import pandas as pd
 import folium
-from folium.plugins import MarkerCluster, HeatMap
 import json
 import logging
-from typing import Dict, List, Tuple
+from typing import Dict, List
 
 logging.basicConfig(
     level=logging.INFO,
@@ -68,18 +67,39 @@ class LAPropertyMapGenerator:
         logger.info("Loading enhanced property data for map visualization...")
         
         # Load properties
-        self.properties_df = pd.read_csv(properties_file)
-        logger.info(f"Loaded {len(self.properties_df)} enhanced properties")
-        
+        try:
+            self.properties_df = pd.read_csv(properties_file)
+            logger.info(f"Loaded {len(self.properties_df)} enhanced properties")
+        except FileNotFoundError:
+            logger.error(f"Properties file not found: {properties_file}")
+            raise
+        except pd.errors.EmptyDataError:
+            logger.error(f"Properties file is empty: {properties_file}")
+            raise
+
         # Load assembly opportunities
-        with open(assembly_file, 'r') as f:
-            self.assembly_opportunities = json.load(f)
-        logger.info(f"Loaded {len(self.assembly_opportunities)} assembly opportunities")
-        
+        try:
+            with open(assembly_file, 'r') as f:
+                self.assembly_opportunities = json.load(f)
+            logger.info(f"Loaded {len(self.assembly_opportunities)} assembly opportunities")
+        except FileNotFoundError:
+            logger.warning(f"Assembly file not found: {assembly_file}")
+            self.assembly_opportunities = []
+        except json.JSONDecodeError as e:
+            logger.error(f"Invalid JSON in assembly file: {e}")
+            raise
+
         # Load neighborhood analysis
-        with open(neighborhood_file, 'r') as f:
-            self.neighborhood_stats = json.load(f)
-        logger.info(f"Loaded analysis for {len(self.neighborhood_stats)} neighborhoods")
+        try:
+            with open(neighborhood_file, 'r') as f:
+                self.neighborhood_stats = json.load(f)
+            logger.info(f"Loaded analysis for {len(self.neighborhood_stats)} neighborhoods")
+        except FileNotFoundError:
+            logger.warning(f"Neighborhood file not found: {neighborhood_file}")
+            self.neighborhood_stats = {}
+        except json.JSONDecodeError as e:
+            logger.error(f"Invalid JSON in neighborhood file: {e}")
+            raise
     
     def create_base_map(self) -> folium.Map:
         """Create base map of LA with appropriate zoom and styling"""

@@ -42,7 +42,7 @@
   "lot_size_thresholds": [
     {
       "min": 20000,
-      "max": Infinity,
+      "max": null,
       "score_range": [
         90,
         100

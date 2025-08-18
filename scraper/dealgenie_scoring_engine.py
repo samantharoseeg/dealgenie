@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 import json
 from typing import Dict, Any, Tuple
 import warnings
@@ -404,8 +403,8 @@ def main():
     # TOC comparison
     print("\nTOC ELIGIBILITY IMPACT:")
     print("-"*50)
-    toc_yes = df_scored[df_scored['toc_eligible'] == True]['development_score']
-    toc_no = df_scored[df_scored['toc_eligible'] == False]['development_score']
+    toc_yes = df_scored[df_scored['toc_eligible']]['development_score']
+    toc_no = df_scored[~df_scored['toc_eligible']]['development_score']
     
     print(f"   TOC Eligible: {toc_yes.mean():.1f} average score (n={len(toc_yes)})")
     print(f"   Not TOC Eligible: {toc_no.mean():.1f} average score (n={len(toc_no)})")
