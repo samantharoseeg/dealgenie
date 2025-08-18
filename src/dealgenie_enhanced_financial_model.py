@@ -9,21 +9,24 @@ import pandas as pd
 import numpy as np
 import requests
 import json
+import os
 import time
+import math
 from datetime import datetime, timedelta
 from pathlib import Path
 import re
 from bs4 import BeautifulSoup
 from typing import Dict, List, Tuple, Optional
 import hashlib
-import pickle
 
 class FreeDataFinancialModel:
     """Enhanced financial modeling using only free data sources"""
     
     def __init__(self):
-        self.cache_dir = Path("/Users/samanthagrant/Desktop/dealgenie/financial_cache")
-        self.cache_dir.mkdir(exist_ok=True)
+        default_cache = Path.home() / ".dealgenie" / "financial_cache"
+        # Allow override via env var, fallback to a portable default under the user's home
+        self.cache_dir = Path(os.getenv("DEALGENIE_CACHE_DIR", str(default_cache)))
+        self.cache_dir.mkdir(parents=True, exist_ok=True)
         
         # Free API keys (all have generous free tiers)
         self.alpha_vantage_key = "demo"  # Replace with free key from alphavantage.co
@@ -184,14 +187,14 @@ class FreeDataFinancialModel:
         """Fetch market trends from Alpha Vantage free API"""
         print("\n📊 Fetching Market Trends (Free API)...")
         
-        cache_file = self.cache_dir / "market_trends.pkl"
+        cache_file = self.cache_dir / "market_trends.json"
         
         # Check cache (free API has rate limits)
         if use_cache and cache_file.exists():
             cache_age = datetime.now() - datetime.fromtimestamp(cache_file.stat().st_mtime)
             if cache_age < timedelta(days=1):
-                with open(cache_file, 'rb') as f:
-                    trends = pickle.load(f)
+                with open(cache_file, 'r') as f:
+                    trends = json.load(f)
                     print("  ✓ Using cached market data")
                     return trends
         
@@ -222,8 +225,8 @@ class FreeDataFinancialModel:
         }
         
         # Cache the results
-        with open(cache_file, 'wb') as f:
-            pickle.dump(trends, f)
+        with open(cache_file, 'w') as f:
+            json.dump(trends, f, indent=2, sort_keys=True)
         
         print("  ✓ Updated market trend data")
         return trends
@@ -311,24 +314,33 @@ class FreeDataFinancialModel:
         soft_costs = adjusted_cost * soft_cost_rate
         
         # Calculate permit fees
-        permit_type = 'residential_new' if 'residential' in project_type else 'commercial_new'
-        permits = self.calculate_permit_fees(permit_type, sqft, zone)
+        permit_type_map = {
+            'residential_low': 'residential_new',
+            'residential_mid': 'residential_new',
+            'residential_high': 'residential_new',
+            'mixed_use': 'mixed_use',
+            'commercial_retail': 'commercial_new',
+            'commercial_office': 'commercial_new',
+            'industrial': 'commercial_new',
+        }
+        permits = self.calculate_permit_fees(permit_type_map.get(project_type, 'residential_new'), sqft, zone)
         
         # Total construction cost
         total_hard = adjusted_cost * sqft
         total_soft = soft_costs * sqft
         total_permits = permits['total']
+        contingency = (total_hard + total_soft) * 0.10
         
         return {
             'hard_costs_psf': adjusted_cost,
             'soft_costs_psf': soft_costs,
             'permit_costs': total_permits,
-            'total_construction': total_hard + total_soft + total_permits,
+            'total_construction': total_hard + total_soft + contingency + total_permits,
             'cost_breakdown': {
                 'hard_costs': total_hard,
                 'soft_costs': total_soft,
                 'permits': total_permits,
-                'contingency': (total_hard + total_soft) * 0.10
+                'contingency': contingency
             },
             'adjustments': {
                 'neighborhood': neighborhood_mult,
@@ -429,7 +441,14 @@ class FreeDataFinancialModel:
                 'industrial': 18
             }
             
-            lease_rate = lease_rates_psf.get('retail', 35)
+            # Map project_type to appropriate lease rate key
+            if project_type == 'commercial_office':
+                rate_key = 'office'
+            elif project_type == 'industrial':
+                rate_key = 'industrial'
+            else:
+                rate_key = 'retail'
+            lease_rate = lease_rates_psf.get(rate_key, 35)
             annual_income = lease_rate * sqft * 0.92  # 92% occupancy
             noi = annual_income * 0.65  # 65% NOI margin
             project_value = noi / 0.06  # 6% cap rate
@@ -517,7 +536,7 @@ class FreeDataFinancialModel:
             project_type = 'mixed_use'
         
         # Calculate unit count for residential
-        unit_count = int(sqft / 850) if 'residential' in project_type else None
+        unit_count = int(max(1, math.ceil(sqft / 850))) if 'residential' in project_type else None
         
         print(f"\n📍 Property: {location}")
         print(f"📐 Size: {sqft:,} sqft")
@@ -636,11 +655,12 @@ class FreeDataFinancialModel:
             result = self.run_enhanced_analysis({
                 'buildable_sqft': test['sqft'],
                 'neighborhood': test['location'],
-                'zoning': 'R4'
+                'zoning': 'R4',
+                'project_type': test['type'],
             })
             
             # Compare results
-            predicted_cost = result['construction_costs']['hard_costs_psf']
+            predicted_cost = result['construction_costs']['total_construction'] / test['sqft']
             cost_accuracy = 100 - abs(predicted_cost - test['actual_cost_psf']) / test['actual_cost_psf'] * 100
             
             predicted_value = result['valuation']['estimated_value']

@@ -47,7 +47,8 @@ dealgenie/
 ├── config/                     # Configuration files
 │   ├── scoring_config.json         # Customizable scoring parameters
 │   └── field_mappings/
-│       └── dealgenie_field_mapping.csv  # Field mapping documentation
+│       ├── dealgenie_field_mapping.csv  # Legacy CSV field mapping
+│       └── zimas_schema_mapping.json    # Current JSON field mapping
 ├── sample_data/                # Sample datasets (1,000 properties)
 │   ├── zimas_property_sample_1000.csv      # Raw ZIMAS data
 │   ├── clean_zimas_ready_for_scoring.csv   # Cleaned data

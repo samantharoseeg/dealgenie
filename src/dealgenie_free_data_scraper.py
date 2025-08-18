@@ -25,7 +25,7 @@ class LAPublicDataScraper:
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
         })
         
-        self.cache_dir = Path("/Users/samanthagrant/Desktop/dealgenie/data_cache")
+        self.cache_dir = Path.cwd() / "data_cache"
         self.cache_dir.mkdir(exist_ok=True, parents=True)
         
     def get_cached_or_fetch(self, url: str, cache_name: str, max_age_hours: int = 24) -> str:
