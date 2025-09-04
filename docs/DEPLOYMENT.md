@@ -213,6 +213,19 @@ spec:
         image: ghcr.io/your-org/dealgenie:1.2.3 # or use a SHA digest
         ports:
         - containerPort: 8000
+        resources:
+          requests:
+            cpu: "250m"
+            memory: "256Mi"
+          limits:
+            cpu: "1"
+            memory: "1Gi"
+        securityContext:
+          runAsNonRoot: true
+          allowPrivilegeEscalation: false
+          readOnlyRootFilesystem: true
+          capabilities:
+            drop: ["ALL"]
         env:
         - name: REDIS_URL
           value: "redis://redis-service:6379"
@@ -325,10 +338,14 @@ Configure log rotation in `/etc/logrotate.d/dealgenie`:
     notifempty
     create 0644 dealgenie dealgenie
     postrotate
-        systemctl reload dealgenie
+        systemctl restart dealgenie
     endscript
 }
 ```
+
+**Note**: Ensure log directory matches your `LOG_FILE_PATH` setting:
+- If using `LOG_FILE_PATH=logs/dealgenie.log`, update logrotate to `logs/*.log`
+- Or update config to `LOG_FILE_PATH=/var/log/dealgenie/dealgenie.log` and create directory
 
 ### Database Maintenance
 
@@ -420,7 +437,9 @@ free -h
 top -p $(pgrep -f dealgenie)
 
 # Check for memory leaks
-python3 -m memory_profiler scripts/performance_monitor.sh
+# Profile Python scripts with memory_profiler
+mprof run -o mprof_dealgenie.dat python3 scripts/performance_monitor.py
+mprof plot mprof_dealgenie.dat
 ```
 
 #### Database Connection Issues

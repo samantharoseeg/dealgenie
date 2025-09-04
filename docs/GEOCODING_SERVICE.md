@@ -59,7 +59,7 @@ redis-cli ping  # Should return PONG
 
 ```python
 import asyncio
-from src.geocoding import HierarchicalGeocoder
+from geocoding.geocoder import HierarchicalGeocoder
 
 async def main():
     # Initialize with optional Google API key
@@ -109,7 +109,7 @@ asyncio.run(batch_example())
 ### Synchronous Wrappers
 
 ```python
-from src.geocoding import geocode_address, geocode_addresses
+from geocoding.geocoder import geocode_address, geocode_addresses
 
 # Single address
 result = geocode_address("123 Main St, Los Angeles, CA")
@@ -343,8 +343,8 @@ results = await geocoder.geocode_batch(
 ### ETL Pipeline Usage
 
 ```python
-from src.geocoding import HierarchicalGeocoder
-from src.normalization import AddressParser
+from geocoding.geocoder import HierarchicalGeocoder
+from normalization.address_parser import AddressParser
 
 async def process_properties(raw_addresses):
     parser = AddressParser()
