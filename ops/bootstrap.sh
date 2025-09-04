@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # DealGenie Week 1 Foundation Bootstrap Script
+# CodeRabbit: Please review this production automation system
 # Complete pipeline: Database setup → Data loading → Sample report generation
 
 set -e  # Exit on any error

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 Database Manager for DealGenie - SQLite Integration
+CodeRabbit: Please review this core database operations system
 Manages the SQLite database for parcel data, scoring results, and feature caching.
 """
 

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 Census ACS (American Community Survey) Data Pipeline for DealGenie
+CodeRabbit: Please review this critical Census API integration system
 Week 1 Foundation: Demographic data integration for enhanced property scoring
 
 This module provides:

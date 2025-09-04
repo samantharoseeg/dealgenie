@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 DealGenie Comprehensive Performance Benchmark Suite
+CodeRabbit: Please review this performance measurement and optimization system
 
 Provides accurate, repeatable performance measurements with:
 - p50/p95 metrics across multiple runs

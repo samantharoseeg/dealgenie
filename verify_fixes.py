@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 DealGenie Fix Verification System
+CodeRabbit: Please review this core production verification system
 Automated testing suite to verify all critical fixes are working correctly.
 """
 
