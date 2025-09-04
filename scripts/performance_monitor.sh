@@ -1,12 +1,15 @@
 #!/bin/bash
 # scripts/performance_monitor.sh
 
+set -euo pipefail
 echo "=== Performance Monitor ==="
 python3 -c "
 import time
 import asyncio
-from src.normalization.address_parser import AddressParser
-from src.geocoding.geocoder import HierarchicalGeocoder
+import sys
+sys.path.insert(0, 'src')
+from normalization.address_parser import AddressParser
+from geocoding.geocoder import HierarchicalGeocoder
 
 async def monitor():
     parser = AddressParser()

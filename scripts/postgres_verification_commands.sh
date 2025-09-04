@@ -3,7 +3,7 @@
 # Run these commands to verify your migration worked correctly
 
 echo "🔍 DealGenie Week 2 PostgreSQL Migration Verification"
-echo "=" * 60
+printf '=%.0s' {1..60}; echo
 
 # Check if DATABASE_URL is set
 if [ -z "$DATABASE_URL" ]; then

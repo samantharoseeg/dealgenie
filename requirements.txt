@@ -65,7 +65,7 @@ pytest-asyncio>=0.21.0  # Async testing support
 # ===== SYSTEM REQUIREMENTS =====
 # Minimum Python Version: 3.8+
 # Recommended: Python 3.11+
-# Tested on: Python 3.13.7
+# Tested on: Python 3.11.2
 
 # Redis Server (for caching):
 #   macOS: brew install redis && brew services start redis
