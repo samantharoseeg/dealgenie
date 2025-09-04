@@ -25,8 +25,14 @@ DealGenie is a comprehensive real estate analysis system that scores and ranks L
 
 ## 🚀 Quick Start (30 seconds)
 
-### One-Command Setup
+### Installation & Setup
 ```bash
+# Install DealGenie package (recommended)
+pip install -e .
+
+# Or set PYTHONPATH for development
+export PYTHONPATH=$(pwd)/src:$PYTHONPATH
+
 # Complete pipeline: setup + analysis + 15 HTML reports
 make bootstrap
 

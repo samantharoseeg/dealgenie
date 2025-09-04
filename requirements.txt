@@ -23,9 +23,8 @@ shapely>=1.8.0
 # Async HTTP Client for Geocoding APIs
 aiohttp>=3.8.0
 
-# Redis Caching for Performance
-aioredis>=2.0.0        # Async Redis client
-redis>=4.5.0           # Sync Redis client
+# Redis Caching for Performance (sync + asyncio in one package)
+redis>=5.0.0
 
 # HTTP Client for API Integration
 requests>=2.31.0

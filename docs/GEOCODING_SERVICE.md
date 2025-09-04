@@ -269,7 +269,7 @@ print(stats)
     'google_success': 150,
     'failures': 50,
     'cache_hit_rate': 0.30,
-    'success_rate': 0.95,
+    'success_rate': 0.65,
     'nominatim_circuit_breaker_state': 'closed',
     'google_circuit_breaker_state': 'closed',
     'google_daily_quota_used': 150
@@ -370,15 +370,24 @@ async def process_properties(raw_addresses):
 ### Database Integration
 
 ```sql
--- Add geocoding results to properties table
-ALTER TABLE properties ADD COLUMN latitude DECIMAL(10, 8);
-ALTER TABLE properties ADD COLUMN longitude DECIMAL(11, 8);
-ALTER TABLE properties ADD COLUMN geocoding_confidence DECIMAL(3, 2);
-ALTER TABLE properties ADD COLUMN geocoding_provider VARCHAR(20);
-ALTER TABLE properties ADD COLUMN geocoded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP;
+-- PostGIS recommended approach (spatial types)
+-- Coordinates as a spatial column
+ALTER TABLE properties
+  ADD COLUMN geom geometry(Point, 4326),
+  ADD COLUMN geocoding_confidence NUMERIC(3, 2),
+  ADD COLUMN geocoding_provider VARCHAR(20),
+  ADD COLUMN geocoded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP;
 
--- Create spatial index for geographic queries
-CREATE INDEX idx_properties_location ON properties(latitude, longitude);
+-- Backfill geom if latitude/longitude columns already exist
+-- UPDATE properties SET geom = ST_SetSRID(ST_MakePoint(longitude, latitude), 4326) WHERE geom IS NULL;
+
+-- Spatial index
+CREATE INDEX idx_properties_geom_gist ON properties USING GIST (geom);
+
+-- Fallback (no PostGIS):
+-- ALTER TABLE properties ADD COLUMN latitude  NUMERIC(10,8);
+-- ALTER TABLE properties ADD COLUMN longitude NUMERIC(11,8);
+-- CREATE INDEX idx_properties_lat_lon ON properties(latitude, longitude);
 ```
 
 ## Testing
@@ -428,17 +437,26 @@ async def integration_test():
 ### Docker Configuration
 
 ```dockerfile
-# Add to your Dockerfile
-RUN pip install aiohttp requests redis
+# Dockerfile
+FROM python:3.11-slim
+RUN pip install --no-cache-dir aiohttp requests redis
+COPY . /app
+WORKDIR /app
+```
 
-# Redis service
+```yaml
+# docker-compose.yml
+version: "3.8"
 services:
+  app:
+    build: .
+    depends_on: [redis]
   redis:
     image: redis:alpine
-    ports:
-      - "6379:6379"
-    volumes:
-      - redis_data:/data
+    ports: ["6379:6379"]
+    volumes: ["redis_data:/data"]
+volumes:
+  redis_data: {}
 ```
 
 ### Scaling Considerations
