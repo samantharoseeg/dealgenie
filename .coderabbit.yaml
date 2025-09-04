@@ -1,0 +1,192 @@
+# CodeRabbit Configuration for DealGenie Real Estate Analysis System
+# Optimized for production-ready real estate development scoring platform
+
+# Language and framework configuration
+language: python
+python_version: "3.8+"
+
+# Review focus areas specific to DealGenie architecture
+reviews:
+  # High priority areas for this real estate analysis system
+  high_priority:
+    - performance
+    - data_processing
+    - api_integration
+    - database_design
+    - security
+    
+  # Request specific analysis for real estate domain
+  request_changes_for:
+    - potential_data_leaks
+    - performance_regressions
+    - security_vulnerabilities
+    - api_rate_limit_issues
+    - memory_leaks
+    - sql_injection_risks
+
+  # Auto-approve minor changes (reduce noise)
+  auto_approve:
+    - documentation_updates
+    - code_formatting
+    - type_hint_additions
+    - import_sorting
+    - comment_improvements
+
+# Path-specific review instructions
+path_instructions:
+  # Core feature extraction engine - critical performance path
+  "features/csv_feature_matrix.py":
+    - "Focus on CSV processing performance and memory efficiency"
+    - "Review streaming vs batch processing trade-offs"
+    - "Check for potential bottlenecks with 369K+ parcel dataset"
+    - "Validate error handling for malformed CSV data"
+    
+  # Multi-template scoring system - business logic core
+  "scoring/engine.py":
+    - "Review scoring algorithm accuracy and consistency"
+    - "Check for bias in real estate development analysis"
+    - "Validate penalty system calibration"
+    - "Ensure explainable AI principles in scoring"
+    
+  # Census API integration - external dependency management
+  "ingest/census_acs.py":
+    - "Review API rate limiting and error handling"
+    - "Check for PII exposure in demographic data"
+    - "Validate caching strategy efficiency" 
+    - "Ensure graceful degradation when API unavailable"
+    
+  # Database layer - scalability and performance
+  "db/":
+    - "Review SQLite vs PostgreSQL architecture decision"
+    - "Check query performance and indexing strategy"
+    - "Validate schema design for real estate data"
+    - "Assess migration path complexity"
+    
+  # CLI and automation - user experience
+  "cli/":
+    - "Review command-line interface usability"
+    - "Check input validation and error messages"
+    - "Validate batch processing capabilities"
+    
+  # HTML report generation - output quality
+  "scripts/generate_bootstrap_reports.py":
+    - "Review HTML template security (XSS prevention)"
+    - "Check report accuracy and completeness"
+    - "Validate professional presentation quality"
+
+# Domain-specific knowledge areas for better reviews
+knowledge_areas:
+  - real_estate_analysis
+  - property_development
+  - geospatial_data
+  - demographic_analysis
+  - financial_modeling
+  - regulatory_compliance
+  - data_privacy
+  - census_data
+  - zoning_regulations
+
+# Performance-critical files requiring extra scrutiny
+performance_critical:
+  - "features/csv_feature_matrix.py"
+  - "scoring/engine.py"
+  - "ingest/census_acs.py"
+  - "ops/bootstrap.sh"
+
+# Security-sensitive areas
+security_sensitive:
+  - "ingest/census_acs.py"  # API key handling
+  - "db/"                   # Database operations
+  - "scripts/"              # HTML generation (XSS risks)
+
+# Files that need domain expertise
+domain_specific:
+  - "scoring/engine.py"                    # Real estate scoring logic
+  - "features/csv_feature_matrix.py"      # Property feature extraction
+  - "scoring/constraints/"                 # Zoning and regulatory rules
+  - "docs/feature_dictionary.md"          # Real estate terminology
+
+# Custom review prompts for real estate context
+review_prompts:
+  performance: |
+    This is a real estate analysis system processing 369,703 LA County parcels.
+    Current benchmarks: 15.9 parcels/second median throughput.
+    Focus on:
+    - CSV streaming efficiency (581MB file)
+    - Memory usage during batch processing
+    - API rate limiting for Census data
+    - Database query optimization
+    - Bottlenecks that could affect user experience
+    
+  security: |
+    Real estate data contains sensitive information:
+    - Property addresses and assessments are public records
+    - Demographic data must be handled carefully
+    - Census API keys need protection
+    - HTML reports must prevent XSS
+    - Database queries must prevent injection
+    - No PII should be exposed or logged
+    
+  architecture: |
+    Key architecture decisions to review:
+    - CSV-first vs database-first processing (chosen: CSV-first)
+    - SQLite vs PostgreSQL (chosen: SQLite for MVP)
+    - Multi-template scoring system design
+    - Caching strategy for performance
+    - Scalability for multi-county expansion
+    - External API integration patterns
+    
+  data_quality: |
+    Data quality is critical for real estate investment decisions:
+    - Feature extraction accuracy from 210 CSV columns
+    - Address normalization and geocoding
+    - Zoning code standardization (32 LA County types)
+    - Census tract mapping via ZIP approximation
+    - Missing data imputation strategies
+    - Validation of calculated fields
+
+# Ignore patterns for review efficiency
+ignore_patterns:
+  - "out/"                    # Generated HTML reports
+  - "scraper/dealgenie/venv/" # Virtual environment
+  - "**/*.csv"               # Large data files
+  - "**/*.db"                # Database files
+  - "__pycache__/"           # Python cache
+  - "*.pyc"                  # Compiled Python
+  - ".git/"                  # Git metadata
+
+# Summary instructions for comprehensive reviews
+summary_instructions: |
+  DealGenie is a production-ready real estate development scoring system analyzing 
+  369,703 LA County properties. Key review priorities:
+  
+  1. PERFORMANCE: System must maintain 15+ parcels/second throughput
+  2. ACCURACY: Real estate investment decisions depend on data quality  
+  3. SCALABILITY: Architecture should support multi-county expansion
+  4. SECURITY: Handle property data responsibly, protect API keys
+  5. MAINTAINABILITY: Code quality for ongoing development
+  
+  Focus on business impact: This system helps real estate investors, developers,
+  and financial institutions make data-driven property development decisions.
+
+# Additional review settings
+settings:
+  # Enable detailed explanations for real estate domain
+  enable_explanations: true
+  
+  # Request specific suggestions for improvement
+  suggest_improvements: true
+  
+  # Focus on production readiness
+  production_ready_checks: true
+  
+  # Enable security scanning
+  security_scan: true
+  
+  # Check for common real estate data issues
+  domain_checks:
+    - coordinate_validation
+    - address_normalization  
+    - zoning_compliance
+    - assessment_accuracy
+    - demographic_privacy
