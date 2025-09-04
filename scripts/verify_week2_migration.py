@@ -112,7 +112,8 @@ def show_table_counts():
     
     for table in tables:
         try:
-            cursor.execute(f"SELECT COUNT(*) FROM {table}")
+            safe = table.replace('"', '""')
+            cursor.execute(f'SELECT COUNT(*) FROM "{safe}"')
             count = cursor.fetchone()[0]
             print(f"{table:<25} {count:>10,} records")
         except Exception as e:

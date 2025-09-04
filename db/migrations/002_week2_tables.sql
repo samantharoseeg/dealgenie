@@ -5,6 +5,8 @@
 
 BEGIN TRANSACTION;
 
+PRAGMA foreign_keys=ON;
+
 -- ==============================================================================
 -- 1. ETL AUDIT TABLE - Data Provenance Tracking
 -- ==============================================================================
@@ -15,7 +17,7 @@ CREATE TABLE IF NOT EXISTS etl_audit (
     -- Process identification
     process_name VARCHAR(100) NOT NULL,           -- 'census_acs_ingest', 'permit_scraper', etc.
     process_version VARCHAR(20),                  -- Version of the ETL process
-    run_id VARCHAR(50) NOT NULL,                  -- Unique identifier for this run
+    run_id VARCHAR(50) NOT NULL UNIQUE,           -- Unique identifier for this run
     
     -- Execution tracking
     started_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,

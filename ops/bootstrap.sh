@@ -102,7 +102,8 @@ CREATE TABLE IF NOT EXISTS parcel_scores (
     market_score REAL, development_score REAL, financial_score REAL,
     scoring_algorithm TEXT, explanation TEXT, recommendations TEXT,
     computation_time_ms INTEGER, feature_cache_hit INTEGER,
-    scored_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    scored_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (apn) REFERENCES parcels(apn)
 )
 ''')
 cursor.execute('''
@@ -119,6 +120,47 @@ CREATE TABLE IF NOT EXISTS feature_cache (
     PRIMARY KEY (apn, template)
 )
 ''')
+
+# Insert baseline zoning codes
+cursor.executemany('''
+INSERT OR IGNORE INTO zoning_codes (code, description) VALUES (?, ?)
+''', [
+    ('R1', 'Single-Family Residential'),
+    ('R2', 'Two-Family Residential'), 
+    ('R3', 'Multiple Residential'),
+    ('R4', 'Multiple Residential'),
+    ('R5', 'Multiple Residential'),
+    ('RD1.5', 'Restricted Density Multiple Residential'),
+    ('RD2', 'Restricted Density Multiple Residential'),
+    ('RD3', 'Restricted Density Multiple Residential'),
+    ('RD4', 'Restricted Density Multiple Residential'),
+    ('RD5', 'Restricted Density Multiple Residential'),
+    ('RD6', 'Restricted Density Multiple Residential'),
+    ('RAS3', 'Residential Accessory Services'),
+    ('RAS4', 'Residential Accessory Services'),
+    ('RW1', 'Residential Waterways'),
+    ('RW2', 'Residential Waterways'),
+    ('A1', 'Agricultural Zone'),
+    ('A2', 'Agricultural Zone'),
+    ('RA', 'Residential Agricultural'),
+    ('RE', 'Residential Estate'),
+    ('RS', 'Suburban'),
+    ('R1V', 'Single-Family Variable'),
+    ('R1H', 'Single-Family Hillside'),
+    ('C1', 'Limited Commercial'),
+    ('C1.5', 'Limited Commercial'),
+    ('C2', 'Commercial'),
+    ('C4', 'Commercial'),
+    ('C5', 'Commercial Manufacturing'),
+    ('CR', 'Commercial Residential'),
+    ('P', 'Parking'),
+    ('PB', 'Public Benefit'),
+    ('M1', 'Light Manufacturing'),
+    ('M2', 'Heavy Manufacturing'),
+    ('M3', 'Heavy Manufacturing'),
+    ('MR1', 'Restricted Industrial'),
+    ('MR2', 'Restricted Industrial')
+])
 
 conn.commit()
 conn.close()

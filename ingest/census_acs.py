@@ -371,14 +371,15 @@ class CensusACSPipeline:
         cursor = conn.cursor()
         
         # Check if we have recent cached data
-        cursor.execute(f'''
+        max_age_hours = int(max(1, min(int(max_age_hours), 24 * 30)))
+        cursor.execute('''
             SELECT variable_data FROM census_tract_cache 
             WHERE state_code = ? AND county_code = ? AND tract_code = ?
-              AND data_vintage = 2022
-              AND datetime(fetched_at) > datetime('now', '-{max_age_hours} hours')
+              AND data_vintage = ?
+              AND datetime(fetched_at) > datetime('now', ?)
               AND (expires_at IS NULL OR expires_at > CURRENT_TIMESTAMP)
             ORDER BY fetched_at DESC LIMIT 1
-        ''', (state_code, county_code, tract_code))
+        ''', (state_code, county_code, tract_code, 2022, f'-{max_age_hours} hours'))
         
         result = cursor.fetchone()
         conn.close()

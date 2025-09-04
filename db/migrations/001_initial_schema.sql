@@ -15,6 +15,13 @@ BEGIN TRANSACTION;
 -- - zoning_codes
 -- - system_config
 
+-- Ensure system_config table exists (idempotent on fresh DBs)
+CREATE TABLE IF NOT EXISTS system_config (
+    key TEXT PRIMARY KEY,
+    value TEXT,
+    description TEXT
+);
+
 -- Update system configuration to track this as first migration
 INSERT OR REPLACE INTO system_config (key, value, description) VALUES
 ('schema_version', '1.0', 'Initial database schema version'),
