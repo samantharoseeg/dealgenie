@@ -1,0 +1,280 @@
+# DealGenie Zoning Constraints Configuration v1.2
+# Defines caps, plausibility floors, and compatibility matrix for all zoning types and templates
+
+metadata:
+  version: "1.2"
+  created: "2025-08-26"
+  description: "Comprehensive zoning constraints for LA property scoring"
+  last_updated: "2025-08-26"
+
+# Score caps by template-zoning combination (max possible scores)
+score_caps:
+  retail:
+    M1: 4.5    # Industrial - poor for retail
+    M2: 3.5    # Heavy industrial - very poor
+    M3: 2.0    # Manufacturing - incompatible
+    R1: 5.5    # Single family - limited retail potential
+    R2: 6.5    # Low density multi - corner stores
+    R3: 8.0    # Medium density - neighborhood retail
+    R4: 8.5    # High density - good retail potential
+    R5: 9.0    # Very high density - excellent foot traffic
+    C1: 9.5    # Limited commercial - perfect for retail
+    C2: 10.0   # General commercial - retail optimal
+    CM: 9.0    # Commercial manufacturing - mixed retail
+    CR: 8.5    # Commercial recreation - tourism retail
+    CC: 9.5    # Community commercial - local retail
+    A1: 7.0    # Agricultural - limited rural retail
+    OS: 3.0    # Open space - minimal retail allowed
+
+  office:
+    M1: 5.0    # Light industrial - some office potential
+    M2: 3.0    # Heavy industrial - poor for office
+    M3: 2.0    # Manufacturing - incompatible
+    R1: 4.0    # Single family - home offices only
+    R2: 4.5    # Low density multi - limited office
+    R3: 5.5    # Medium density - small office potential
+    R4: 6.0    # High density - mixed-use office
+    R5: 6.5    # Very high density - office towers possible
+    C1: 10.0   # Limited commercial - perfect for office
+    C2: 9.0    # General commercial - good for office
+    CM: 7.5    # Commercial manufacturing - industrial office
+    CR: 6.0    # Commercial recreation - limited office
+    CC: 8.5    # Community commercial - professional services
+    A1: 5.0    # Agricultural - agricultural office
+    OS: 2.0    # Open space - minimal office allowed
+
+  multifamily:
+    M1: 3.5    # Industrial - live/work potential only
+    M2: 2.0    # Heavy industrial - incompatible
+    M3: 1.5    # Manufacturing - not suitable
+    R1: 4.0    # Single family - ADU potential only
+    R2: 7.5    # Low density multi - duplexes/fourplexes
+    R3: 9.0    # Medium density - perfect for multifamily
+    R4: 10.0   # High density - optimal multifamily
+    R5: 10.0   # Very high density - large complexes
+    C1: 6.5    # Limited commercial - mixed-use potential
+    C2: 8.0    # General commercial - mixed-use multifamily
+    CM: 5.0    # Commercial manufacturing - limited potential
+    CR: 7.0    # Commercial recreation - hospitality housing
+    CC: 7.5    # Community commercial - workforce housing
+    A1: 3.0    # Agricultural - farm worker housing
+    OS: 1.0    # Open space - not allowed
+
+  residential:
+    M1: 3.0    # Industrial - live/work lofts only
+    M2: 1.5    # Heavy industrial - poor residential
+    M3: 1.0    # Manufacturing - incompatible
+    R1: 10.0   # Single family - perfect match
+    R2: 8.5    # Low density multi - good for residential
+    R3: 7.0    # Medium density - townhomes/condos
+    R4: 5.5    # High density - limited single-family
+    R5: 4.0    # Very high density - incompatible with SFR
+    C1: 4.5    # Limited commercial - live/work potential
+    C2: 5.0    # General commercial - mixed-use residential
+    CM: 3.5    # Commercial manufacturing - limited
+    CR: 6.0    # Commercial recreation - resort residential
+    CC: 5.5    # Community commercial - neighborhood residential
+    A1: 8.0    # Agricultural - rural residential excellent
+    OS: 2.0    # Open space - very limited residential
+
+  commercial:
+    M1: 6.5    # Industrial - commercial services to industry
+    M2: 5.0    # Heavy industrial - limited commercial
+    M3: 4.0    # Manufacturing - minimal commercial
+    R1: 3.0    # Single family - home businesses only
+    R2: 4.0    # Low density multi - neighborhood commercial
+    R3: 5.5    # Medium density - strip commercial
+    R4: 7.0    # High density - mixed-use commercial
+    R5: 7.5    # Very high density - ground floor commercial
+    C1: 10.0   # Limited commercial - perfect match
+    C2: 9.5    # General commercial - optimal
+    CM: 8.0    # Commercial manufacturing - industrial commercial
+    CR: 8.5    # Commercial recreation - tourism commercial
+    CC: 9.0    # Community commercial - neighborhood services
+    A1: 5.5    # Agricultural - agribusiness commercial
+    OS: 2.5    # Open space - recreational commercial only
+
+  industrial:
+    M1: 9.5    # Light industrial - excellent match
+    M2: 10.0   # Heavy industrial - perfect match
+    M3: 10.0   # Manufacturing - optimal for industrial
+    R1: 2.0    # Single family - incompatible
+    R2: 2.5    # Low density multi - not suitable
+    R3: 3.0    # Medium density - incompatible
+    R4: 3.5    # High density - not suitable
+    R5: 4.0    # Very high density - incompatible
+    C1: 4.5    # Limited commercial - light industrial services
+    C2: 5.5    # General commercial - commercial industrial
+    CM: 8.5    # Commercial manufacturing - good for industrial
+    CR: 3.0    # Commercial recreation - incompatible
+    CC: 4.0    # Community commercial - limited industrial
+    A1: 6.0    # Agricultural - agricultural processing
+    OS: 2.0    # Open space - very limited industrial
+
+# Plausibility floors - minimum scores below which development is implausible
+plausibility_floors:
+  retail: 2.5      # Below this, retail not viable
+  office: 2.0      # Below this, office not viable  
+  multifamily: 1.5 # Below this, multifamily not viable
+  residential: 1.0 # Below this, residential not viable
+  commercial: 2.0  # Below this, commercial not viable
+  industrial: 1.5  # Below this, industrial not viable
+
+# Compatibility matrix - defines which template-zoning combinations are viable
+# true = compatible, false = should be heavily penalized or capped
+compatibility_matrix:
+  retail:
+    M1: false    # Industrial zones poor for retail
+    M2: false
+    M3: false
+    R1: true     # Can have corner stores, home businesses
+    R2: true
+    R3: true     # Good density for retail
+    R4: true
+    R5: true
+    C1: true     # Commercial zones optimal for retail
+    C2: true
+    CM: true     # Mixed commercial allows retail
+    CR: true
+    CC: true
+    A1: true     # Agricultural can have country stores
+    OS: false    # Open space minimal retail
+
+  office:
+    M1: true     # Light industrial can have offices
+    M2: false    # Heavy industrial poor for office
+    M3: false
+    R1: true     # Home offices, professional services
+    R2: true
+    R3: true
+    R4: true     # High density good for office
+    R5: true
+    C1: true     # Commercial zones perfect for office
+    C2: true
+    CM: true
+    CR: true
+    CC: true
+    A1: true     # Agricultural offices (farm management)
+    OS: false    # Open space minimal office
+
+  multifamily:
+    M1: false    # Industrial not suitable for housing
+    M2: false
+    M3: false
+    R1: true     # ADUs, small multifamily possible
+    R2: true     # Perfect for small multifamily
+    R3: true     # Optimal for multifamily
+    R4: true
+    R5: true
+    C1: true     # Mixed-use multifamily allowed
+    C2: true
+    CM: true
+    CR: true
+    CC: true
+    A1: true     # Farm worker housing
+    OS: false    # Open space no housing
+
+  residential:
+    M1: false    # Industrial not suitable for residential
+    M2: false
+    M3: false
+    R1: true     # Perfect for single-family residential
+    R2: true
+    R3: true
+    R4: true     # Can have townhomes, condos
+    R5: true
+    C1: true     # Live/work spaces possible
+    C2: true
+    CM: true
+    CR: true
+    CC: true
+    A1: true     # Rural residential excellent
+    OS: false    # Open space very limited residential
+
+  commercial:
+    M1: true     # Commercial services to industrial
+    M2: true
+    M3: true
+    R1: true     # Home businesses, neighborhood services
+    R2: true
+    R3: true
+    R4: true
+    R5: true
+    C1: true     # Perfect for commercial
+    C2: true
+    CM: true
+    CR: true
+    CC: true
+    A1: true     # Agribusiness, farm services
+    OS: true     # Recreational commercial
+
+  industrial:
+    M1: true     # Perfect match for industrial
+    M2: true
+    M3: true
+    R1: false    # Residential zones not suitable
+    R2: false
+    R3: false
+    R4: false
+    R5: false
+    C1: true     # Some light industrial/commercial services
+    C2: true
+    CM: true     # Commercial manufacturing perfect
+    CR: false    # Recreation not suitable for industrial
+    CC: false    # Community commercial not industrial
+    A1: true     # Agricultural processing, equipment
+    OS: false    # Open space not suitable
+
+# Special modifiers and bonuses
+special_modifiers:
+  mixed_use_bonus:
+    # Bonus for templates in mixed-use friendly zones
+    R3: 0.5      # Medium density supports mixed use
+    R4: 0.8      # High density excellent for mixed use
+    R5: 1.0      # Very high density optimal for mixed use
+    C2: 0.5      # General commercial supports mixed use
+    CM: 0.3      # Commercial manufacturing some mixed use
+    CC: 0.7      # Community commercial good mixed use
+
+  transit_compatibility:
+    # Zones that benefit most from transit access
+    high_benefit: ["R3", "R4", "R5", "C1", "C2", "CM", "CC"]
+    medium_benefit: ["R2", "M1", "CR"]
+    low_benefit: ["R1", "M2", "M3", "A1", "OS"]
+
+  density_requirements:
+    # Minimum population density for optimal scoring
+    retail:
+      R3: 8000   # People per sq mile for viable neighborhood retail
+      R4: 12000
+      R5: 15000
+      C1: 6000
+      C2: 8000
+    
+    multifamily:
+      R2: 4000   # Minimum density for multifamily viability  
+      R3: 6000
+      R4: 10000
+      R5: 15000
+
+# Penalty factors for incompatible combinations
+incompatibility_penalties:
+  severe: 3.0      # Applied to false compatibility (e.g., residential in M3)
+  moderate: 1.5    # Applied to poor matches (e.g., retail in M1)  
+  minor: 0.5       # Applied to suboptimal but viable combinations
+
+# Version control and feature flags
+feature_flags:
+  strict_compatibility: true    # Enforce compatibility matrix strictly
+  apply_score_caps: true       # Apply maximum score caps
+  use_plausibility_floors: true # Enforce minimum viable scores
+  mixed_use_bonuses: true      # Apply mixed-use bonuses
+  transit_compatibility: true  # Use transit compatibility modifiers
+
+# Validation rules
+validation:
+  max_templates: 6             # Maximum number of templates supported
+  max_zoning_types: 15         # Maximum zoning types supported
+  score_range: [0.0, 10.0]    # Valid score range
+  required_templates: ["retail", "office", "multifamily", "residential", "commercial", "industrial"]
+  required_zoning_types: ["M1", "M2", "M3", "R1", "R2", "R3", "R4", "R5", "C1", "C2", "CM", "CR", "CC", "A1", "OS"]

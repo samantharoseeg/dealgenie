@@ -1,3 +1,22 @@
+"""
+DealGenie Feature Extraction Engine
+
+This module implements the core feature extraction system that processes LA County
+parcel data directly from CSV files. It represents a key architectural decision
+to use CSV-first processing for maximum performance with large datasets.
+
+Architecture Decision: CSV-First Processing
+- Direct CSV streaming without database intermediary
+- 44 standardized features extracted from 210 CSV columns  
+- Optimized for 369K+ parcel processing at 10+ parcels/second
+- Memory-efficient streaming with minimal dependencies
+
+Key Design Patterns:
+- Streaming Processing: Handle large datasets without loading into memory
+- Feature Standardization: Convert raw CSV data into consistent analysis features
+- Error Resilience: Graceful handling of malformed or missing data
+"""
+
 import logging
 import csv
 import os
@@ -7,7 +26,24 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 class CSVFeatureMatrix:
-    """CSV-based feature matrix for LA County parcel data."""
+    """
+    CSV-based feature matrix for LA County parcel data processing.
+    
+    This class implements the core DealGenie feature extraction engine that converts
+    raw LA County parcel CSV data into standardized features for development analysis.
+    
+    Design Philosophy:
+    - Stream processing for memory efficiency with large datasets
+    - Direct CSV access eliminates database setup complexity  
+    - 44 standardized features enable consistent multi-template analysis
+    - Robust error handling for production reliability
+    
+    Performance Characteristics:
+    - Processes 369K parcels efficiently via streaming
+    - ~10 parcels/second sustained throughput
+    - Minimal memory footprint (streaming, not bulk loading)
+    - 44 features extracted from 210 raw CSV columns
+    """
     
     def __init__(self, csv_path: str = "scraper/la_parcels_complete_merged.csv"):
         self.csv_path = csv_path

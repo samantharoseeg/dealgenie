@@ -1,0 +1,221 @@
+# DealGenie Zoning Constraints v1.2 - SIMPLE VERSION
+# Exactly what was specified: caps, floors, compatibility only
+
+version: "1.2"
+
+# Score caps - maximum possible scores by template-zoning combination
+score_caps:
+  retail:
+    R1: 5.5
+    R2: 6.5
+    R3: 8.0
+    R4: 8.5
+    R5: 9.0
+    C1: 9.5
+    C2: 10.0
+    CM: 9.0
+    CR: 8.5
+    CC: 9.5
+    M1: 4.5
+    M2: 3.5
+    M3: 2.0
+    A1: 7.0
+    OS: 3.0
+
+  office:
+    R1: 4.0
+    R2: 4.5
+    R3: 5.5
+    R4: 6.0
+    R5: 6.5
+    C1: 10.0
+    C2: 9.0
+    CM: 7.5
+    CR: 6.0
+    CC: 8.5
+    M1: 5.0
+    M2: 3.0
+    M3: 2.0
+    A1: 5.0
+    OS: 2.0
+
+  multifamily:
+    R1: 4.0
+    R2: 7.5
+    R3: 9.0
+    R4: 10.0
+    R5: 10.0
+    C1: 6.5
+    C2: 8.0
+    CM: 5.0
+    CR: 7.0
+    CC: 7.5
+    M1: 3.5
+    M2: 2.0
+    M3: 1.5
+    A1: 3.0
+    OS: 1.0
+
+  residential:
+    R1: 10.0
+    R2: 8.5
+    R3: 7.0
+    R4: 5.5
+    R5: 4.0
+    C1: 4.5
+    C2: 5.0
+    CM: 3.5
+    CR: 6.0
+    CC: 5.5
+    M1: 3.0
+    M2: 1.5
+    M3: 1.0
+    A1: 8.0
+    OS: 2.0
+
+  commercial:
+    R1: 3.0
+    R2: 4.0
+    R3: 5.5
+    R4: 7.0
+    R5: 7.5
+    C1: 10.0
+    C2: 9.5
+    CM: 8.0
+    CR: 8.5
+    CC: 9.0
+    M1: 6.5
+    M2: 5.0
+    M3: 4.0
+    A1: 5.5
+    OS: 2.5
+
+  industrial:
+    R1: 2.0
+    R2: 2.5
+    R3: 3.0
+    R4: 3.5
+    R5: 4.0
+    C1: 4.5
+    C2: 5.5
+    CM: 8.5
+    CR: 3.0
+    CC: 4.0
+    M1: 9.5
+    M2: 10.0
+    M3: 10.0
+    A1: 6.0
+    OS: 2.0
+
+# Plausibility floors - minimum viable scores
+plausibility_floors:
+  retail: 2.5
+  office: 2.0
+  multifamily: 1.5
+  residential: 1.0
+  commercial: 2.0
+  industrial: 1.5
+
+# Compatibility matrix - true if viable, false if not
+compatibility_matrix:
+  retail:
+    R1: true
+    R2: true
+    R3: true
+    R4: true
+    R5: true
+    C1: true
+    C2: true
+    CM: true
+    CR: true
+    CC: true
+    M1: false
+    M2: false
+    M3: false
+    A1: true
+    OS: false
+
+  office:
+    R1: true
+    R2: true
+    R3: true
+    R4: true
+    R5: true
+    C1: true
+    C2: true
+    CM: true
+    CR: true
+    CC: true
+    M1: true
+    M2: false
+    M3: false
+    A1: true
+    OS: false
+
+  multifamily:
+    R1: true
+    R2: true
+    R3: true
+    R4: true
+    R5: true
+    C1: true
+    C2: true
+    CM: true
+    CR: true
+    CC: true
+    M1: false
+    M2: false
+    M3: false
+    A1: true
+    OS: false
+
+  residential:
+    R1: true
+    R2: true
+    R3: true
+    R4: true
+    R5: true
+    C1: true
+    C2: true
+    CM: true
+    CR: true
+    CC: true
+    M1: false
+    M2: false
+    M3: false
+    A1: true
+    OS: false
+
+  commercial:
+    R1: true
+    R2: true
+    R3: true
+    R4: true
+    R5: true
+    C1: true
+    C2: true
+    CM: true
+    CR: true
+    CC: true
+    M1: true
+    M2: true
+    M3: true
+    A1: true
+    OS: true
+
+  industrial:
+    R1: false
+    R2: false
+    R3: false
+    R4: false
+    R5: false
+    C1: true
+    C2: true
+    CM: true
+    CR: false
+    CC: false
+    M1: true
+    M2: true
+    M3: true
+    A1: true
+    OS: false

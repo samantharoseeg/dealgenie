@@ -16,6 +16,34 @@ diverse_sample_parcels.csv
 stratified_sample_parcels.csv
 performance_benchmark_results_*.json
 
+# Generated HTML reports and output files
+out/
+report_*.html
+dealgenie_report_*.html
+score_report_*.html
+*_report_*.html
+verification_results.json
+validation_results.json
+
+# Analysis and testing files
+*_analysis.csv
+*_validation.csv
+*_testing_results.json
+*_results.json
+*_diagnosis.json
+analyze_*.py
+
+# Cache directories
+data_cache/
+financial_cache/
+.cache/
+
+# Large sample and data files
+*.csv
+!sample_apns.txt
+!requirements.txt
+!.env.sample
+
 # Python
 __pycache__/
 *.py[cod]

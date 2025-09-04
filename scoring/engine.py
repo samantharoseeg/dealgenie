@@ -1,3 +1,27 @@
+"""
+DealGenie Multi-Template Scoring Engine
+
+This module implements the core property scoring system that evaluates LA County
+properties for different development scenarios using a multi-template approach.
+
+Architecture Decision: Multi-Template Scoring
+- 5 development templates: multifamily, residential, commercial, industrial, retail
+- Component-based scoring: zoning, lot size, transit, demographics, market
+- Penalty system: flood zones, toxic sites, regulatory constraints
+- Calibrated to real-world LA County development patterns
+
+Key Design Principles:
+- Template Specialization: Different scoring logic for different development types
+- Component Decomposition: Break down scores into interpretable factors
+- Market Calibration: Penalties and bonuses based on actual development activity
+- Explainable Results: Clear reasoning for investment recommendations
+
+Performance Requirements:
+- Fast evaluation: <100ms per property
+- Consistent scoring: Reproducible results for same inputs
+- Scalable analysis: Handles batch processing of thousands of properties
+"""
+
 import json
 import logging
 from typing import Dict, Any, Optional
