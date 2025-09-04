@@ -43,15 +43,41 @@ This branch contains the complete production-ready DealGenie system with all cri
 
 ## 📋 File Verification Status
 
-All referenced files are present in the repository:
+All referenced files are present in the repository. Run this deterministic verification script:
+
 ```bash
-git ls-files | grep -E "(coderabbit|scoring_config|field_mapping|verify_fixes|database_manager)"
+#!/usr/bin/env bash
+set -euo pipefail
+files=(
+  "verify_fixes.py"
+  "db/database_manager.py"
+  "ingest/census_acs.py"
+  "ops/bootstrap.sh"
+  "scripts/performance_benchmark_comprehensive.py"
+  "config/scoring_config.json"
+  "config/field_mappings/dealgenie_field_mapping.csv"
+  "docs/data_provenance.md"
+  "docs/database_architecture.md"
+  "docs/feature_dictionary.md"
+  "docs/FIELD_DOCUMENTATION.md"
+  "db/sqlite_schema.sql"
+  "db/ddl.sql"
+  "VERIFICATION_GUIDE.md"
+  ".coderabbit.yaml"
+)
+missing=0
+for f in "${files[@]}"; do
+  if [[ -e "$f" ]]; then
+    echo "FOUND  $f"
+  else
+    echo "MISSING $f" >&2
+    ((missing++)) || true
+  fi
+done
+echo "---- Summary ----"
+test $missing -eq 0 || { echo "$missing artifact(s) missing"; exit 1; }
 ```
 
-✅ `.coderabbit.yaml` - CodeRabbit configuration  
-✅ `config/scoring_config.json` - Scoring parameters  
-✅ `config/field_mappings/dealgenie_field_mapping.csv` - Field mappings  
-✅ `verify_fixes.py` - Automated verification system  
-✅ `db/database_manager.py` - Database operations  
+This script provides explicit, deterministic verification of all critical production artifacts.  
 
 Ready for comprehensive CodeRabbit analysis and review.
