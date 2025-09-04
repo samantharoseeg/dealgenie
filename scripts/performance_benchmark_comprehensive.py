@@ -211,7 +211,7 @@ def main():
         print(f"   'Processes {median_throughput:.0f}+ parcels/second with median latency under {single_property_results.get('multifamily', {}).get('median', 0)*1000:.0f}ms'")
         
     print(f"\n✅ Benchmark completed on {hw_specs.get('platform', 'Unknown')}")
-    print(f"   Python {hw_specs.get('python_version', 'Unknown')} | {hw_specs.get('cpu_cores', 'Unknown')} cores | {hw_specs.get('memory_gb', 'Unknown')}GB RAM")
+    print(f"   Python {hw_specs.get('python_version', 'Unknown')} | {hw_specs.get('cpu_cores', 'Unknown')} cores")
 
 if __name__ == "__main__":
     main()

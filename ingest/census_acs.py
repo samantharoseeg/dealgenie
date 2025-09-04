@@ -486,8 +486,8 @@ class CensusACSPipeline:
                 'zip_code': mapping['zip']
             }
             
-            # Cache the mapping
-            self._cache_apn_mapping(apn, result)
+            # Cache the mapping with lower confidence for heuristic lookups
+            self._cache_apn_mapping(apn, result, confidence_score=0.6)
             return result
         
         # Default fallback - central LA tract (using verified real tract code)
