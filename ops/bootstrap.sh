@@ -54,7 +54,7 @@ python3 -c "
 import sqlite3
 import os
 
-db_path = 'data/dealgenie_foundation.db'
+db_path = 'data/dealgenie.db'
 os.makedirs('data', exist_ok=True)
 
 conn = sqlite3.connect(db_path)
@@ -72,7 +72,7 @@ CREATE TABLE IF NOT EXISTS processed_parcels (
 )
 ''')
 
-# Sample report tracking
+# Sample report tracking (foundation)
 cursor.execute('''
 CREATE TABLE IF NOT EXISTS generated_reports (
     id INTEGER PRIMARY KEY,
@@ -81,6 +81,42 @@ CREATE TABLE IF NOT EXISTS generated_reports (
     score REAL,
     html_file TEXT,
     generated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+)
+''')
+
+# Core runtime schema expected by app/verifier
+cursor.execute('''
+CREATE TABLE IF NOT EXISTS parcels (
+    apn TEXT PRIMARY KEY,
+    address TEXT, city TEXT, zip_code TEXT, zoning TEXT,
+    lot_size_sqft REAL, assessed_value REAL,
+    centroid_lat REAL, centroid_lon REAL,
+    data_source TEXT, last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+)
+''')
+cursor.execute('''
+CREATE TABLE IF NOT EXISTS parcel_scores (
+    id INTEGER PRIMARY KEY,
+    apn TEXT, template TEXT, overall_score REAL, grade TEXT,
+    location_score REAL, infrastructure_score REAL, zoning_score REAL,
+    market_score REAL, development_score REAL, financial_score REAL,
+    scoring_algorithm TEXT, explanation TEXT, recommendations TEXT,
+    computation_time_ms INTEGER, feature_cache_hit INTEGER,
+    scored_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+)
+''')
+cursor.execute('''
+CREATE TABLE IF NOT EXISTS zoning_codes (
+    code TEXT PRIMARY KEY,
+    description TEXT
+)
+''')
+cursor.execute('''
+CREATE TABLE IF NOT EXISTS feature_cache (
+    apn TEXT, template TEXT, median_income REAL,
+    feature_vector TEXT, computed_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    expires_at TIMESTAMP, data_version TEXT,
+    PRIMARY KEY (apn, template)
 )
 ''')
 
@@ -521,7 +557,7 @@ echo "======================"
 
 # Count generated files
 HTML_COUNT=$(find "$OUT_DIR" -name "*.html" -type f 2>/dev/null | wc -l | tr -d ' ')
-DB_EXISTS=$(test -f "data/dealgenie_foundation.db" && echo "✓" || echo "❌")
+DB_EXISTS=$(test -f "data/dealgenie.db" && echo "✓" || echo "❌")
 
 echo ""
 echo "📋 WEEK 1 FOUNDATION SUMMARY:"

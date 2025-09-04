@@ -177,7 +177,7 @@ def main():
             if features:
                 for template in ["multifamily", "commercial"]:  # Test 2 templates
                     result = calculate_score(features, template)
-                    if result and result.get("overall_score"):
+                    if result and result.get("score") is not None:
                         pipeline_successful += 1
         
         end_time = time.perf_counter()

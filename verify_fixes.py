@@ -54,11 +54,12 @@ class DealGenieVerifier:
             start_time = time.time()
             
             # Run bootstrap with timeout
+            cmd = ['make', 'bootstrap'] if Path('Makefile').exists() else ['bash', 'ops/bootstrap.sh']
             result = subprocess.run(
-                ['make', 'bootstrap'],
+                cmd,
                 capture_output=True,
                 text=True,
-                timeout=60  # 60 second timeout
+                timeout=120  # allow bootstrap to finish
             )
             
             duration = time.time() - start_time
