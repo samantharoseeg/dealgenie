@@ -1,36 +1,73 @@
 # DealGenie Requirements
 # AI-Powered Real Estate Development Intelligence Platform
 
+# ===== WEEK 1 - CORE ANALYSIS ENGINE =====
+# Built-in libraries used: csv, json, sqlite3, os, sys, time, datetime
+
 # Core Data Processing
 pandas>=1.5.0
 numpy>=1.21.0
 
-# Data Analysis & Statistics
+# Data Analysis & Statistics  
 scipy>=1.9.0
 
 # Progress Tracking & Logging
 tqdm>=4.64.0
 
-# Optional: Advanced Analytics
-# scikit-learn>=1.1.0  # For ML enhancements
-# matplotlib>=3.5.0    # For data visualization
-# seaborn>=0.11.0      # For statistical plots
-
-# Optional: Web Scraping (for ZIMAS data collection)
-# requests>=2.28.0
-# beautifulsoup4>=4.11.0
-# selenium>=4.4.0
-# playwright>=1.22.0
-
-# Optional: API Development
-# fastapi>=0.85.0
-# uvicorn>=0.18.0
-
 # Geospatial Analysis (Required for core functionality)
 geopandas>=0.11.0
 shapely>=1.8.0
 
+# ===== WEEK 2 - ADDRESS PROCESSING & GEOCODING =====
+
+# Async HTTP Client for Geocoding APIs
+aiohttp>=3.8.0
+
+# Redis Caching for Performance
+aioredis>=2.0.0        # Async Redis client
+redis>=4.5.0           # Sync Redis client
+
+# HTTP Client for API Integration
+requests>=2.31.0
+
+# Testing Framework for New Components
+pytest>=7.0.0
+pytest-asyncio>=0.21.0  # Async testing support
+
+# ===== OPTIONAL ENHANCEMENTS =====
+
+# Advanced Address Parsing (Requires system-level libpostal installation)
+# postal>=1.1.0
+# Install libpostal first:
+#   macOS: brew install libpostal
+#   Ubuntu: apt-get install libpostal-dev
+
+# Production Database (PostgreSQL + PostGIS)
+# psycopg2>=2.9.0
+# PostGIS support requires system-level installation
+
+# Advanced Analytics & Visualization
+# scikit-learn>=1.1.0  # Machine learning
+# matplotlib>=3.5.0    # Data visualization  
+# seaborn>=0.11.0      # Statistical plots
+
+# Web API Development
+# fastapi>=0.85.0      # Modern API framework
+# uvicorn>=0.18.0      # ASGI server
+
 # Development Tools
-# jupyter>=1.0.0       # For analysis notebooks
-# pytest>=7.1.0        # For testing
-EOF < /dev/null
+# jupyter>=1.0.0       # Analysis notebooks
+# memory_profiler>=0.60.0  # Performance profiling
+
+# Production Deployment
+# gunicorn>=20.0.0     # WSGI server
+# supervisor>=4.2.0    # Process management
+
+# ===== SYSTEM REQUIREMENTS =====
+# Minimum Python Version: 3.8+
+# Recommended: Python 3.11+
+# Tested on: Python 3.13.7
+
+# Redis Server (for caching):
+#   macOS: brew install redis && brew services start redis
+#   Ubuntu: apt-get install redis-server
