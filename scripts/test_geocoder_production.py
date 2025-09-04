@@ -79,12 +79,16 @@ async def test_geocoder():
             print(f"{status_icon} {addr}")
             print(f"    Confidence: {result.confidence_score:.2f} {provider_info}")
             
-            if result.latitude and result.longitude:
+            if (result.latitude is not None) and (result.longitude is not None):
                 print(f"    Location: ({result.latitude:.6f}, {result.longitude:.6f})")
                 if result.precision:
                     print(f"    Precision: {result.precision}")
             
-            print(f"    Response: {result.response_time_ms:.1f}ms")
+            print(
+                f"    Response: {result.response_time_ms:.1f}ms"
+                if isinstance(result.response_time_ms, (int, float))
+                else "    Response: n/a"
+            )
             print()
         
         # Show service statistics

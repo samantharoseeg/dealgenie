@@ -72,6 +72,9 @@ class MockHierarchicalGeocoder(HierarchicalGeocoder):
             'google_success': 0,
             'failures': 0
         }
+        # Provider placeholders to satisfy base API if referenced elsewhere
+        self.nominatim = type('N', (), {'circuit_breaker': type('CB', (), {'state': 'closed'})()})()
+        self.google = None
     
     async def geocode(self, address):
         """Mock geocoding with realistic responses."""
@@ -173,6 +176,27 @@ class MockHierarchicalGeocoder(HierarchicalGeocoder):
             # Simulate batch processing delay
             await asyncio.sleep(0.001)
         return results
+    
+    def get_stats(self):
+        """Override get_stats to prevent crashes with mock providers."""
+        total = self.stats['total_requests']
+        if total == 0:
+            return {
+                **self.stats,
+                'cache_hit_rate': 0.0,
+                'success_rate': 0.0,
+                'nominatim_circuit_breaker_state': 'closed',
+                'google_circuit_breaker_state': None,
+                'google_daily_quota_used': 0
+            }
+        return {
+            **self.stats,
+            'cache_hit_rate': self.stats['cache_hits'] / total,
+            'success_rate': (self.stats['nominatim_success'] + self.stats['google_success']) / total,
+            'nominatim_circuit_breaker_state': 'closed',
+            'google_circuit_breaker_state': None,
+            'google_daily_quota_used': 0
+        }
 
 async def test_geocoder():
     """Test the geocoding service with mock responses."""
