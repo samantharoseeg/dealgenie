@@ -158,22 +158,21 @@ services:
   
   redis:
     image: redis:7-alpine
-    ports:
-      - "6379:6379"
-    command: redis-server --appendonly yes
+    command: ["redis-server","--appendonly","yes","--requirepass","${REDIS_PASSWORD}"]
     volumes:
       - redis_data:/data
   
   postgres:
     image: postgis/postgis:15-3.3
     environment:
-      POSTGRES_DB: dealgenie
-      POSTGRES_USER: user
-      POSTGRES_PASSWORD: password
+      POSTGRES_DB: ${POSTGRES_DB:-dealgenie}
+      POSTGRES_USER: ${POSTGRES_USER:?set_in_.env}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set_in_.env}
     volumes:
       - postgres_data:/var/lib/postgresql/data
-    ports:
-      - "5432:5432"
+    # For local dev only, if needed:
+    # ports:
+    #   - "5432:5432"
 
 volumes:
   redis_data:
@@ -211,7 +210,7 @@ spec:
     spec:
       containers:
       - name: dealgenie
-        image: dealgenie:latest
+        image: ghcr.io/your-org/dealgenie:1.2.3 # or use a SHA digest
         ports:
         - containerPort: 8000
         env:

@@ -27,11 +27,17 @@ The DealGenie Address Parser provides comprehensive address normalization, parsi
 ## Installation
 
 ```bash
-# Basic installation (regex parser only)
-pip install unicodedata
+# Basic usage (regex parser only)
+# No extra packages required (uses Python stdlib).
 
-# For libpostal integration (recommended)
+# Optional: libpostal integration (recommended for best accuracy)
+# macOS:   brew install libpostal
+# Ubuntu:  sudo apt-get update && sudo apt-get install -y libpostal
+# Python binding:
 pip install postal
+
+# Optional: faster fuzzy matching
+pip install python-Levenshtein
 ```
 
 ## Quick Start
