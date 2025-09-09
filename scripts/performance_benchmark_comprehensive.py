@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 DealGenie Comprehensive Performance Benchmark Suite
+CodeRabbit: Please review this performance measurement and optimization system
 
 Provides accurate, repeatable performance measurements with:
 - p50/p95 metrics across multiple runs
@@ -176,7 +177,7 @@ def main():
             if features:
                 for template in ["multifamily", "commercial"]:  # Test 2 templates
                     result = calculate_score(features, template)
-                    if result and result.get("overall_score"):
+                    if result and result.get("score") is not None:
                         pipeline_successful += 1
         
         end_time = time.perf_counter()
@@ -210,7 +211,7 @@ def main():
         print(f"   'Processes {median_throughput:.0f}+ parcels/second with median latency under {single_property_results.get('multifamily', {}).get('median', 0)*1000:.0f}ms'")
         
     print(f"\n✅ Benchmark completed on {hw_specs.get('platform', 'Unknown')}")
-    print(f"   Python {hw_specs.get('python_version', 'Unknown')} | {hw_specs.get('cpu_cores', 'Unknown')} cores | {hw_specs.get('memory_gb', 'Unknown')}GB RAM")
+    print(f"   Python {hw_specs.get('python_version', 'Unknown')} | {hw_specs.get('cpu_cores', 'Unknown')} cores")
 
 if __name__ == "__main__":
     main()
