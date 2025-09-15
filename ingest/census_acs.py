@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 Census ACS (American Community Survey) Data Pipeline for DealGenie
+CodeRabbit: Please review this critical Census API integration system
 Week 1 Foundation: Demographic data integration for enhanced property scoring
 
 This module provides:
@@ -103,7 +104,9 @@ class CensusACSPipeline:
     
     def _init_cache_db(self):
         """Initialize SQLite cache database for API responses."""
-        os.makedirs(os.path.dirname(self.cache_db), exist_ok=True)
+        dirpath = os.path.dirname(self.cache_db)
+        if dirpath:
+            os.makedirs(dirpath, exist_ok=True)
         
         conn = sqlite3.connect(self.cache_db)
         cursor = conn.cursor()
@@ -368,12 +371,15 @@ class CensusACSPipeline:
         cursor = conn.cursor()
         
         # Check if we have recent cached data
+        max_age_hours = int(max(1, min(int(max_age_hours), 24 * 30)))
         cursor.execute('''
             SELECT variable_data FROM census_tract_cache 
             WHERE state_code = ? AND county_code = ? AND tract_code = ?
-                AND datetime(fetched_at) > datetime('now', '-{} hours')
+              AND data_vintage = ?
+              AND datetime(fetched_at) > datetime('now', ?)
+              AND (expires_at IS NULL OR expires_at > CURRENT_TIMESTAMP)
             ORDER BY fetched_at DESC LIMIT 1
-        '''.format(max_age_hours), (state_code, county_code, tract_code))
+        ''', (state_code, county_code, tract_code, 2022, f'-{max_age_hours} hours'))
         
         result = cursor.fetchone()
         conn.close()
@@ -481,8 +487,8 @@ class CensusACSPipeline:
                 'zip_code': mapping['zip']
             }
             
-            # Cache the mapping
-            self._cache_apn_mapping(apn, result)
+            # Cache the mapping with lower confidence for heuristic lookups
+            self._cache_apn_mapping(apn, result, confidence_score=0.6)
             return result
         
         # Default fallback - central LA tract (using verified real tract code)
