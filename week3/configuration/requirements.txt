@@ -1,0 +1,62 @@
+# DealGenie Requirements
+# AI-Powered Real Estate Development Intelligence Platform
+
+# Core Data Processing
+pandas>=1.5.0
+numpy>=1.21.0
+
+# Data Analysis & Statistics
+scipy>=1.9.0
+
+# Progress Tracking & Logging
+tqdm>=4.64.0
+
+# Optional: Advanced Analytics
+# scikit-learn>=1.1.0  # For ML enhancements
+# matplotlib>=3.5.0    # For data visualization
+# seaborn>=0.11.0      # For statistical plots
+
+# Optional: Web Scraping (for ZIMAS data collection)
+# requests>=2.28.0
+# beautifulsoup4>=4.11.0
+# selenium>=4.4.0
+# playwright>=1.22.0
+
+# API Development (Required for API Ecosystem)
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+requests>=2.31.0
+
+# Security and Authentication
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+python-dotenv>=1.0.0
+
+# Address Validation and Geocoding
+geopy>=2.4.0
+fuzzywuzzy>=0.18.0
+python-levenshtein>=0.21.1
+
+# Validation and Type Checking
+pydantic>=2.4.0
+typing-extensions>=4.8.0
+
+# Date and Time Handling
+python-dateutil>=2.8.2
+
+# File Processing
+openpyxl>=3.1.2
+xlrd>=2.0.1
+
+# Web Interface Assets
+jinja2>=3.1.0
+
+# Geospatial Analysis (Required for core functionality)
+geopandas>=0.11.0
+shapely>=1.8.0
+
+# Development Tools
+# jupyter>=1.0.0       # For analysis notebooks
+# pytest>=7.1.0        # For testing
+EOF < /dev/null

@@ -1,0 +1,239 @@
+# DealGenie Project - Git Ignore File
+
+# Database files (exclude actual ZIMAS database)
+*.db
+*.sqlite
+*.sqlite3
+
+# Large CSV files (keep samples only)
+all_apns.csv
+zimas_*.csv
+!zimas_property_sample_1000.csv
+
+# Week 1 large data files  
+scraper/la_parcels_complete_merged.csv
+diverse_sample_parcels.csv
+stratified_sample_parcels.csv
+performance_benchmark_results_*.json
+
+# Generated HTML reports and output files
+out/
+report_*.html
+dealgenie_report_*.html
+score_report_*.html
+*_report_*.html
+verification_results.json
+validation_results.json
+
+# Analysis and testing files
+*_analysis.csv
+*_validation.csv
+*_testing_results.json
+*_results.json
+*_diagnosis.json
+analyze_*.py
+
+# Cache directories
+data_cache/
+financial_cache/
+.cache/
+
+# Large sample and data files
+*.csv
+!sample_apns.txt
+!requirements.txt
+!.env.sample
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Progress files
+progress_*.json
+optimized_progress_*.json
+
+# Debug files
+debug_*.txt
+debug_*.html
+debug_*.png
+intercepted_*.txt
+intercepted_*.json
+
+# Specific project excludes
+scraper/my-first-claude-project/
+LA_*.zip
+*.png
+*.html
+failed_apns.txt
+netronline_debug.html
+terms_*.html
+terms_*.png
+apn_tab_*.png
+
+# API Ecosystem Security and Database Files
+auth_security.db
+user_preferences.db
+import_system.db
+*.db
+api_keys.txt
+user_sessions.json
+local_security_cache.db
+
+# Test files and outputs
+test_*_comprehensive.py
+test_*_stress.py
+test_import_*.csv
+test_results_*.json
+comprehensive_test_*.txt
+
+# API Logs and Analytics
+api_logs/
+analytics_data/
+usage_logs/
+security_logs/
+
+# User uploaded data
+uploads/
+user_data/
+portfolios/
+imported_properties/
+
+# Configuration files with sensitive data
+config.json
+api_config.py
+production_config.py
+
+# Keep important sample files
+!sample_data/
+!docs/
+!config/
+!requirements.txt
+!CLAUDE.md
+!README.md
