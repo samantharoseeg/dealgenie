@@ -17,6 +17,15 @@ from typing import Dict, Any, List, Optional
 from contextlib import contextmanager
 from dataclasses import dataclass
 import logging
+import os
+
+# Load environment variables (optional)
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    # dotenv not available, use system environment variables only
+    pass
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -29,6 +38,40 @@ class VisualizationLinks:
     google_earth: str
     openstreetmap: str
     apple_maps: str
+
+def validate_coordinates(latitude: float, longitude: float) -> None:
+    """Validate coordinates are within LA County bounds"""
+    # LA County approximate bounds
+    LA_BOUNDS = {
+        "lat_min": 33.7,  # Southern boundary
+        "lat_max": 34.8,  # Northern boundary
+        "lon_min": -119.0, # Western boundary
+        "lon_max": -117.6  # Eastern boundary
+    }
+
+    if not (LA_BOUNDS["lat_min"] <= latitude <= LA_BOUNDS["lat_max"]):
+        raise HTTPException(
+            status_code=400,
+            detail=f"Latitude {latitude} outside LA County bounds ({LA_BOUNDS['lat_min']}, {LA_BOUNDS['lat_max']})"
+        )
+
+    if not (LA_BOUNDS["lon_min"] <= longitude <= LA_BOUNDS["lon_max"]):
+        raise HTTPException(
+            status_code=400,
+            detail=f"Longitude {longitude} outside LA County bounds ({LA_BOUNDS['lon_min']}, {LA_BOUNDS['lon_max']})"
+        )
+
+def validate_apn(apn: str) -> None:
+    """Validate APN format and prevent SQL injection"""
+    if not apn or len(apn.strip()) == 0:
+        raise HTTPException(status_code=400, detail="APN cannot be empty")
+
+    # Basic APN format validation - should be alphanumeric
+    if not apn.replace("-", "").replace(" ", "").isalnum():
+        raise HTTPException(status_code=400, detail="Invalid APN format")
+
+    if len(apn) > 20:  # Reasonable APN length limit
+        raise HTTPException(status_code=400, detail="APN too long")
 
 def generate_visualization_links(latitude: float, longitude: float, address: str = None) -> Dict[str, str]:
     """Generate external visualization links for a property"""
@@ -62,22 +105,23 @@ app = FastAPI(
     description="Production API with connection pooling and external map visualization links"
 )
 
-# CORS middleware
+# CORS middleware - restrict to necessary origins in production
+allowed_origins = os.getenv("ALLOWED_ORIGINS", "http://localhost:3000,http://localhost:8080").split(",")
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=allowed_origins,
     allow_credentials=True,
-    allow_methods=["*"],
+    allow_methods=["GET", "POST"],
     allow_headers=["*"],
 )
 
-# Database configuration
+# Database configuration with environment variable fallbacks
 DATABASE_CONFIG = {
-    "host": "localhost",
-    "database": "dealgenie_production",
-    "user": "dealgenie_app",
-    "password": "dealgenie2025",
-    "port": 5432
+    "host": os.getenv("DB_HOST", "localhost"),
+    "database": os.getenv("DB_NAME", "dealgenie_production"),
+    "user": os.getenv("DB_USER", "dealgenie_app"),
+    "password": os.getenv("DB_PASSWORD", "dealgenie2025"),
+    "port": int(os.getenv("DB_PORT", "5432"))
 }
 
 # Connection pool configuration
@@ -240,6 +284,9 @@ def lookup_property(apn: str):
     """Lookup property by APN using connection pool"""
     start_time = time.time()
 
+    # Validate APN input
+    validate_apn(apn)
+
     try:
         with get_db_connection() as conn:
             cursor = conn.cursor(cursor_factory=extras.RealDictCursor)
@@ -321,6 +368,10 @@ def search_nearby(
         raise HTTPException(status_code=422, detail="Latitude must be between -90 and 90")
     if not (-180 <= lon <= 180):
         raise HTTPException(status_code=422, detail="Longitude must be between -180 and 180")
+
+    # Enhanced validation for LA County bounds
+    validate_coordinates(lat, lon)
+
     if radius_meters and radius_meters > 10000:
         raise HTTPException(status_code=422, detail="Radius cannot exceed 10km")
     if limit and limit > 100:
