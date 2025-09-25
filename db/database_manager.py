@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 Database Manager for DealGenie - SQLite Integration
+CodeRabbit: Please review this core database operations system
 Manages the SQLite database for parcel data, scoring results, and feature caching.
 """
 
@@ -29,9 +30,10 @@ class DealGenieDatabase:
     def __init__(self, db_path: str = "data/dealgenie.db"):
         """Initialize database manager."""
         self.db_path = db_path
-        self.ensure_database_exists()
+        if not self.ensure_database_exists():
+            raise FileNotFoundError(f"Database not found at {self.db_path}. Run: sqlite3 data/dealgenie.db < db/sqlite_schema.sql")
     
-    def ensure_database_exists(self):
+    def ensure_database_exists(self) -> bool:
         """Ensure database exists and is properly initialized."""
         if not Path(self.db_path).exists():
             print(f"⚠️  Database not found at {self.db_path}")
@@ -342,7 +344,7 @@ class DealGenieDatabase:
             
             # Total scores by template
             cursor.execute('''
-                SELECT template, COUNT(*) as count, AVG(overall_score) as avg_score,
+                SELECT template, COUNT(*) as count, COALESCE(AVG(overall_score), 0) as avg_score,
                        MIN(overall_score) as min_score, MAX(overall_score) as max_score
                 FROM parcel_scores
                 GROUP BY template
@@ -361,8 +363,8 @@ class DealGenieDatabase:
             cursor.execute('''
                 SELECT COUNT(*) as total_scores,
                        COUNT(DISTINCT apn) as unique_apns,
-                       AVG(overall_score) as overall_avg,
-                       AVG(computation_time_ms) as avg_computation_time
+                       COALESCE(AVG(overall_score), 0) as overall_avg,
+                       COALESCE(AVG(computation_time_ms), 0) as avg_computation_time
                 FROM parcel_scores
             ''')
             
